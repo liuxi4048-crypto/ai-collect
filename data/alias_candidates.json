@@ -14,12 +14,26 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "augment code": {
+      "count": 1,
+      "example": "コンテキスト重視のAIコーディングハーネスを提唱する企業",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
     "bird dev": {
       "count": 3,
       "example": "Text-to-SQL の実行精度ベンチマーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "benchmark"
+    },
+    "caisi": {
+      "count": 1,
+      "example": "米政権のAI標準・技術革新を担う機関(Center for AI Standards and Innovation)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
     },
     "chatgpt work": {
       "count": 3,
@@ -42,12 +56,33 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "current ai": {
+      "count": 1,
+      "example": "万人向けの「AIワールドワイドウェブ」を掲げる非営利団体",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
     "deepseek v4 pro": {
       "count": 3,
       "example": "DeepSeekのオープンMoEフラッグシップ",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "epoch ai": {
+      "count": 1,
+      "example": "AIテキスト検出器のスタイル模倣耐性を評価した研究組織",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
+    "frozen v2": {
+      "count": 1,
+      "example": "Googleが開発中とされる、Geminiアーキテクチャをシリコンに焼き込むサーバー向けAIチップ(The Decoder報道)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
     },
     "genception": {
       "count": 3,
@@ -78,7 +113,7 @@
       "type": "tech"
     },
     "grok cli": {
-      "count": 3,
+      "count": 4,
       "example": "xAIがオープンソース化したコーディングエージェント",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
@@ -119,9 +154,30 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "lethal trifecta": {
+      "count": 1,
+      "example": "非公開データ・信頼できない外部入力・外部通信経路を同時に持つツール使用型LLMのデータ漏洩リスク概念",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
     "muon": {
       "count": 3,
       "example": "AdamWに対抗する新しいオプティマイザ。エージェント型RLでの有効性が検証された",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "nativ": {
+      "count": 1,
+      "example": "Macでフロンティアなオープンモデルをローカル実行するツール",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "product"
+    },
+    "nemo automodel": {
+      "count": 1,
+      "example": "NVIDIAのファインチューニングツール。単一GPUでのLoRA学習に使用",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
@@ -140,6 +196,20 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "project indigo": {
+      "count": 1,
+      "example": "Adobeの実験的カメラアプリ。生成AIによる背景除去などを追加",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "qwen-audio-3.0-tts": {
+      "count": 1,
+      "example": "Tongyi Labのホスト型TTSモデル。Flash/Plusの2バリアント、16言語対応",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
     "qwen2.5-0.5b-instruct": {
       "count": 3,
       "example": "Muonの効果検証実験で使用された小型モデル",
@@ -150,6 +220,13 @@
     "qwen3.8-max": {
       "count": 3,
       "example": "Alibabaの2.4兆パラメータ マルチモーダルMoEモデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "seedance 2.0": {
+      "count": 1,
+      "example": "Neill Blomkamp監督の短編『Nightborne』制作に使われたAI動画生成モデル",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
@@ -175,6 +252,13 @@
       "last_seen": "2026-07-21",
       "type": "org"
     },
+    "tongyi lab": {
+      "count": 1,
+      "example": "Alibaba傘下の研究組織。Qwen-Audio-3.0-TTSをリリース",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
     "toolsciver": {
       "count": 3,
       "example": "MSCV(マルチモーダル科学的主張検証)向けのツール拡張VLMフレームワーク",
@@ -188,6 +272,13 @@
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "wandr": {
+      "count": 1,
+      "example": "Perplexityのリサーチエージェント評価ベンチマーク。500件の証拠ベースタスク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
     }
   }
 }

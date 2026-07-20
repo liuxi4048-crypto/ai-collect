@@ -238,9 +238,27 @@ def build_clusters(articles, seen):
         usable.append(a)
 
     candidates = []
+    dropped_offtopic = 0
     for cluster in gd.cluster_articles(usable):
         arts = sorted(cluster["articles"], key=lambda a: -a["weight"])
         ents = ent.extract_from_articles(arts)
+
+        # Relevance gate. General-tech feeds (The Verge, HN front page) carry a
+        # lot of non-AI noise - console ornaments, monitor deals, subway-signal
+        # history. On a light day the ranked tail scrapes into that, diluting an
+        # archive that is supposed to be *AI* information. A cluster survives
+        # only with some AI signal: a known entity, an AI term, or an
+        # AI/research feed of origin. Kept deliberately loose so a genuine AI
+        # story with no dictionary hit yet still gets through.
+        has_signal = (
+            bool(ents)
+            or gd.ai_relevance(arts) >= 1
+            or any(a["category"] in ("ai", "research") for a in arts)
+        )
+        if not has_signal:
+            dropped_offtopic += 1
+            continue
+
         rep = arts[0]
         newest = max((a["published"] for a in arts if a.get("published")), default=None)
         candidates.append({
@@ -262,7 +280,7 @@ def build_clusters(articles, seen):
             } for a in arts],
         })
     candidates.sort(key=lambda c: -c["score"])
-    return candidates, skipped_seen
+    return candidates, skipped_seen, dropped_offtopic
 
 
 def main():
@@ -280,8 +298,9 @@ def main():
             print("[collect]   FAILED {}: {}".format(s["label"], s["error"]))
 
     seen = load_seen()
-    candidates, skipped = build_clusters(articles, seen)
-    print("[collect] {} new clusters ({} articles already archived)".format(len(candidates), skipped))
+    candidates, skipped, offtopic = build_clusters(articles, seen)
+    print("[collect] {} new clusters ({} articles already archived, {} off-topic dropped)".format(
+        len(candidates), skipped, offtopic))
 
     selected = candidates[:args.limit]
     for i, c in enumerate(selected, 1):
