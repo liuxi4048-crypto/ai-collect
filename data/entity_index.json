@@ -1,0 +1,1977 @@
+{
+  "entities": {
+    "AI Agents": {
+      "cooccur": {
+        "Anthropic": 1,
+        "Claude Code": 1,
+        "Codex": 1,
+        "GitHub": 1,
+        "Hugging Face": 1,
+        "NVIDIA": 3,
+        "OpenAI": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
+          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-when-does-muon-help-agentic-reinforcement-learning-fe4f.md",
+          "title_ja": "エージェント型強化学習でMuonオプティマイザが成功率を大幅改善"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-when-do-multi-agent-systems-help-an-information-bottleneck-p-edf3.md",
+          "title_ja": "マルチエージェントシステムの有効性を情報ボトルネック理論で分析"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-3cc8.md",
+          "title_ja": "NVIDIA Vera Rubin、ポストトレーニングの「1ドルあたり知能」を最大化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-how-cars24-scales-conversations-and-builds-faster-with-opena-6f16.md",
+          "title_ja": "Cars24、OpenAIのボイス/チャットエージェントで会話を大規模運用"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-how-to-manage-ai-investments-in-the-agentic-era-92ab.md",
+          "title_ja": "エージェント時代のAI投資管理方法"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-why-performance-per-watt-is-the-ultimate-metric-for-ai-infra-43be.md",
+          "title_ja": "1ワットあたりのパフォーマンスがAIインフラ効率の究極指標である理由"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-prisa-proactive-infrastructure-lidar-framework-for-intersect-b119.md",
+          "title_ja": "PRISA: 交差点安全性評価のためのプロアクティブ基盤LiDARフレームワーク"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-843c.md",
+          "title_ja": "Hugging Face、AIエージェントがインフラを侵害、AIで反撃したと報告"
+        }
+      ],
+      "type": "tech"
+    },
+    "AMD": {
+      "cooccur": {
+        "Anthropic": 1,
+        "GitHub": 1,
+        "Microsoft": 1,
+        "NVIDIA": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md",
+          "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+        }
+      ],
+      "type": "org"
+    },
+    "Alibaba": {
+      "cooccur": {
+        "Anthropic": 2,
+        "DeepSeek": 1,
+        "DeepSeek-R1": 1,
+        "Gemma": 1,
+        "Google": 1,
+        "Kimi": 3,
+        "Mistral AI": 1,
+        "Mixture of Experts": 1,
+        "Moonshot AI": 4,
+        "Multimodal": 2,
+        "OpenAI": 1,
+        "Qwen": 4
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md",
+          "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md",
+          "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
+          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+        }
+      ],
+      "type": "org"
+    },
+    "Anthropic": {
+      "cooccur": {
+        "AI Agents": 1,
+        "AMD": 1,
+        "Alibaba": 2,
+        "Claude": 6,
+        "Claude Code": 3,
+        "Claude Opus": 1,
+        "Claude Opus 4.8": 2,
+        "Codex": 1,
+        "DeepSeek": 1,
+        "FrontierMath": 1,
+        "GPT-5": 5,
+        "GitHub": 3,
+        "Google": 1,
+        "Grok": 1,
+        "Hugging Face": 1,
+        "Kimi": 4,
+        "Microsoft": 1,
+        "Moonshot AI": 5,
+        "NVIDIA": 2,
+        "OpenAI": 9,
+        "Qwen": 1,
+        "xAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md",
+          "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md",
+          "title_ja": "Fableがさらなるバージョンアップ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md",
+          "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md",
+          "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md",
+          "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-someone-fine-tuned-openbmb-s-minicpm5-1b-on-claude-fable-5-t-49ae.md",
+          "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspec-6277.md",
+          "title_ja": "Feyn AIがSQRLをリリース、クエリ前にDBを検査するText-to-SQLモデルファミリー"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-inference-startup-infinity-raises-15m-from-touring-capital-o-dfa2.md",
+          "title_ja": "推論スタートアップInfinityがTuring CapitalおよびOpenAI・Anthropic研究者から1,500万ドルを調達"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
+          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+        }
+      ],
+      "type": "org"
+    },
+    "Claude": {
+      "cooccur": {
+        "Anthropic": 6,
+        "Claude Code": 2,
+        "Claude Opus 4.8": 1,
+        "DeepSeek": 1,
+        "FrontierMath": 1,
+        "GPT-5": 4,
+        "Grok": 1,
+        "Hugging Face": 1,
+        "Kimi": 3,
+        "Moonshot AI": 3,
+        "OpenAI": 4,
+        "xAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md",
+          "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md",
+          "title_ja": "Fableがさらなるバージョンアップ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-someone-fine-tuned-openbmb-s-minicpm5-1b-on-claude-fable-5-t-49ae.md",
+          "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
+        }
+      ],
+      "type": "model"
+    },
+    "Claude Code": {
+      "cooccur": {
+        "AI Agents": 1,
+        "Anthropic": 3,
+        "Claude": 2,
+        "Codex": 1,
+        "GPT-5": 1,
+        "GitHub": 1,
+        "Grok": 1,
+        "NVIDIA": 1,
+        "OpenAI": 2,
+        "xAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md",
+          "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md",
+          "title_ja": "Fableがさらなるバージョンアップ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        }
+      ],
+      "type": "model"
+    },
+    "Claude Opus": {
+      "cooccur": {
+        "Anthropic": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspec-6277.md",
+          "title_ja": "Feyn AIがSQRLをリリース、クエリ前にDBを検査するText-to-SQLモデルファミリー"
+        }
+      ],
+      "type": "model"
+    },
+    "Claude Opus 4.8": {
+      "cooccur": {
+        "Anthropic": 2,
+        "Claude": 1,
+        "DeepSeek": 1,
+        "GPT-5": 2,
+        "GitHub": 1,
+        "Kimi": 1,
+        "Moonshot AI": 1,
+        "OpenAI": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+        }
+      ],
+      "type": "model"
+    },
+    "Codex": {
+      "cooccur": {
+        "AI Agents": 1,
+        "Anthropic": 1,
+        "Claude Code": 1,
+        "GPT-5": 1,
+        "GitHub": 1,
+        "NVIDIA": 1,
+        "OpenAI": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-quoting-thibault-sottiaux-b62b.md",
+          "title_ja": "ファイル削除について述べるThibault Sottiaux"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        }
+      ],
+      "type": "model"
+    },
+    "DeepSeek": {
+      "cooccur": {
+        "Alibaba": 1,
+        "Anthropic": 1,
+        "Claude": 1,
+        "Claude Opus 4.8": 1,
+        "DeepSeek-R1": 1,
+        "GPT-5": 1,
+        "Gemma": 1,
+        "Google": 1,
+        "Kimi": 2,
+        "Mistral AI": 1,
+        "Mixture of Experts": 1,
+        "Moonshot AI": 2,
+        "OpenAI": 1,
+        "Qwen": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md",
+          "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+        }
+      ],
+      "type": "org"
+    },
+    "DeepSeek-R1": {
+      "cooccur": {
+        "Alibaba": 1,
+        "DeepSeek": 1,
+        "Gemma": 1,
+        "Google": 1,
+        "Mistral AI": 1,
+        "Qwen": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        }
+      ],
+      "type": "model"
+    },
+    "Edge AI": {
+      "cooccur": {
+        "NVIDIA": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-introduces-new-jetson-thor-computers-to-advance-mains-dc5a.md",
+          "title_ja": "NVIDIAがロボティクスとエッジAIを推進する新Jetson Thorコンピュータを導入"
+        }
+      ],
+      "type": "tech"
+    },
+    "Embeddings": {
+      "cooccur": {
+        "Gemini 3": 1,
+        "Google": 1,
+        "RAG": 1,
+        "Vector Database": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
+          "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+        }
+      ],
+      "type": "tech"
+    },
+    "FrontierMath": {
+      "cooccur": {
+        "Anthropic": 1,
+        "Claude": 1,
+        "GPT-5": 1,
+        "Kimi": 1,
+        "Moonshot AI": 1,
+        "OpenAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        }
+      ],
+      "type": "benchmark"
+    },
+    "GPT-5": {
+      "cooccur": {
+        "Anthropic": 5,
+        "Claude": 4,
+        "Claude Code": 1,
+        "Claude Opus 4.8": 2,
+        "Codex": 1,
+        "DeepSeek": 1,
+        "FrontierMath": 1,
+        "GitHub": 1,
+        "Kimi": 3,
+        "Moonshot AI": 3,
+        "OpenAI": 6
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md",
+          "title_ja": "Fableがさらなるバージョンアップ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-quoting-thibault-sottiaux-b62b.md",
+          "title_ja": "ファイル削除について述べるThibault Sottiaux"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        }
+      ],
+      "type": "model"
+    },
+    "Gemini": {
+      "cooccur": {
+        "Google": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-empowering-india-s-next-generation-of-innovators-with-atl-sa-6618.md",
+          "title_ja": "ATL SaathiによるインドのAI人材育成"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-create-edit-and-star-in-videos-with-two-google-vids-updates-0199.md",
+          "title_ja": "Google Vidsの2つの更新でビデオを作成・編集・スターに"
+        }
+      ],
+      "type": "model"
+    },
+    "Gemini 3": {
+      "cooccur": {
+        "Embeddings": 1,
+        "Google": 1,
+        "RAG": 1,
+        "Vector Database": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
+          "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+        }
+      ],
+      "type": "model"
+    },
+    "Gemma": {
+      "cooccur": {
+        "Alibaba": 1,
+        "DeepSeek": 1,
+        "DeepSeek-R1": 1,
+        "Google": 1,
+        "Mistral AI": 1,
+        "Qwen": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        }
+      ],
+      "type": "model"
+    },
+    "GitHub": {
+      "cooccur": {
+        "AI Agents": 1,
+        "AMD": 1,
+        "Anthropic": 3,
+        "Claude Code": 1,
+        "Claude Opus 4.8": 1,
+        "Codex": 1,
+        "GPT-5": 1,
+        "Microsoft": 1,
+        "NVIDIA": 2,
+        "OpenAI": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md",
+          "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+        }
+      ],
+      "type": "org"
+    },
+    "Google": {
+      "cooccur": {
+        "Alibaba": 1,
+        "Anthropic": 1,
+        "DeepSeek": 1,
+        "DeepSeek-R1": 1,
+        "Embeddings": 1,
+        "Gemini": 2,
+        "Gemini 3": 1,
+        "Gemma": 1,
+        "Mistral AI": 1,
+        "OpenAI": 1,
+        "Qwen": 1,
+        "RAG": 1,
+        "Vector Database": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-empowering-india-s-next-generation-of-innovators-with-atl-sa-6618.md",
+          "title_ja": "ATL SaathiによるインドのAI人材育成"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-create-edit-and-star-in-videos-with-two-google-vids-updates-0199.md",
+          "title_ja": "Google Vidsの2つの更新でビデオを作成・編集・スターに"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-celebrating-25-years-of-visual-search-innovation-4a94.md",
+          "title_ja": "ビジュアル検索イノベーション25周年を記念して"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md",
+          "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
+          "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+        }
+      ],
+      "type": "org"
+    },
+    "Google DeepMind": {
+      "cooccur": {
+        "World Model": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-our-approach-to-bioresilience-2878.md",
+          "title_ja": "バイオレジリエンスへのわれわれのアプローチ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-deepmind-argues-video-generators-already-contain-the-43d8.md",
+          "title_ja": "Google DeepMind、ビデオジェネレータはワールドモデルを既に含むと主張"
+        }
+      ],
+      "type": "org"
+    },
+    "Grok": {
+      "cooccur": {
+        "Anthropic": 1,
+        "Claude": 1,
+        "Claude Code": 1,
+        "xAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md",
+          "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+        }
+      ],
+      "type": "model"
+    },
+    "Hugging Face": {
+      "cooccur": {
+        "AI Agents": 1,
+        "Anthropic": 1,
+        "Claude": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-someone-fine-tuned-openbmb-s-minicpm5-1b-on-claude-fable-5-t-49ae.md",
+          "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-843c.md",
+          "title_ja": "Hugging Face、AIエージェントがインフラを侵害、AIで反撃したと報告"
+        }
+      ],
+      "type": "org"
+    },
+    "KV Cache": {
+      "cooccur": {
+        "Mixture of Experts": 1,
+        "Quantization": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-pagedweight-efficient-moe-llm-serving-with-dynamic-quality-a-0e34.md",
+          "title_ja": "MoE LLM推論向け動的量子化手法「PagedWeight」を提案する論文"
+        }
+      ],
+      "type": "tech"
+    },
+    "Kimi": {
+      "cooccur": {
+        "Alibaba": 3,
+        "Anthropic": 4,
+        "Claude": 3,
+        "Claude Opus 4.8": 1,
+        "DeepSeek": 2,
+        "FrontierMath": 1,
+        "GPT-5": 3,
+        "Mixture of Experts": 2,
+        "Moonshot AI": 8,
+        "Multimodal": 2,
+        "OpenAI": 3,
+        "Qwen": 3
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md",
+          "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md",
+          "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-m-b13a.md",
+          "title_ja": "Moonshot、GPU需要が48時間で上限に達したため新規Kimi K3購読を一時停止"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md",
+          "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+        }
+      ],
+      "type": "model"
+    },
+    "Microsoft": {
+      "cooccur": {
+        "AMD": 1,
+        "Anthropic": 1,
+        "GitHub": 1,
+        "NVIDIA": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md",
+          "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-verifying-rust-cryptography-in-symcrypt-from-standards-to-co-5a03.md",
+          "title_ja": "Rust暗号化をSymCryptで検証する、標準からコードまで"
+        }
+      ],
+      "type": "org"
+    },
+    "Mistral AI": {
+      "cooccur": {
+        "Alibaba": 1,
+        "DeepSeek": 1,
+        "DeepSeek-R1": 1,
+        "Gemma": 1,
+        "Google": 1,
+        "Qwen": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        }
+      ],
+      "type": "org"
+    },
+    "Mixture of Experts": {
+      "cooccur": {
+        "Alibaba": 1,
+        "DeepSeek": 1,
+        "KV Cache": 1,
+        "Kimi": 2,
+        "Moonshot AI": 2,
+        "Multimodal": 2,
+        "Quantization": 1,
+        "Qwen": 1,
+        "Transformer": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-pagedweight-efficient-moe-llm-serving-with-dynamic-quality-a-0e34.md",
+          "title_ja": "MoE LLM推論向け動的量子化手法「PagedWeight」を提案する論文"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-inkling-our-open-weights-model-5864.md",
+          "title_ja": "Inkling: オープンウェイトモデル"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md",
+          "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+        }
+      ],
+      "type": "tech"
+    },
+    "Moonshot AI": {
+      "cooccur": {
+        "Alibaba": 4,
+        "Anthropic": 5,
+        "Claude": 3,
+        "Claude Opus 4.8": 1,
+        "DeepSeek": 2,
+        "FrontierMath": 1,
+        "GPT-5": 3,
+        "Kimi": 8,
+        "Mixture of Experts": 2,
+        "Multimodal": 2,
+        "OpenAI": 4,
+        "Qwen": 3
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md",
+          "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md",
+          "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-m-b13a.md",
+          "title_ja": "Moonshot、GPU需要が48時間で上限に達したため新規Kimi K3購読を一時停止"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
+          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md",
+          "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+        }
+      ],
+      "type": "org"
+    },
+    "Multimodal": {
+      "cooccur": {
+        "Alibaba": 2,
+        "Kimi": 2,
+        "Mixture of Experts": 2,
+        "Moonshot AI": 2,
+        "Qwen": 2,
+        "Transformer": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-toolsciver-multimodal-scientific-claim-verification-with-vis-c6a7.md",
+          "title_ja": "ToolSciVer：ツール拡張VLMで科学論文の主張を検証"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-an-exam-for-active-observers-72ab.md",
+          "title_ja": "ActiveVisionベンチマーク：MLLMの能動的視覚観察を測定"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md",
+          "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-inkling-our-open-weights-model-5864.md",
+          "title_ja": "Inkling: オープンウェイトモデル"
+        }
+      ],
+      "type": "tech"
+    },
+    "NVIDIA": {
+      "cooccur": {
+        "AI Agents": 3,
+        "AMD": 1,
+        "Anthropic": 2,
+        "Claude Code": 1,
+        "Codex": 1,
+        "Edge AI": 1,
+        "GitHub": 2,
+        "Microsoft": 1,
+        "OpenAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
+          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-3cc8.md",
+          "title_ja": "NVIDIA Vera Rubin、ポストトレーニングの「1ドルあたり知能」を最大化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-bristol-myers-squibb-building-life-science-industry-s-most-a-c1d1.md",
+          "title_ja": "Bristol Myers SquibbがNVIDIA Vera Rubinで生命科学産業最高度のAIファクトリーを構築"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-introduces-new-jetson-thor-computers-to-advance-mains-dc5a.md",
+          "title_ja": "NVIDIAがロボティクスとエッジAIを推進する新Jetson Thorコンピュータを導入"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-and-japan-bring-full-stack-ai-and-robotics-to-every-i-0b81.md",
+          "title_ja": "NVIDIAと日本が全産業にフルスタックAIとロボティクスをもたらす"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md",
+          "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+        }
+      ],
+      "type": "org"
+    },
+    "OpenAI": {
+      "cooccur": {
+        "AI Agents": 2,
+        "Alibaba": 1,
+        "Anthropic": 9,
+        "Claude": 4,
+        "Claude Code": 2,
+        "Claude Opus 4.8": 2,
+        "Codex": 2,
+        "DeepSeek": 1,
+        "FrontierMath": 1,
+        "GPT-5": 6,
+        "GitHub": 2,
+        "Google": 1,
+        "Kimi": 3,
+        "Moonshot AI": 4,
+        "NVIDIA": 1,
+        "Prompt Injection": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-safety-and-alignment-in-an-era-of-long-horizon-models-d4ff.md",
+          "title_ja": "OpenAI、長時間稼働AIモデルの安全性とアライメントの知見を公開"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-why-teens-deserve-access-to-safe-ai-8fe3.md",
+          "title_ja": "OpenAI、ティーン向けChatGPTの安全機能を拡充"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-how-cars24-scales-conversations-and-builds-faster-with-opena-6f16.md",
+          "title_ja": "Cars24、OpenAIのボイス/チャットエージェントで会話を大規模運用"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-gpt-red-unlocking-self-improvement-for-robustness-ee23.md",
+          "title_ja": "OpenAI、自己対戦で頑健性を高める自動レッドチーミング「GPT-Red」"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md",
+          "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md",
+          "title_ja": "Fableがさらなるバージョンアップ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
+          "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-a-scorecard-for-the-ai-age-3ebd.md",
+          "title_ja": "AI時代のためのスコアカード"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-the-us-is-advancing-ai-safety-through-state-and-federal-acti-1e97.md",
+          "title_ja": "米国が州および連邦行動を通じてAI安全性を推進"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-quoting-thibault-sottiaux-b62b.md",
+          "title_ja": "ファイル削除について述べるThibault Sottiaux"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md",
+          "title_ja": "ClaudeがFable 5を永続化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
+          "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-quoting-sam-altman-b5d7.md",
+          "title_ja": "Sam Altmanの引用"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md",
+          "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-inference-startup-infinity-raises-15m-from-touring-capital-o-dfa2.md",
+          "title_ja": "推論スタートアップInfinityがTuring CapitalおよびOpenAI・Anthropic研究者から1,500万ドルを調達"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
+          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+        }
+      ],
+      "type": "org"
+    },
+    "Prompt Injection": {
+      "cooccur": {
+        "OpenAI": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-gpt-red-unlocking-self-improvement-for-robustness-ee23.md",
+          "title_ja": "OpenAI、自己対戦で頑健性を高める自動レッドチーミング「GPT-Red」"
+        }
+      ],
+      "type": "tech"
+    },
+    "Quantization": {
+      "cooccur": {
+        "KV Cache": 1,
+        "Mixture of Experts": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-pagedweight-efficient-moe-llm-serving-with-dynamic-quality-a-0e34.md",
+          "title_ja": "MoE LLM推論向け動的量子化手法「PagedWeight」を提案する論文"
+        }
+      ],
+      "type": "tech"
+    },
+    "Qwen": {
+      "cooccur": {
+        "Alibaba": 4,
+        "Anthropic": 1,
+        "DeepSeek": 1,
+        "DeepSeek-R1": 1,
+        "Gemma": 1,
+        "Google": 1,
+        "Kimi": 3,
+        "Mistral AI": 1,
+        "Mixture of Experts": 1,
+        "Moonshot AI": 3,
+        "Multimodal": 2
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md",
+          "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md",
+          "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md",
+          "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
+          "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        }
+      ],
+      "type": "model"
+    },
+    "RAG": {
+      "cooccur": {
+        "Embeddings": 1,
+        "Gemini 3": 1,
+        "Google": 1,
+        "Vector Database": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
+          "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+        }
+      ],
+      "type": "tech"
+    },
+    "Transformer": {
+      "cooccur": {
+        "Mixture of Experts": 1,
+        "Multimodal": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-learning-standard-model-structure-from-lhc-data-with-riemann-d5d0.md",
+          "title_ja": "LHCデータからStandard Model構造を学習する「ShellFlow」を提案"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-inkling-our-open-weights-model-5864.md",
+          "title_ja": "Inkling: オープンウェイトモデル"
+        }
+      ],
+      "type": "tech"
+    },
+    "Vector Database": {
+      "cooccur": {
+        "Embeddings": 1,
+        "Gemini 3": 1,
+        "Google": 1,
+        "RAG": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
+          "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+        }
+      ],
+      "type": "tech"
+    },
+    "World Model": {
+      "cooccur": {
+        "Google DeepMind": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-google-deepmind-argues-video-generators-already-contain-the-43d8.md",
+          "title_ja": "Google DeepMind、ビデオジェネレータはワールドモデルを既に含むと主張"
+        }
+      ],
+      "type": "tech"
+    },
+    "xAI": {
+      "cooccur": {
+        "Anthropic": 1,
+        "Claude": 1,
+        "Claude Code": 1,
+        "Grok": 1
+      },
+      "first_seen": "2026-07-21",
+      "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md",
+          "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+        }
+      ],
+      "type": "org"
+    }
+  },
+  "notes": {
+    "2026/07/2026-07-21-a-blueprint-for-equilibrium-based-differentiable-continuous-ad3c.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "熱力学コンピューティングによる省エネ機械学習基盤の設計案"
+    },
+    "2026/07/2026-07-21-a-methodology-for-auditable-trustworthiness-levels-in-ai-lif-dd63.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety"
+      ],
+      "tier": "B",
+      "title_ja": "AIライフサイクル統治における監査可能な信頼性レベルの方法論"
+    },
+    "2026/07/2026-07-21-a-scorecard-for-the-ai-age-3ebd.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "enterprise"
+      ],
+      "tier": "B",
+      "title_ja": "AI時代のためのスコアカード"
+    },
+    "2026/07/2026-07-21-ai-is-more-likely-than-humans-to-form-biases-when-hiring-64de.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety"
+      ],
+      "tier": "B",
+      "title_ja": "採用時にAIは人間よりもバイアスを形成する可能性が高い"
+    },
+    "2026/07/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "multimodal",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+    },
+    "2026/07/2026-07-21-alibaba-s-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-sa-bad9.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "multimodal",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "AlibabaのQwenがKimi K3に対抗、Fable 5に次ぐとの主張"
+    },
+    "2026/07/2026-07-21-an-exam-for-active-observers-72ab.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "multimodal",
+        "benchmark"
+      ],
+      "tier": "A",
+      "title_ja": "ActiveVisionベンチマーク：MLLMの能動的視覚観察を測定"
+    },
+    "2026/07/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "robotics",
+        "product"
+      ],
+      "tier": "A",
+      "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
+    },
+    "2026/07/2026-07-21-behaviour-conditioned-neural-processes-for-adaptive-resident-6e2a.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "住宅短期電力需要予測のための行動条件付きニューラルプロセス"
+    },
+    "2026/07/2026-07-21-best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwe-11dd.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "open-weights",
+        "infrastructure"
+      ],
+      "tier": "B",
+      "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
+    },
+    "2026/07/2026-07-21-bristol-myers-squibb-building-life-science-industry-s-most-a-c1d1.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure",
+        "enterprise"
+      ],
+      "tier": "B",
+      "title_ja": "Bristol Myers SquibbがNVIDIA Vera Rubinで生命科学産業最高度のAIファクトリーを構築"
+    },
+    "2026/07/2026-07-21-celebrating-25-years-of-visual-search-innovation-4a94.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "ビジュアル検索イノベーション25周年を記念して"
+    },
+    "2026/07/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+    },
+    "2026/07/2026-07-21-claude-make-fable-5-permanent-3c69.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "ClaudeがFable 5を永続化"
+    },
+    "2026/07/2026-07-21-cluster-aware-matching-via-laplacian-optimal-transport-e6d3.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "ラプラシアン最適輸送によるクラスタ認識マッチング"
+    },
+    "2026/07/2026-07-21-connect-more-of-your-apps-to-search-a564.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Google検索にもっと多くのアプリを接続する"
+    },
+    "2026/07/2026-07-21-create-edit-and-star-in-videos-with-two-google-vids-updates-0199.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "multimodal",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Google Vidsの2つの更新でビデオを作成・編集・スターに"
+    },
+    "2026/07/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "GitHub上のdatasette code-frequencyチャート"
+    },
+    "2026/07/2026-07-21-empowering-india-s-next-generation-of-innovators-with-atl-sa-6618.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "ATL SaathiによるインドのAI人材育成"
+    },
+    "2026/07/2026-07-21-evaluating-open-weight-llms-for-generating-structured-threat-0ca3.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "security",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "自律運転車脆弱性に対する構造化脅威情報生成のオープンウェイトLLM評価"
+    },
+    "2026/07/2026-07-21-fable-gets-another-bump-2bd9.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Fableがさらなるバージョンアップ"
+    },
+    "2026/07/2026-07-21-feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspec-6277.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Feyn AIがSQRLをリリース、クエリ前にDBを検査するText-to-SQLモデルファミリー"
+    },
+    "2026/07/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
+    },
+    "2026/07/2026-07-21-google-deepmind-argues-video-generators-already-contain-the-43d8.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "Google DeepMind、ビデオジェネレータはワールドモデルを既に含むと主張"
+    },
+    "2026/07/2026-07-21-gpt-red-unlocking-self-improvement-for-robustness-ee23.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety",
+        "security"
+      ],
+      "tier": "A",
+      "title_ja": "OpenAI、自己対戦で頑健性を高める自動レッドチーミング「GPT-Red」"
+    },
+    "2026/07/2026-07-21-how-cars24-scales-conversations-and-builds-faster-with-opena-6f16.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "enterprise"
+      ],
+      "tier": "A",
+      "title_ja": "Cars24、OpenAIのボイス/チャットエージェントで会話を大規模運用"
+    },
+    "2026/07/2026-07-21-how-sales-teams-use-chatgpt-work-248b.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "enterprise",
+        "product"
+      ],
+      "tier": "A",
+      "title_ja": "ChatGPT Work活用事例、営業・データサイエンスチーム向けに公開"
+    },
+    "2026/07/2026-07-21-how-to-manage-ai-investments-in-the-agentic-era-92ab.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "enterprise"
+      ],
+      "tier": "B",
+      "title_ja": "エージェント時代のAI投資管理方法"
+    },
+    "2026/07/2026-07-21-hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-843c.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "security"
+      ],
+      "tier": "B",
+      "title_ja": "Hugging Face、AIエージェントがインフラを侵害、AIで反撃したと報告"
+    },
+    "2026/07/2026-07-21-improving-improved-kernel-pls-5ca1.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "改善されたKernel PLSをさらに改善する"
+    },
+    "2026/07/2026-07-21-inference-startup-infinity-raises-15m-from-touring-capital-o-dfa2.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "funding"
+      ],
+      "tier": "B",
+      "title_ja": "推論スタートアップInfinityがTuring CapitalおよびOpenAI・Anthropic研究者から1,500万ドルを調達"
+    },
+    "2026/07/2026-07-21-inkling-our-open-weights-model-5864.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "open-weights"
+      ],
+      "tier": "B",
+      "title_ja": "Inkling: オープンウェイトモデル"
+    },
+    "2026/07/2026-07-21-introducing-cosmos-3-edge-8030.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Cosmos 3 Edgeを紹介"
+    },
+    "2026/07/2026-07-21-introducing-real-world-voiceeq-measuring-the-human-quality-o-5d75.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "benchmark"
+      ],
+      "tier": "B",
+      "title_ja": "『Real World VoiceEQ』を紹介：音声AIの人間的な品質を測定する"
+    },
+    "2026/07/2026-07-21-kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchma-546b.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "open-weights",
+        "benchmark"
+      ],
+      "tier": "B",
+      "title_ja": "Kimi K3とペリカンベンチマークから学べること"
+    },
+    "2026/07/2026-07-21-kimi-k3-qwen-3-8-and-anthropic-s-potential-unravelling-3760.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Kimi K3、Qwen 3.8とAnthropicの潜在的な動揺"
+    },
+    "2026/07/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "open-weights",
+        "benchmark"
+      ],
+      "tier": "B",
+      "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+    },
+    "2026/07/2026-07-21-learning-standard-model-structure-from-lhc-data-with-riemann-d5d0.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "training",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "LHCデータからStandard Model構造を学習する「ShellFlow」を提案"
+    },
+    "2026/07/2026-07-21-mermaid-to-ascii-art-mermaid-ascii-71ea.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "coding"
+      ],
+      "tier": "A",
+      "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
+    },
+    "2026/07/2026-07-21-model-routing-is-simple-until-it-isn-t-5c83.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm"
+      ],
+      "tier": "B",
+      "title_ja": "モデルルーティングはシンプル。ただし複雑さもある"
+    },
+    "2026/07/2026-07-21-moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-m-b13a.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Moonshot、GPU需要が48時間で上限に達したため新規Kimi K3購読を一時停止"
+    },
+    "2026/07/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "benchmark",
+        "coding"
+      ],
+      "tier": "B",
+      "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+    },
+    "2026/07/2026-07-21-nemotron-labs-how-open-models-give-enterprises-and-nations-a-9d59.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "open-weights",
+        "enterprise"
+      ],
+      "tier": "B",
+      "title_ja": "Nemotron Labs：オープンモデルがエンタープライズと国に信頼・制御・カスタマイズ可能なAIをもたらす"
+    },
+    "2026/07/2026-07-21-newer-models-same-advantage-4bab.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "新しいモデル、同じアドバンテージ"
+    },
+    "2026/07/2026-07-21-nvidia-and-japan-bring-full-stack-ai-and-robotics-to-every-i-0b81.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure",
+        "robotics"
+      ],
+      "tier": "B",
+      "title_ja": "NVIDIAと日本が全産業にフルスタックAIとロボティクスをもたらす"
+    },
+    "2026/07/2026-07-21-nvidia-introduces-new-jetson-thor-computers-to-advance-mains-dc5a.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure",
+        "robotics"
+      ],
+      "tier": "B",
+      "title_ja": "NVIDIAがロボティクスとエッジAIを推進する新Jetson Thorコンピュータを導入"
+    },
+    "2026/07/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+    },
+    "2026/07/2026-07-21-nvidia-s-grip-on-ai-chips-weakens-as-microsoft-turns-to-amd-8285.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "chips",
+        "infrastructure"
+      ],
+      "tier": "B",
+      "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
+    },
+    "2026/07/2026-07-21-nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-3cc8.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "inference-cost",
+        "chips"
+      ],
+      "tier": "A",
+      "title_ja": "NVIDIA Vera Rubin、ポストトレーニングの「1ドルあたり知能」を最大化"
+    },
+    "2026/07/2026-07-21-our-approach-to-bioresilience-2878.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "バイオレジリエンスへのわれわれのアプローチ"
+    },
+    "2026/07/2026-07-21-pagedweight-efficient-moe-llm-serving-with-dynamic-quality-a-0e34.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "inference-cost"
+      ],
+      "tier": "A",
+      "title_ja": "MoE LLM推論向け動的量子化手法「PagedWeight」を提案する論文"
+    },
+    "2026/07/2026-07-21-physics-enhanced-reinforcement-learning-for-real-time-optima-170f.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "training",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "物理を活用した強化学習による動的システムのリアルタイム最適制御"
+    },
+    "2026/07/2026-07-21-prisa-proactive-infrastructure-lidar-framework-for-intersect-b119.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "PRISA: 交差点安全性評価のためのプロアクティブ基盤LiDARフレームワーク"
+    },
+    "2026/07/2026-07-21-quoting-sam-altman-b5d7.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "llm",
+        "funding"
+      ],
+      "tier": "B",
+      "title_ja": "Sam Altmanの引用"
+    },
+    "2026/07/2026-07-21-quoting-thibault-sottiaux-b62b.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety",
+        "security"
+      ],
+      "tier": "B",
+      "title_ja": "ファイル削除について述べるThibault Sottiaux"
+    },
+    "2026/07/2026-07-21-safety-and-alignment-in-an-era-of-long-horizon-models-d4ff.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "safety"
+      ],
+      "tier": "A",
+      "title_ja": "OpenAI、長時間稼働AIモデルの安全性とアライメントの知見を公開"
+    },
+    "2026/07/2026-07-21-security-incident-disclosure-july-2026-d8ed.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "security"
+      ],
+      "tier": "B",
+      "title_ja": "セキュリティインシデント開示 — 2026年7月"
+    },
+    "2026/07/2026-07-21-sharpen-the-sword-skip-the-downloads-onimusha-way-of-the-swo-62fe.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "infrastructure"
+      ],
+      "tier": "B",
+      "title_ja": "剣を研ぐ、ダウンロードをスキップ―『鬼武者 Way of the Sword』がGeForce NOWに登場"
+    },
+    "2026/07/2026-07-21-someone-fine-tuned-openbmb-s-minicpm5-1b-on-claude-fable-5-t-49ae.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "training"
+      ],
+      "tier": "B",
+      "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
+    },
+    "2026/07/2026-07-21-the-us-is-advancing-ai-safety-through-state-and-federal-acti-1e97.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety",
+        "regulation"
+      ],
+      "tier": "B",
+      "title_ja": "米国が州および連邦行動を通じてAI安全性を推進"
+    },
+    "2026/07/2026-07-21-toolsciver-multimodal-scientific-claim-verification-with-vis-c6a7.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "multimodal",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "ToolSciVer：ツール拡張VLMで科学論文の主張を検証"
+    },
+    "2026/07/2026-07-21-towards-demystifying-the-creativity-of-diffusion-models-633f.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "拡散モデルの創造性を解き明かす"
+    },
+    "2026/07/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "regulation"
+      ],
+      "tier": "B",
+      "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
+    },
+    "2026/07/2026-07-21-verifying-rust-cryptography-in-symcrypt-from-standards-to-co-5a03.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "security"
+      ],
+      "tier": "B",
+      "title_ja": "Rust暗号化をSymCryptで検証する、標準からコードまで"
+    },
+    "2026/07/2026-07-21-welcome-inkling-by-thinking-machines-210f.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "open-weights",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Thinking Machinesの新モデル『Inkling』へようこそ"
+    },
+    "2026/07/2026-07-21-what-building-shippy-taught-us-about-building-agents-53e3.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent"
+      ],
+      "tier": "B",
+      "title_ja": "Shippyの構築が教えるエージェント構築の教訓"
+    },
+    "2026/07/2026-07-21-when-do-multi-agent-systems-help-an-information-bottleneck-p-edf3.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "マルチエージェントシステムの有効性を情報ボトルネック理論で分析"
+    },
+    "2026/07/2026-07-21-when-does-muon-help-agentic-reinforcement-learning-fe4f.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "training"
+      ],
+      "tier": "A",
+      "title_ja": "エージェント型強化学習でMuonオプティマイザが成功率を大幅改善"
+    },
+    "2026/07/2026-07-21-why-performance-per-watt-is-the-ultimate-metric-for-ai-infra-43be.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "agent",
+        "infrastructure"
+      ],
+      "tier": "B",
+      "title_ja": "1ワットあたりのパフォーマンスがAIインフラ効率の究極指標である理由"
+    },
+    "2026/07/2026-07-21-why-teens-deserve-access-to-safe-ai-8fe3.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-0207",
+      "tags": [
+        "safety",
+        "product"
+      ],
+      "tier": "A",
+      "title_ja": "OpenAI、ティーン向けChatGPTの安全機能を拡充"
+    }
+  }
+}

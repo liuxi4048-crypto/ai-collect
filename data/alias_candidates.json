@@ -1,0 +1,193 @@
+{
+  "candidates": {
+    "activevision": {
+      "count": 3,
+      "example": "MLLMの能動的視覚観察能力を測定する新ベンチマーク、17タスク3カテゴリ",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "alfworld": {
+      "count": 3,
+      "example": "エージェント型強化学習の実験環境として使用された",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "bird dev": {
+      "count": 3,
+      "example": "Text-to-SQL の実行精度ベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "chatgpt work": {
+      "count": 3,
+      "example": "職種別ワークフロー向けOpenAIのエンタープライズ製品",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "product"
+    },
+    "claude fable 5": {
+      "count": 3,
+      "example": "Anthropicのモデル。今回の複数記事で中心的に扱われている",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "code arena": {
+      "count": 3,
+      "example": "コーディング能力のランキング",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "deepseek v4 pro": {
+      "count": 3,
+      "example": "DeepSeekのオープンMoEフラッグシップ",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "genception": {
+      "count": 3,
+      "example": "Google DeepMind のビデオ生成モデルをCVタスクへ転用する手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "glm-5.2": {
+      "count": 3,
+      "example": "Zhipu系のオープンMoEモデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "gpt-5.6 sol": {
+      "count": 3,
+      "example": "OpenAIのモデル。Kimi K3・Fable 5との比較で頻出",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "gpt-red": {
+      "count": 3,
+      "example": "OpenAIの自動レッドチーミングシステム。self-play で prompt injection 耐性を改善",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "grok cli": {
+      "count": 3,
+      "example": "xAIがオープンソース化したコーディングエージェント",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "helios": {
+      "count": 3,
+      "example": "AMDのAIプラットフォーム。Microsoft が Azure で採用",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "inkling": {
+      "count": 3,
+      "example": "Thinking Machines Lab の初のオープンウェイトモデル(975B総/41Bアクティブ)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "isomorphic labs": {
+      "count": 3,
+      "example": "Google DeepMind 系の創薬AI企業",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
+    "jetson thor": {
+      "count": 3,
+      "example": "NVIDIAのエッジAI・ロボティクス向けコンピュータ(T3000/T2000)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "kimi k3": {
+      "count": 3,
+      "example": "Moonshot AIの2.8兆パラメータモデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "muon": {
+      "count": 3,
+      "example": "AdamWに対抗する新しいオプティマイザ。エージェント型RLでの有効性が検証された",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "nemotron": {
+      "count": 3,
+      "example": "NVIDIAのオープンモデル系列。Nemotron Labs として展開",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "pagedweight": {
+      "count": 3,
+      "example": "MoE LLM推論向けの動的な重み量子化・KVキャッシュ管理手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "qwen2.5-0.5b-instruct": {
+      "count": 3,
+      "example": "Muonの効果検証実験で使用された小型モデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "qwen3.8-max": {
+      "count": 3,
+      "example": "Alibabaの2.4兆パラメータ マルチモーダルMoEモデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "shellflow": {
+      "count": 3,
+      "example": "LHC衝突データからStandard Model構造を学習する生成モデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "sqrl": {
+      "count": 3,
+      "example": "Feyn AI の Text-to-SQL モデルファミリー",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "thinking machines lab": {
+      "count": 3,
+      "example": "Mira Murati が率いるAI企業",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
+    "toolsciver": {
+      "count": 3,
+      "example": "MSCV(マルチモーダル科学的主張検証)向けのツール拡張VLMフレームワーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "vera rubin": {
+      "count": 3,
+      "example": "NVIDIAの次世代GPUプラットフォーム。ポストトレーニング向けのコスト効率を強調",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    }
+  }
+}
