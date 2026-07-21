@@ -1,16 +1,29 @@
 """
 Stage 3: render notes into the Obsidian vault, then commit.
 
-Two properties matter more than anything else here:
+Layout (all under `11_AI Archive/`):
+
+    AI Archive.md               dashboard / landing page
+    Maps/Entity Map.canvas      visual, colour-coded entity map
+    Runs/<run_id>.md            per-run index with the trend synthesis
+    Topics/YYYY/MM/<slug>.md    one note per topic
+    Entities/<TypeFolder>/*.md   entity notes, foldered by node type
+
+Design properties:
 
 * **Idempotent.** Re-running after a crash must not duplicate notes or
-  double-count co-occurrences. Existing note files are skipped, and the index
-  records which note paths it has already absorbed.
+  double-count co-occurrences. Existing topic files are skipped; entity notes,
+  dashboard, and canvas are fully regenerated from the index each run.
 * **Scoped.** Only `11_AI Archive/` is ever written or staged. The vault also
   holds a hand-maintained area and another generator's output; neither may be
   touched by an unattended run.
+* **Rebuildable.** `--rebuild` reconstructs the index and every derived file
+  from the topic notes' own frontmatter, so the folder layout can change
+  without losing the graph. Wikilinks are by basename, so moving a note never
+  breaks a link.
 """
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -34,14 +47,31 @@ VAULT = os.environ.get("OBSIDIAN_VAULT", r"C:\Users\PC_User\ObsidianVault")
 ARCHIVE_DIRNAME = "11_AI Archive"
 ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
+# Folder layout inside the archive.
+TOPICS_DIR = "Topics"
+RUNS_DIR = "Runs"
+ENTITIES_DIR = "Entities"
+MAPS_DIR = "Maps"
+DASHBOARD_NAME = "AI Archive.md"
+CANVAS_NAME = "Entity Map.canvas"
+
 ITEMS_PATH = os.path.join(DATA_DIR, "pending_items.json")
 NOTES_PATH = os.path.join(DATA_DIR, "pending_notes.json")
 INDEX_PATH = os.path.join(DATA_DIR, "entity_index.json")
 CANDIDATES_PATH = os.path.join(DATA_DIR, "alias_candidates.json")
+LATEST_PATH = os.path.join(DATA_DIR, "latest_run.json")
 
 ENTITY_NOTE_MIN_NOTES = 3     # below this, the node is noise in the graph
-MOC_PER_TAG = 25
+TAG_LIST_LIMIT = 30
+CANVAS_PER_TYPE = 8
+
 TYPE_LABELS = {"org": "組織", "model": "モデル", "tech": "技術", "benchmark": "ベンチマーク"}
+TYPE_ORDER = ("org", "model", "tech", "benchmark")
+TYPE_FOLDER = {"org": "Organizations", "model": "Models",
+               "tech": "Technologies", "benchmark": "Benchmarks"}
+TYPE_EMOJI = {"org": "🏢", "model": "🧠", "tech": "⚙️", "benchmark": "📊"}
+# Obsidian canvas preset colours: 1 red 2 orange 3 yellow 4 green 5 cyan 6 purple.
+TYPE_COLOR = {"org": "5", "model": "4", "tech": "6", "benchmark": "2"}
 
 
 # --- helpers -----------------------------------------------------------------
@@ -85,6 +115,19 @@ def write_text(path, text):
         f.write(text)
 
 
+def note_link_target(rel_path):
+    """Obsidian resolves links by basename when unique; ours carry a hash."""
+    return os.path.splitext(os.path.basename(rel_path))[0]
+
+
+def topic_rel_path(date, filename):
+    return "{}/{}/{}/{}".format(TOPICS_DIR, date[:4], date[5:7], filename)
+
+
+def entity_rel_path(name, etype):
+    return "{}/{}/{}".format(ENTITIES_DIR, TYPE_FOLDER[etype], entity_filename(name))
+
+
 # --- topic notes -------------------------------------------------------------
 def render_topic_note(item, note, run_id):
     date = item.get("date") or run_id[:10]
@@ -125,10 +168,10 @@ def render_topic_note(item, note, run_id):
         for e in ents:
             grouped.setdefault(e["type"], []).append(e["name"])
         body.append("> [!info] 関連")
-        for etype in ("org", "model", "tech", "benchmark"):
+        for etype in TYPE_ORDER:
             if etype in grouped:
                 links = " · ".join("[[{}]]".format(n) for n in grouped[etype])
-                body.append("> **{}**: {}".format(TYPE_LABELS[etype], links))
+                body.append("> **{} {}**: {}".format(TYPE_EMOJI[etype], TYPE_LABELS[etype], links))
         body.append("")
 
     label = "裏取り {}ソース".format(len(arts)) if item.get("corroborated") else "単一ソース"
@@ -137,13 +180,9 @@ def render_topic_note(item, note, run_id):
         body.append("> - [{}]({}) — `{}` / {}".format(
             a["title"].replace("]", "］"), a["link"], a["domain"], a["source_label"]))
     body.append("")
-    body.append("↩ [[{}]]".format(run_note_name(run_id)))
+    body.append("↩ [[{}]]".format(run_id))
     body.append("")
     return "\n".join(fm + body)
-
-
-def run_note_name(run_id):
-    return run_id
 
 
 # --- index -------------------------------------------------------------------
@@ -177,6 +216,17 @@ def index_note(index, rel_path, meta):
     return True
 
 
+def entities_by_type(index, threshold=ENTITY_NOTE_MIN_NOTES):
+    """{type: [(count, name), ...]} for entities at or above threshold."""
+    out = {t: [] for t in TYPE_ORDER}
+    for name, rec in index["entities"].items():
+        if len(rec["notes"]) >= threshold:
+            out.setdefault(rec["type"], []).append((len(rec["notes"]), name))
+    for t in out:
+        out[t].sort(reverse=True)
+    return out
+
+
 def render_entity_note(name, rec):
     notes = sorted(rec["notes"], key=lambda n: n["date"], reverse=True)
     # The canonical name itself must be an alias: reserved-name escaping can
@@ -199,7 +249,7 @@ def render_entity_note(name, rec):
     fm.append("  - entity/{}".format(rec["type"]))
     fm.append("---")
 
-    body = ["", "# {}".format(name), ""]
+    body = ["", "# {} {}".format(TYPE_EMOJI.get(rec["type"], ""), name), ""]
     body.append("> [!abstract] {}".format(TYPE_LABELS.get(rec["type"], rec["type"])))
     body.append("> 初出 **{}** — 言及 **{}件**".format(rec["first_seen"], len(notes)))
     body.append("")
@@ -213,8 +263,8 @@ def render_entity_note(name, rec):
     if cooccur:
         body.append("## よく一緒に語られる")
         body.append("")
-        # This is the one thing Obsidian's backlinks pane cannot show, and the
-        # reason these notes are generated at all.
+        # The one thing Obsidian's backlinks pane cannot show, and the reason
+        # these notes are generated at all.
         for other, count in cooccur:
             body.append("- [[{}]] — {}件".format(other, count))
         body.append("")
@@ -227,16 +277,12 @@ def render_entity_note(name, rec):
     return "\n".join(fm + body)
 
 
-def note_link_target(rel_path):
-    """Obsidian resolves links by basename when unique; ours carry a hash."""
-    return os.path.splitext(os.path.basename(rel_path))[0]
-
-
 # --- run note ----------------------------------------------------------------
 def render_run_note(state, written, skipped_existing, missing, trends, candidates_added):
     run_id = state["run_id"]
     counts = Counter(i["category"] for i in state["selected"])
     tier_a = sum(1 for i in state["selected"] if i["tier"] == "A")
+    new_count = len(written) - skipped_existing
 
     fm = ["---"]
     fm.append("title: {}".format(yaml_str("AI Collect — " + run_id)))
@@ -244,16 +290,14 @@ def render_run_note(state, written, skipped_existing, missing, trends, candidate
     fm.append("run_id: {}".format(run_id))
     fm.append("type: ai-archive-run")
     fm.append("topics: {}".format(len(state["selected"])))
-    # `written` counts every note this run is responsible for, including ones a
-    # previous attempt already wrote. Only the difference is actually new.
-    new_count = len(written) - skipped_existing
     fm.append("new_notes: {}".format(new_count))
     fm.append("tags:")
     fm.append("  - ai-archive")
     fm.append("  - run-index")
     fm.append("---")
 
-    body = ["", "# 🗂 AI Collect — {}".format(run_id), ""]
+    body = ["", "# 🗂 AI Collect — {}".format(run_id), "",
+            "↑ [[AI Archive]]", ""]
 
     if trends:
         body.append("## 📈 この回の潮流")
@@ -299,56 +343,250 @@ def render_run_note(state, written, skipped_existing, missing, trends, candidate
     return "\n".join(fm + body)
 
 
-def render_moc(index):
+# --- dashboard ---------------------------------------------------------------
+def render_dashboard(index, latest):
     notes = index["notes"]
-    by_tag = {}
-    for path, meta in notes.items():
-        for t in meta.get("tags", []):
-            by_tag.setdefault(t, []).append((meta["date"], meta["title_ja"], path))
-
     ents = index["entities"]
-    by_type = {}
-    for name, rec in ents.items():
-        if len(rec["notes"]) >= ENTITY_NOTE_MIN_NOTES:
-            by_type.setdefault(rec["type"], []).append((len(rec["notes"]), name))
+    by_type = entities_by_type(index)
+    by_tag_count = Counter()
+    by_tag_notes = {}
+    for path, m in notes.items():
+        for t in m.get("tags", []):
+            by_tag_count[t] += 1
+            by_tag_notes.setdefault(t, []).append((m["date"], m["title_ja"], path))
+    runs = sorted({m["run_id"] for m in notes.values()}, reverse=True)
+    updated = max((m["date"] for m in notes.values()), default="—")
 
-    out = ["---",
-           "title: {}".format(yaml_str("AI Archive MOC")),
-           "type: ai-archive-moc",
-           "note_count: {}".format(len(notes)),
-           "tags:", "  - ai-archive", "  - moc",
-           "---", "",
-           "# 🗺 AI Archive MOC", "",
-           "アーカイブ **{}ノート** / エンティティ **{}件**".format(len(notes), len(ents)), "",
-           "> [!tip] 使い方",
-           "> グラフビューで `entity/tech` タグのノードを辿ると、別々の組織が同じ技術で",
-           "> つながっているところが見える。日付で追うより発見が多い。", ""]
+    fm = ["---",
+          "title: {}".format(yaml_str("AI Archive")),
+          "type: ai-archive-home",
+          "note_count: {}".format(len(notes)),
+          "entity_count: {}".format(len(ents)),
+          "run_count: {}".format(len(runs)),
+          "updated: {}".format(updated),
+          "tags:", "  - ai-archive", "  - home",
+          "---", ""]
 
-    out.append("## エンティティ")
-    out.append("")
-    for etype in ("org", "model", "tech", "benchmark"):
-        items = sorted(by_type.get(etype, []), reverse=True)
+    b = ["# 🗂 AI Archive", "",
+         "> [!abstract] 海外AIニュースの蓄積アーカイブ",
+         "> `/ai-collect` で継続収集し、日本語で要約して溜めている。",
+         "> **{}** トピック ／ **{}** エンティティ ／ **{}** 回の収集 ・ 最終更新 `{}`".format(
+             len(notes), len(ents), len(runs), updated),
+         ""]
+
+    # Latest trends — the single most valuable thing to surface first.
+    if latest and latest.get("trends"):
+        b.append("## 📈 最新の潮流 — {}".format(latest.get("run_id", "")))
+        b.append("")
+        for i, t in enumerate(latest["trends"], 1):
+            b.append("**{}. {}**".format(i, t["name"]))
+            b.append("")
+            b.append("> {}".format(t.get("description", "").strip().replace("\n", " ")))
+            b.append("")
+        if latest.get("run_id"):
+            b.append("→ 全文と関連ノート: [[{}]]".format(latest["run_id"]))
+            b.append("")
+    elif runs:
+        b.append("## 📈 最新の潮流")
+        b.append("")
+        b.append("→ 最新の収集: [[{}]]".format(runs[0]))
+        b.append("")
+
+    # Visual map.
+    b.append("## 🗺 ビジュアルマップ")
+    b.append("")
+    b.append("[[{}|エンティティマップを開く（Canvas）]]".format(os.path.splitext(CANVAS_NAME)[0]))
+    b.append("")
+    b.append("> [!tip] グラフビューの使い方")
+    b.append("> グラフビューで `entity/tech`・`entity/benchmark` のノードを辿ると、")
+    b.append("> 別々の組織が同じ技術や評価軸でつながっているところが見える。")
+    b.append("> 日付順に読むより発見が多い。")
+    b.append("")
+
+    # Top entities by type.
+    b.append("## 🕸 主要エンティティ")
+    b.append("")
+    any_ent = False
+    for etype in TYPE_ORDER:
+        items = by_type.get(etype, [])[:12]
         if not items:
             continue
-        out.append("**{}**: ".format(TYPE_LABELS[etype]) + " · ".join(
-            "[[{}]] ({})".format(name, count) for count, name in items[:20]))
-        out.append("")
+        any_ent = True
+        line = " · ".join("[[{}]] ({})".format(name, cnt) for cnt, name in items)
+        b.append("**{} {}** — {}".format(TYPE_EMOJI[etype], TYPE_LABELS[etype], line))
+        b.append("")
+    if not any_ent:
+        b.append("_まだ閾値（{}件）に達したエンティティがない。_".format(ENTITY_NOTE_MIN_NOTES))
+        b.append("")
 
-    out.append("## トピック")
-    out.append("")
+    # Topics by controlled-vocabulary tag.
+    b.append("## 🏷 トピック分類")
+    b.append("")
     for group_name, tags in TAG_GROUPS:
-        present = [t for t in tags if by_tag.get(t)]
+        present = [t for t in tags if by_tag_notes.get(t)]
         if not present:
             continue
-        out.append("### {}".format(group_name))
-        out.append("")
+        b.append("### {}".format(group_name))
+        b.append("")
         for t in present:
-            rows = sorted(by_tag[t], reverse=True)
-            out.append("> [!note]- #{} — {}件".format(t, len(rows)))
-            for date, title, path in rows[:MOC_PER_TAG]:
-                out.append("> - `{}` [[{}|{}]]".format(date, note_link_target(path), title))
-            out.append("")
-    return "\n".join(out) + "\n"
+            rows = sorted(by_tag_notes[t], reverse=True)
+            b.append("> [!note]- #{} — {}件".format(t, len(rows)))
+            for date, title, path in rows[:TAG_LIST_LIMIT]:
+                b.append("> - `{}` [[{}|{}]]".format(date, note_link_target(path), title))
+            b.append("")
+
+    # Recent runs.
+    b.append("## 🕐 最近の収集")
+    b.append("")
+    for r in runs[:12]:
+        n = sum(1 for m in notes.values() if m["run_id"] == r)
+        b.append("- [[{}]] — {}件".format(r, n))
+    b.append("")
+
+    return "\n".join(fm + b)
+
+
+# --- canvas ------------------------------------------------------------------
+def _cid(*parts):
+    return hashlib.sha1("::".join(parts).encode("utf-8")).hexdigest()[:16]
+
+
+def render_canvas(index):
+    """Obsidian .canvas (JSON): one colour-coded column per node type.
+
+    Deterministic layout so the file only changes when the graph does.
+    """
+    by_type = entities_by_type(index)
+    nodes, edges = [], []
+    col_w, card_w, card_h, gap_y = 340, 280, 60, 84
+
+    for ti, etype in enumerate(TYPE_ORDER):
+        x = ti * col_w
+        header_id = _cid("header", etype)
+        nodes.append({
+            "id": header_id, "type": "text",
+            "text": "## {} {}".format(TYPE_EMOJI[etype], TYPE_LABELS[etype]),
+            "x": x, "y": 0, "width": card_w, "height": 80, "color": TYPE_COLOR[etype],
+        })
+        for j, (cnt, name) in enumerate(by_type.get(etype, [])[:CANVAS_PER_TYPE]):
+            nid = _cid("ent", etype, name)
+            vault_path = "{}/{}".format(ARCHIVE_DIRNAME, entity_rel_path(name, etype))
+            nodes.append({
+                "id": nid, "type": "file", "file": vault_path,
+                "x": x, "y": 140 + j * gap_y, "width": card_w, "height": card_h,
+                "color": TYPE_COLOR[etype],
+            })
+            edges.append({
+                "id": _cid("edge", etype, name),
+                "fromNode": header_id, "fromSide": "bottom",
+                "toNode": nid, "toSide": "top",
+            })
+
+    return json.dumps({"nodes": nodes, "edges": edges}, ensure_ascii=False, indent=2)
+
+
+# --- frontmatter parser (for --rebuild) --------------------------------------
+def parse_frontmatter(path):
+    """Minimal reader for the frontmatter shapes this script emits.
+
+    Not a general YAML parser: it understands `key: scalar` and `key:` followed
+    by two-space `- item` list entries, which is all these notes contain. Nested
+    dict lists (sources) are recognised only enough to be ignored.
+    """
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    if not text.startswith("---"):
+        return {}
+    end = text.find("\n---", 3)
+    if end == -1:
+        return {}
+    block = text[3:end].strip("\n").splitlines()
+
+    def unquote(v):
+        v = v.strip()
+        if len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+            return v[1:-1].replace('\\"', '"').replace("\\\\", "\\")
+        return v
+
+    out, cur = {}, None
+    for line in block:
+        if re.match(r"^\S", line) and ":" in line:            # top-level key
+            key, _, val = line.partition(":")
+            key = key.strip()
+            val = val.strip()
+            cur = key
+            if val == "":
+                out[key] = []
+            else:
+                out[key] = unquote(val)
+                cur = None
+        elif line.startswith("  - ") and cur in ("tags", "entities", "aliases"):
+            out.setdefault(cur, []).append(unquote(line[4:]))
+        # other indented lines (sources dict entries) are intentionally skipped
+    return out
+
+
+def canonical_type_map():
+    m = {}
+    for meta in ent.load_aliases().values():
+        m[meta["canonical"]] = meta["type"]
+    return m
+
+
+def rebuild_index_from_vault():
+    """Reconstruct the index from the topic notes' own frontmatter."""
+    index = empty_index()
+    tmap = canonical_type_map()
+    topics_root = os.path.join(ARCHIVE_ROOT, TOPICS_DIR)
+    unknown = set()
+    files = []
+    for dirpath, _dirs, names in os.walk(topics_root):
+        for n in names:
+            if n.endswith(".md"):
+                files.append(os.path.join(dirpath, n))
+    for abs_path in sorted(files):
+        fm = parse_frontmatter(abs_path)
+        if fm.get("type") != "ai-archive":
+            continue
+        rel = os.path.relpath(abs_path, ARCHIVE_ROOT).replace(os.sep, "/")
+        ents = []
+        for name in fm.get("entities", []):
+            etype = tmap.get(name)
+            if etype is None:
+                unknown.add(name)
+                continue
+            ents.append({"name": name, "type": etype})
+        meta = {
+            "date": fm.get("date", rel[len(TOPICS_DIR) + 1:][:10]),
+            "title_ja": fm.get("title", note_link_target(rel)),
+            "tags": filter_tags(fm.get("tags")),
+            "tier": fm.get("tier", "B"),
+            "run_id": fm.get("run_id", ""),
+            "entities": ents,
+        }
+        index_note(index, rel, meta)
+    if unknown:
+        print("[publish] rebuild: {} entity names not in the alias table (skipped): {}".format(
+            len(unknown), ", ".join(sorted(unknown)[:10])))
+    return index
+
+
+# --- derived-file emission (shared by publish and rebuild) -------------------
+def write_entity_notes(index):
+    written = 0
+    for name, rec in index["entities"].items():
+        if len(rec["notes"]) < ENTITY_NOTE_MIN_NOTES:
+            continue
+        path = safe_join(ARCHIVE_ROOT, ENTITIES_DIR, TYPE_FOLDER[rec["type"]], entity_filename(name))
+        write_text(path, render_entity_note(name, rec))
+        written += 1
+    return written
+
+
+def write_dashboard_and_map(index):
+    latest = load_json(LATEST_PATH, None)
+    write_text(safe_join(ARCHIVE_ROOT, DASHBOARD_NAME), render_dashboard(index, latest))
+    write_text(safe_join(ARCHIVE_ROOT, MAPS_DIR, CANVAS_NAME), render_canvas(index))
 
 
 # --- git ---------------------------------------------------------------------
@@ -360,13 +598,13 @@ def git(*args, cwd=VAULT, check=True):
     return proc
 
 
-def commit_and_push(run_id, count, push=True):
+def commit_and_push(message, push=True):
     git("add", "--", ARCHIVE_DIRNAME)
     staged = git("diff", "--cached", "--quiet", "--", ARCHIVE_DIRNAME, check=False)
     if staged.returncode == 0:
         print("[publish] nothing to commit")
         return False
-    git("commit", "-q", "-m", "ai-collect: {} ({}件)".format(run_id, count))
+    git("commit", "-q", "-m", message)
     if push:
         git("push", "-q")
         print("[publish] pushed")
@@ -376,16 +614,18 @@ def commit_and_push(run_id, count, push=True):
 
 
 # --- main --------------------------------------------------------------------
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--items", default=ITEMS_PATH)
-    ap.add_argument("--notes", default=NOTES_PATH)
-    ap.add_argument("--no-push", action="store_true")
-    ap.add_argument("--no-commit", action="store_true")
-    args = ap.parse_args()
+def do_rebuild(args):
+    index = rebuild_index_from_vault()
+    ecount = write_entity_notes(index)
+    write_dashboard_and_map(index)
+    write_json(INDEX_PATH, index)
+    print("[publish] rebuild: {} topics, {} entities, {} entity notes".format(
+        len(index["notes"]), len(index["entities"]), ecount))
+    if not args.no_commit:
+        commit_and_push("ai-collect: rebuild archive index & layout", push=not args.no_push)
 
-    if not os.path.isdir(VAULT):
-        raise SystemExit("Vault not found: {}".format(VAULT))
+
+def do_publish(args):
     state = load_json(args.items, None)
     if not state:
         raise SystemExit("No collected state at {}. Run the collect stage first.".format(args.items))
@@ -399,6 +639,7 @@ def main():
     by_index = {n["index"]: n for n in notes_in if isinstance(n, dict) and "index" in n}
 
     run_id = state["run_id"]
+    date = state["date"]
     index = load_json(INDEX_PATH, empty_index())
     index.setdefault("entities", {})
     index.setdefault("notes", {})
@@ -413,16 +654,14 @@ def main():
             missing.append(idx)
             continue
 
-        date = state["date"]
         filename = make_filename(date, item["representative_title"], item["representative_url"])
-        rel_path = "{}/{}/{}".format(date[:4], date[5:7], filename)
-        abs_path = safe_join(ARCHIVE_ROOT, date[:4], date[5:7], filename)
+        rel_path = topic_rel_path(date, filename)
+        abs_path = safe_join(ARCHIVE_ROOT, TOPICS_DIR, date[:4], date[5:7], filename)
 
         if os.path.exists(abs_path):
             skipped_existing += 1
         else:
-            item_with_date = dict(item, date=date)
-            write_text(abs_path, render_topic_note(item_with_date, note, run_id))
+            write_text(abs_path, render_topic_note(dict(item, date=date), note, run_id))
 
         # Recorded only after the file exists, so a crash mid-run leaves the
         # remaining items collectable rather than silently marked done.
@@ -431,24 +670,12 @@ def main():
         save_seen(seen)
 
         meta = {
-            "date": date,
-            "title_ja": note["title_ja"],
-            "tags": filter_tags(note.get("tags")),
-            "tier": item["tier"],
-            "run_id": run_id,
-            "entities": item.get("entities", []),
+            "date": date, "title_ja": note["title_ja"],
+            "tags": filter_tags(note.get("tags")), "tier": item["tier"],
+            "run_id": run_id, "entities": item.get("entities", []),
         }
         index_note(index, rel_path, meta)
         written[idx] = {"path": rel_path, "title_ja": note["title_ja"], "tier": item["tier"]}
-
-    # entity notes
-    entity_written = 0
-    for name, rec in index["entities"].items():
-        if len(rec["notes"]) < ENTITY_NOTE_MIN_NOTES:
-            continue
-        path = safe_join(ARCHIVE_ROOT, "_Entities", entity_filename(name))
-        write_text(path, render_entity_note(name, rec))
-        entity_written += 1
 
     # new-term candidates: accumulate, never auto-adopt
     candidates_added = 0
@@ -463,28 +690,52 @@ def main():
             if not key or t.get("term") in known:
                 continue
             rec = cands["candidates"].setdefault(key, {
-                "type": t.get("type", "unknown"), "count": 0, "first_seen": state["date"],
+                "type": t.get("type", "unknown"), "count": 0, "first_seen": date,
                 "example": t.get("context", "")[:200],
             })
             rec["count"] += 1
-            rec["last_seen"] = state["date"]
+            rec["last_seen"] = date
             candidates_added += 1
         write_json(CANDIDATES_PATH, cands)
 
-    run_path = safe_join(ARCHIVE_ROOT, "_Runs", run_id + ".md")
+    # Persist this run's trends so the dashboard can surface them (and so a
+    # later --rebuild still shows the most recent synthesis).
+    if trends:
+        write_json(LATEST_PATH, {"run_id": run_id, "date": date, "trends": trends})
+
+    run_path = safe_join(ARCHIVE_ROOT, RUNS_DIR, run_id + ".md")
     write_text(run_path, render_run_note(state, written, skipped_existing, missing,
                                          trends, candidates_added))
-    write_text(safe_join(ARCHIVE_ROOT, "_AI Archive MOC.md"), render_moc(index))
+    ecount = write_entity_notes(index)
+    write_dashboard_and_map(index)
     write_json(INDEX_PATH, index)
 
     print("[publish] {} new notes, {} skipped (existing), {} unsummarized".format(
         len(written) - skipped_existing, skipped_existing, len(missing)))
-    print("[publish] {} entity notes, {} total archive notes".format(entity_written, len(index["notes"])))
+    print("[publish] {} entity notes, {} total archive notes".format(ecount, len(index["notes"])))
     if missing:
         print("[publish] unsummarized indexes: {}".format(missing))
     if not args.no_commit:
-        commit_and_push(run_id, len(written), push=not args.no_push)
+        commit_and_push("ai-collect: {} ({}件)".format(run_id, len(written)), push=not args.no_push)
     print("[publish] run note: {}".format(run_path))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--items", default=ITEMS_PATH)
+    ap.add_argument("--notes", default=NOTES_PATH)
+    ap.add_argument("--rebuild", action="store_true",
+                    help="Rebuild index and all derived files from topic-note frontmatter.")
+    ap.add_argument("--no-push", action="store_true")
+    ap.add_argument("--no-commit", action="store_true")
+    args = ap.parse_args()
+
+    if not os.path.isdir(VAULT):
+        raise SystemExit("Vault not found: {}".format(VAULT))
+    if args.rebuild:
+        do_rebuild(args)
+    else:
+        do_publish(args)
 
 
 if __name__ == "__main__":
