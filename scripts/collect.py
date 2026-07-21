@@ -244,15 +244,20 @@ def build_clusters(articles, seen):
         ents = ent.extract_from_articles(arts)
 
         # Relevance gate. General-tech feeds (The Verge, HN front page) carry a
-        # lot of non-AI noise - console ornaments, monitor deals, subway-signal
-        # history. On a light day the ranked tail scrapes into that, diluting an
-        # archive that is supposed to be *AI* information. A cluster survives
-        # only with some AI signal: a known entity, an AI term, or an
-        # AI/research feed of origin. Kept deliberately loose so a genuine AI
-        # story with no dictionary hit yet still gets through.
+        # lot of non-AI noise - console ornaments, monitor deals, a three.js
+        # station map. On a light day the ranked tail scrapes into that,
+        # diluting an archive that is supposed to be *AI* information.
+        #
+        # A lone org entity is NOT enough: "GitHub" fires on any github.io URL,
+        # and companies get named in non-AI stories. Require real AI signal - an
+        # AI term, a model/tech/benchmark node, an AI/research feed origin, or at
+        # least two entities together. Kept loose enough that a genuine AI story
+        # with no dictionary hit yet still rides in on its feed category.
+        concrete = any(e["type"] in ("model", "tech", "benchmark") for e in ents)
         has_signal = (
-            bool(ents)
-            or gd.ai_relevance(arts) >= 1
+            gd.ai_relevance(arts) >= 1
+            or concrete
+            or len(ents) >= 2
             or any(a["category"] in ("ai", "research") for a in arts)
         )
         if not has_signal:

@@ -288,6 +288,11 @@
           "date": "2026-07-21",
           "path": "2026/07/2026-07-21-firefox-in-webassembly-d545.md",
           "title_ja": "Firefox in WebAssembly"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "2026/07/2026-07-21-anthropic-s-landmark-1-5b-copyright-settlement-is-approved-758b.md",
+          "title_ja": "Anthropicの15億ドル著作権和解が最終承認"
         }
       ],
       "type": "org"
@@ -1790,6 +1795,17 @@
       ],
       "tier": "A",
       "title_ja": "ActiveVisionベンチマーク：MLLMの能動的視覚観察を測定"
+    },
+    "2026/07/2026-07-21-anthropic-s-landmark-1-5b-copyright-settlement-is-approved-758b.md": {
+      "date": "2026-07-21",
+      "run_id": "2026-07-21-1133",
+      "tags": [
+        "training",
+        "regulation",
+        "funding"
+      ],
+      "tier": "A",
+      "title_ja": "Anthropicの15億ドル著作権和解が最終承認"
     },
     "2026/07/2026-07-21-as-ai-spending-climbs-enterprises-get-serious-about-token-co-c1eb.md": {
       "date": "2026-07-21",
