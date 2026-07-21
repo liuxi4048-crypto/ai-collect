@@ -33,6 +33,13 @@ ITEMS_PATH = os.path.join(DATA_DIR, "pending_items.json")
 SEEN_RETENTION_DAYS = 90
 DEFAULT_LIMIT = 70
 TIER_A_COUNT = 15
+
+# arXiv's three feeds return ~200 fresh preprints per window, so without a cap
+# the research category floods every selection and the archive degrades into an
+# arXiv mirror - crowding out the news/industry signal and burying the notable
+# papers under the niche tail. Cap keeps each cycle balanced: it takes the
+# top-scored research and lets the rest age out of the feed window.
+DEFAULT_RESEARCH_CAP = 25
 MAX_ENTRIES_PER_FEED = 80
 FETCH_TIMEOUT = 30
 FETCH_WORKERS = 8
@@ -288,10 +295,28 @@ def build_clusters(articles, seen):
     return candidates, skipped_seen, dropped_offtopic
 
 
+def select(candidates, limit, research_cap):
+    """Top `limit` clusters, but at most `research_cap` from the research
+    category so a fresh arXiv window cannot crowd out everything else."""
+    out, research = [], 0
+    dropped_research = 0
+    for c in candidates:
+        if c["category"] == "research":
+            if research >= research_cap:
+                dropped_research += 1
+                continue
+            research += 1
+        out.append(c)
+        if len(out) >= limit:
+            break
+    return out, dropped_research
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=DEFAULT_LIMIT)
     ap.add_argument("--tier-a", type=int, default=TIER_A_COUNT)
+    ap.add_argument("--research-cap", type=int, default=DEFAULT_RESEARCH_CAP)
     ap.add_argument("--out", default=ITEMS_PATH)
     args = ap.parse_args()
 
@@ -307,7 +332,10 @@ def main():
     print("[collect] {} new clusters ({} articles already archived, {} off-topic dropped)".format(
         len(candidates), skipped, offtopic))
 
-    selected = candidates[:args.limit]
+    selected, dropped_research = select(candidates, args.limit, args.research_cap)
+    if dropped_research:
+        print("[collect] research cap {}: dropped {} lower-ranked research clusters".format(
+            args.research_cap, dropped_research))
     for i, c in enumerate(selected, 1):
         c["index"] = i
         c["tier"] = "A" if i <= args.tier_a else "B"

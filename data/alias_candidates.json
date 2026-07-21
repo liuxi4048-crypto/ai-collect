@@ -7,6 +7,20 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "adaptive adversaries": {
+      "count": 1,
+      "example": "LLMエージェント向け21シナリオの適応的マルチラウンド攻撃ベンチ",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "agent skills": {
+      "count": 1,
+      "example": "知識をフォルダ化しエージェントが漸進的開示で読む標準規格",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
     "alfworld": {
       "count": 3,
       "example": "エージェント型強化学習の実験環境として使用された",
@@ -35,12 +49,26 @@
       "last_seen": "2026-07-21",
       "type": "org"
     },
+    "cat-gs": {
+      "count": 1,
+      "example": "大規模シーン向け3D Gaussian Splattingのレンダリング高速化",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
     "chatgpt work": {
       "count": 3,
       "example": "職種別ワークフロー向けOpenAIのエンタープライズ製品",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "product"
+    },
+    "choroplethmap-bench": {
+      "count": 1,
+      "example": "基盤モデルの地図空間理解を評価する12,000問のベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
     },
     "claude fable 5": {
       "count": 3,
@@ -63,12 +91,33 @@
       "last_seen": "2026-07-21",
       "type": "org"
     },
+    "d-nova": {
+      "count": 1,
+      "example": "3D NANDメモリ内でベクトル類似度検索を行うストレージ内検索アクセラレータ",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
     "deepseek v4 pro": {
       "count": 3,
       "example": "DeepSeekのオープンMoEフラッグシップ",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "deliver": {
+      "count": 1,
+      "example": "知識グラフ探索によるRLベースのファクトチェック",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "ear": {
+      "count": 1,
+      "example": "LLMエージェントの長期記憶を高める探索・同化の内省サイクル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
     },
     "epoch ai": {
       "count": 1,
@@ -90,6 +139,20 @@
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "gigapath-flash": {
+      "count": 1,
+      "example": "全スライド画像対応の効率化された病理基盤モデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "gigatime-flash": {
+      "count": 1,
+      "example": "腫瘍微小環境解析向けの効率化された病理基盤モデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
     },
     "glm-5.2": {
       "count": 3,
@@ -119,6 +182,13 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "healthbench": {
+      "count": 1,
+      "example": "臨床LLM評価の公開ベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
     "helios": {
       "count": 3,
       "example": "AMDのAIプラットフォーム。Microsoft が Azure で採用",
@@ -129,6 +199,13 @@
     "inkling": {
       "count": 3,
       "example": "Thinking Machines Lab の初のオープンウェイトモデル(975B総/41Bアクティブ)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "intern-biobreaker": {
+      "count": 1,
+      "example": "生物レッドチーム専門モデル(バイオ防御リスク評価)",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
@@ -161,6 +238,27 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "mada-rl": {
+      "count": 1,
+      "example": "小型モデル向けのマルチエージェント討論型強化学習フレームワーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "medrbench": {
+      "count": 1,
+      "example": "臨床LLMの過信回答評価に用いる公開ベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "mobius learning": {
+      "count": 1,
+      "example": "Transformerの深さ軸を巡回シフトさせる訓練手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
     "muon": {
       "count": 3,
       "example": "AdamWに対抗する新しいオプティマイザ。エージェント型RLでの有効性が検証された",
@@ -189,9 +287,37 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "ontoextend": {
+      "count": 1,
+      "example": "LLMとRAGによる要求駆動型オントロジー拡張フレームワーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "openpangu-7b": {
+      "count": 1,
+      "example": "視覚言語ナビゲーションに適応された基盤モデル",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
     "pagedweight": {
       "count": 3,
       "example": "MoE LLM推論向けの動的な重み量子化・KVキャッシュ管理手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "pancasila-dilemmas": {
+      "count": 1,
+      "example": "インドネシアの価値観に基づく1,834問のLLM価値衝突評価データセット",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "ppl-factory": {
+      "count": 1,
+      "example": "perplexityベースのタスク適応・予算適応データ選別",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
@@ -224,12 +350,26 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "real-pocqi": {
+      "count": 1,
+      "example": "臨床LLMの過信回答評価に用いる公開ベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
     "seedance 2.0": {
       "count": 1,
       "example": "Neill Blomkamp監督の短編『Nightborne』制作に使われたAI動画生成モデル",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "selectinfer": {
+      "count": 1,
+      "example": "エッジ向けニューロン単位の選択ロード・計算による推論最適化",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
     },
     "shellflow": {
       "count": 3,
@@ -241,6 +381,13 @@
     "sqrl": {
       "count": 3,
       "example": "Feyn AI の Text-to-SQL モデルファミリー",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "tabpfn": {
+      "count": 1,
+      "example": "表形式データ向けTransformerベース基盤モデル",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
@@ -266,6 +413,27 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "topl": {
+      "count": 1,
+      "example": "post-trainingをトークン単位の正誤予測とするオフポリシー学習",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "trim": {
+      "count": 1,
+      "example": "エージェント軌跡を最小化してAI生成コードの冗長化を抑える手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "vehbench": {
+      "count": 1,
+      "example": "LLMの振動エネルギーハーベスタ設計を段階別に診断するベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
     "vera rubin": {
       "count": 3,
       "example": "NVIDIAの次世代GPUプラットフォーム。ポストトレーニング向けのコスト効率を強調",
@@ -276,6 +444,13 @@
     "wandr": {
       "count": 1,
       "example": "Perplexityのリサーチエージェント評価ベンチマーク。500件の証拠ベースタスク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "worldcuparena": {
+      "count": 1,
+      "example": "試合前情報からの予測でLLM・リサーチエージェントを評価する動的ベンチマーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "benchmark"
