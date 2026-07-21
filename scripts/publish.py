@@ -36,7 +36,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import entities as ent
 from slugify import make_filename, entity_filename
-from vocab import TAG_GROUPS, filter_tags
+from vocab import TAG_GROUPS, filter_tags, primary_group
 from collect import load_seen, save_seen, normalize_url
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -70,6 +70,13 @@ TYPE_ORDER = ("org", "model", "tech", "benchmark")
 TYPE_FOLDER = {"org": "Organizations", "model": "Models",
                "tech": "Technologies", "benchmark": "Benchmarks"}
 TYPE_EMOJI = {"org": "🏢", "model": "🧠", "tech": "⚙️", "benchmark": "📊"}
+
+# Topic notes are filed by subject, not by date - the date lives in the
+# filename (YYYY-MM-DD-...), so a type folder still sorts chronologically. The
+# numeric prefix fixes the explorer's order to match the dashboard.
+GROUP_FOLDER = {name: "{}_{}".format(i + 1, name)
+                for i, (name, _tags) in enumerate(TAG_GROUPS)}
+UNCAT_FOLDER = "9_その他"
 # Obsidian canvas preset colours: 1 red 2 orange 3 yellow 4 green 5 cyan 6 purple.
 TYPE_COLOR = {"org": "5", "model": "4", "tech": "6", "benchmark": "2"}
 
@@ -120,8 +127,12 @@ def note_link_target(rel_path):
     return os.path.splitext(os.path.basename(rel_path))[0]
 
 
-def topic_rel_path(date, filename):
-    return "{}/{}/{}/{}".format(TOPICS_DIR, date[:4], date[5:7], filename)
+def topic_group_folder(tags):
+    return GROUP_FOLDER.get(primary_group(tags), UNCAT_FOLDER)
+
+
+def topic_rel_path(tags, filename):
+    return "{}/{}/{}".format(TOPICS_DIR, topic_group_folder(tags), filename)
 
 
 def entity_rel_path(name, etype):
@@ -372,6 +383,9 @@ def render_dashboard(index, latest):
          "> `/ai-collect` で継続収集し、日本語で要約して溜めている。",
          "> **{}** トピック ／ **{}** エンティティ ／ **{}** 回の収集 ・ 最終更新 `{}`".format(
              len(notes), len(ents), len(runs), updated),
+         "> ",
+         "> `Topics/` は**情報の種類**で分類（モデルと能力／研究と評価／基盤とコスト／"
+         "安全性と規制／産業）。ファイル名の日付で各フォルダ内が時系列に並ぶ。",
          ""]
 
     # Latest trends — the single most valuable thing to surface first.
@@ -557,7 +571,9 @@ def rebuild_index_from_vault():
                 continue
             ents.append({"name": name, "type": etype})
         meta = {
-            "date": fm.get("date", rel[len(TOPICS_DIR) + 1:][:10]),
+            # Date lives in the filename (YYYY-MM-DD-...) now that folders are
+            # by subject, so fall back to the basename, not the path.
+            "date": fm.get("date") or os.path.basename(rel)[:10],
             "title_ja": fm.get("title", note_link_target(rel)),
             "tags": filter_tags(fm.get("tags")),
             "tier": fm.get("tier", "B"),
@@ -654,9 +670,10 @@ def do_publish(args):
             missing.append(idx)
             continue
 
+        tags = filter_tags(note.get("tags"))
         filename = make_filename(date, item["representative_title"], item["representative_url"])
-        rel_path = topic_rel_path(date, filename)
-        abs_path = safe_join(ARCHIVE_ROOT, TOPICS_DIR, date[:4], date[5:7], filename)
+        rel_path = topic_rel_path(tags, filename)
+        abs_path = safe_join(ARCHIVE_ROOT, TOPICS_DIR, topic_group_folder(tags), filename)
 
         if os.path.exists(abs_path):
             skipped_existing += 1
@@ -671,7 +688,7 @@ def do_publish(args):
 
         meta = {
             "date": date, "title_ja": note["title_ja"],
-            "tags": filter_tags(note.get("tags")), "tier": item["tier"],
+            "tags": tags, "tier": item["tier"],
             "run_id": run_id, "entities": item.get("entities", []),
         }
         index_note(index, rel_path, meta)
