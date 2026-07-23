@@ -75,6 +75,18 @@
       "title_ja": "Vercel AI Gateway、ストリーミング文字起こしに対応",
       "url": "https://vercel.com/changelog/ai-gateway-now-supports-streaming-transcription"
     },
+    "Topics/1_Web・フロントエンド/2026-07-23-better-than-next-js-is-rust-finally-ready-for-full-stack-web-6c6a.md": {
+      "basename": "2026-07-23-better-than-next-js-is-rust-finally-ready-for-full-stack-web-6c6a",
+      "category": "web",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1932",
+      "tags": [
+        "framework",
+        "language"
+      ],
+      "title_ja": "Next.jsより良い? RustはついにフルスタックWeb開発に耐えるか — Topcoat登場",
+      "url": "https://dev.to/francescoxx/better-than-nextjs-is-rust-finally-ready-for-full-stack-web-development-introducing-topcoat-2h09"
+    },
     "Topics/1_Web・フロントエンド/2026-07-23-browser-testing-gets-hard-when-the-browser-becomes-part-of-t-6c0a.md": {
       "basename": "2026-07-23-browser-testing-gets-hard-when-the-browser-becomes-part-of-t-6c0a",
       "category": "web",
@@ -185,6 +197,32 @@
       ],
       "title_ja": "デプロイメントポリシーでデプロイ作成元を制限",
       "url": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies"
+    },
+    "Topics/1_Web・フロントエンド/2026-07-23-construir-un-sdk-de-m-sica-adaptativa-para-juegos-con-la-web-336f.md": {
+      "basename": "2026-07-23-construir-un-sdk-de-m-sica-adaptativa-para-juegos-con-la-web-336f",
+      "category": "web",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "frontend",
+        "performance",
+        "architecture"
+      ],
+      "title_ja": "Web Audio APIでゲーム向け適応音楽SDKを作る(スペイン語)",
+      "url": "https://dev.to/adrian_368e1d3e691afab697/construir-un-sdk-de-musica-adaptativa-para-juegos-con-la-web-audio-api-2ao1"
+    },
+    "Topics/1_Web・フロントエンド/2026-07-23-cool-shadcn-libraries-6521.md": {
+      "basename": "2026-07-23-cool-shadcn-libraries-6521",
+      "category": "web",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1802",
+      "tags": [
+        "framework",
+        "frontend",
+        "tooling"
+      ],
+      "title_ja": "クールなshadcnライブラリ集",
+      "url": "https://dev.to/shreyvijayvargiya/cool-shadcn-libraries-b36"
     },
     "Topics/1_Web・フロントエンド/2026-07-23-data-downloaded-by-vercel-sandbox-is-now-free-2f44.md": {
       "basename": "2026-07-23-data-downloaded-by-vercel-sandbox-is-now-free-2f44",
@@ -994,6 +1032,19 @@
       "title_ja": "DSL（ドメイン固有言語）がLLM信頼性を確保",
       "url": "https://martinfowler.com/articles/llm-and-dsls.html"
     },
+    "Topics/2_バックエンド・API/2026-07-23-ebpf-for-networking-xdp-6234.md": {
+      "basename": "2026-07-23-ebpf-for-networking-xdp-6234",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "backend",
+        "infra",
+        "performance"
+      ],
+      "title_ja": "ネットワーク向けeBPF（XDP）",
+      "url": "https://dev.to/godofgeeks/ebpf-for-networking-xdp-4d6d"
+    },
     "Topics/2_バックエンド・API/2026-07-23-fetching-instagram-data-at-scale-in-python-from-one-request-e79e.md": {
       "basename": "2026-07-23-fetching-instagram-data-at-scale-in-python-from-one-request-e79e",
       "category": "backend",
@@ -1211,6 +1262,19 @@
       "title_ja": "NumPy4J：NumPy風の数値計算をJavaに",
       "url": "https://dev.to/darius_nica/introducing-numpy4j-bringing-numpy-style-computing-tojava-3gha"
     },
+    "Topics/2_バックエンド・API/2026-07-23-introducing-tinbase-local-supabase-without-docker-one-proces-64bb.md": {
+      "basename": "2026-07-23-introducing-tinbase-local-supabase-without-docker-one-proces-64bb",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "backend",
+        "database",
+        "tooling"
+      ],
+      "title_ja": "tinbase：Dockerなしのローカルsupabase(1プロセス・本物のPostgres)",
+      "url": "https://dev.to/russel_dsouza_bd584a3cb2a/introducing-tinbase-local-supabase-without-docker-one-process-real-postgres-o0b"
+    },
     "Topics/2_バックエンド・API/2026-07-23-java-concurrency-programming-learning-roadmap-understanding-3015.md": {
       "basename": "2026-07-23-java-concurrency-programming-learning-roadmap-understanding-3015",
       "category": "backend",
@@ -1273,6 +1337,19 @@
       "title_ja": "ログインがきっかり10秒固まった。犯人は自前のセキュリティヘッダ",
       "url": "https://dev.to/authagonal/our-login-hung-for-exactly-10-seconds-our-own-security-headers-did-it-45aa"
     },
+    "Topics/2_バックエンド・API/2026-07-23-part-2-extends-vs-implements-interface-methods-variables-b22b.md": {
+      "basename": "2026-07-23-part-2-extends-vs-implements-interface-methods-variables-b22b",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1922",
+      "tags": [
+        "language",
+        "backend",
+        "tutorial"
+      ],
+      "title_ja": "第2部：extends vs implements、インターフェースのメソッドと変数",
+      "url": "https://dev.to/rajeshbhola1/part-2-extends-vs-implements-interface-methods-variables-5632"
+    },
     "Topics/2_バックエンド・API/2026-07-23-porting-my-rust-kvm-hypervisor-to-arm64-running-the-binary-aa77.md": {
       "basename": "2026-07-23-porting-my-rust-kvm-hypervisor-to-arm64-running-the-binary-aa77",
       "category": "backend",
@@ -1285,6 +1362,19 @@
       ],
       "title_ja": "Rust製KVMハイパーバイザをARM64へ移植：バイナリ実行編",
       "url": "https://dev.to/stjepan86/porting-my-rust-kvm-hypervisor-to-arm64-running-the-binary-79m"
+    },
+    "Topics/2_バックエンド・API/2026-07-23-pulling-business-rules-out-of-your-service-isn-t-a-rewrite-i-9938.md": {
+      "basename": "2026-07-23-pulling-business-rules-out-of-your-service-isn-t-a-rewrite-i-9938",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1852",
+      "tags": [
+        "backend",
+        "testing",
+        "architecture"
+      ],
+      "title_ja": "サービスからビジネスルールを引き出すのは書き直しでなく『継ぎ目(seam)』",
+      "url": "https://dev.to/snehasishkonger/pulling-business-rules-out-of-your-service-isnt-a-rewrite-its-a-seam-1o50"
     },
     "Topics/2_バックエンド・API/2026-07-23-python-fundamentals-for-a-javascript-developer-6b00.md": {
       "basename": "2026-07-23-python-fundamentals-for-a-javascript-developer-6b00",
@@ -1500,6 +1590,32 @@
       ],
       "title_ja": "TypeScript 5.5をやさしく解説：推論される型述語をマスターする",
       "url": "https://dev.to/dineshgowtham/typescript-55-explained-simply-mastering-inferred-type-predicates-4d7d"
+    },
+    "Topics/2_バックエンド・API/2026-07-23-understanding-authentication-concepts-e625.md": {
+      "basename": "2026-07-23-understanding-authentication-concepts-e625",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1831",
+      "tags": [
+        "backend",
+        "security",
+        "tutorial"
+      ],
+      "title_ja": "認証の概念を理解する",
+      "url": "https://dev.to/esrafil_d3d24607b2/understanding-authentication-concepts-2343"
+    },
+    "Topics/2_バックエンド・API/2026-07-23-unhandled-promise-rejections-in-node-js-why-they-silently-ki-82b1.md": {
+      "basename": "2026-07-23-unhandled-promise-rejections-in-node-js-why-they-silently-ki-82b1",
+      "category": "backend",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1842",
+      "tags": [
+        "language",
+        "backend",
+        "testing"
+      ],
+      "title_ja": "Node.jsの未処理Promise拒否：なぜジョブを黙って殺すのか",
+      "url": "https://dev.to/faisal_nadeem_752520c3e03/unhandled-promise-rejections-in-nodejs-why-they-silently-kill-jobs-dl2"
     },
     "Topics/2_バックエンド・API/2026-07-23-what-18-months-building-a-self-hosted-media-server-taught-me-b758.md": {
       "basename": "2026-07-23-what-18-months-building-a-self-hosted-media-server-taught-me-b758",
@@ -1725,6 +1841,19 @@
       "title_ja": "Fairphone 6の広角カメラ、実験的Linux対応",
       "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/"
     },
+    "Topics/4_モバイル/2026-07-23-i-thought-desktop-copilots-would-win-then-i-tried-building-a-8e50.md": {
+      "basename": "2026-07-23-i-thought-desktop-copilots-would-win-then-i-tried-building-a-8e50",
+      "category": "mobile",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "architecture",
+        "mobile",
+        "ai-dev"
+      ],
+      "title_ja": "デスクトップcopilotが勝つと思っていたが、Androidでエージェントを作ってみた",
+      "url": "https://dev.to/lars_winstand/i-thought-desktop-copilots-would-win-then-i-tried-building-agents-on-android-38j0"
+    },
     "Topics/4_モバイル/2026-07-23-myzubster-mobile-nfc-payments-and-the-road-to-a-fully-decent-6c72.md": {
       "basename": "2026-07-23-myzubster-mobile-nfc-payments-and-the-road-to-a-fully-decent-6c72",
       "category": "mobile",
@@ -1835,6 +1964,19 @@
       ],
       "title_ja": "Aether-7B-5Attn：5種の異種アテンションを持つ完全OSSのMoE基盤モデル",
       "url": "https://dev.to/ai_openfree_b23025ef075cf/aether-7b-5attn-vidrafts-fully-open-source-moe-foundation-model-with-five-heterogeneous-attention-2ilh"
+    },
+    "Topics/5_AI開発/2026-07-23-agentic-resource-discovery-and-ai-catalog-json-2f86.md": {
+      "basename": "2026-07-23-agentic-resource-discovery-and-ai-catalog-json-2f86",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1812",
+      "tags": [
+        "api",
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "Agentic Resource Discoveryとai-catalog.json",
+      "url": "https://dev.to/turva-dev/agentic-resource-discovery-and-ai-catalogjson-3c9c"
     },
     "Topics/5_AI開発/2026-07-23-agentscaffold-memory-peer-review-and-continuous-improvement-4b1b.md": {
       "basename": "2026-07-23-agentscaffold-memory-peer-review-and-continuous-improvement-4b1b",
@@ -2019,6 +2161,19 @@
       "title_ja": "素朴なチャンク分割をやめる：Spring AIでのLate Chunking RAG",
       "url": "https://dev.to/machinecodingmaster/ditch-naive-chunking-late-chunking-rag-in-spring-ai-3e67"
     },
+    "Topics/5_AI開発/2026-07-23-do-you-need-an-mcp-server-for-your-product-4372.md": {
+      "basename": "2026-07-23-do-you-need-an-mcp-server-for-your-product-4372",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1812",
+      "tags": [
+        "api",
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "あなたのプロダクトにMCPサーバは必要か",
+      "url": "https://dev.to/pykero/do-you-need-an-mcp-server-for-your-product-2dm8"
+    },
     "Topics/5_AI開発/2026-07-23-every-word-i-say-gets-tokenized-this-library-does-it-1000x-f-9441.md": {
       "basename": "2026-07-23-every-word-i-say-gets-tokenized-this-library-does-it-1000x-f-9441",
       "category": "ai-dev",
@@ -2043,6 +2198,30 @@
       ],
       "title_ja": "FROST家族統治モデルで『AIの第一性原理』を構築する(中国語)",
       "url": "https://dev.to/llimage/yong-frost-jia-zu-zhi-li-mo-xing-gou-jian-ni-de-ai-di-xing-yuan-li--4gc2"
+    },
+    "Topics/5_AI開発/2026-07-23-gemini-3-6-flash-17-fewer-tokens-lower-cost-and-a-python-col-7469.md": {
+      "basename": "2026-07-23-gemini-3-6-flash-17-fewer-tokens-lower-cost-and-a-python-col-7469",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "performance",
+        "ai-dev"
+      ],
+      "title_ja": "Gemini 3.6 Flash：トークン17%減・低コスト・頼まなくてもPython冷起動修正",
+      "url": "https://dev.to/devsignal/gemini-36-flash-17-fewer-tokens-lower-cost-and-a-python-cold-start-fix-you-didnt-have-to-ask-45ak"
+    },
+    "Topics/5_AI開発/2026-07-23-gemini-3-6-flash-3-5-flash-lite-developer-guide-b21e.md": {
+      "basename": "2026-07-23-gemini-3-6-flash-3-5-flash-lite-developer-guide-b21e",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1831",
+      "tags": [
+        "release",
+        "ai-dev"
+      ],
+      "title_ja": "Gemini 3.6 Flash & 3.5 Flash-Lite：開発者ガイド",
+      "url": "https://dev.to/googleai/gemini-36-flash-35-flash-lite-developer-guide-268i"
     },
     "Topics/5_AI開発/2026-07-23-gemini-3-6-flash-and-gemini-3-5-flash-lite-are-now-available-8dc7.md": {
       "basename": "2026-07-23-gemini-3-6-flash-and-gemini-3-5-flash-lite-are-now-available-8dc7",
@@ -2106,6 +2285,19 @@
       "title_ja": "AIエンドポイントは従来のAPIフローをどう変えるか",
       "url": "https://dev.to/gramli/how-ai-endpoints-change-the-traditional-api-flow-3773"
     },
+    "Topics/5_AI開発/2026-07-23-i-built-a-desktop-ai-agent-that-writes-its-own-tools-behind-2d9b.md": {
+      "basename": "2026-07-23-i-built-a-desktop-ai-agent-that-writes-its-own-tools-behind-2d9b",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "testing",
+        "tooling",
+        "ai-dev"
+      ],
+      "title_ja": "自分でツールを書くデスクトップAIエージェントを作った(検証ゲート付き)",
+      "url": "https://dev.to/moriwodevai/i-built-a-desktop-ai-agent-that-writes-its-own-tools-behind-verification-gates-2jfl"
+    },
     "Topics/5_AI開発/2026-07-23-i-built-a-state-management-workflow-for-long-ai-assisted-pro-112a.md": {
       "basename": "2026-07-23-i-built-a-state-management-workflow-for-long-ai-assisted-pro-112a",
       "category": "ai-dev",
@@ -2142,6 +2334,19 @@
       ],
       "title_ja": "AIチャットボットでなく『AI従業員』を作った",
       "url": "https://dev.to/darshanraval/i-built-an-ai-employee-instead-of-an-ai-chatbot-5i"
+    },
+    "Topics/5_AI開発/2026-07-23-i-let-my-ai-assistant-read-and-reply-to-my-emails-for-a-week-ada6.md": {
+      "basename": "2026-07-23-i-let-my-ai-assistant-read-and-reply-to-my-emails-for-a-week-ada6",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "backend",
+        "api",
+        "ai-dev"
+      ],
+      "title_ja": "AIアシスタントに1週間メールを読ませ返信させた：実際に起きたこと",
+      "url": "https://dev.to/twinkalp10/i-let-my-ai-assistant-read-and-reply-to-my-emails-for-a-week-heres-what-actually-happened-33ep"
     },
     "Topics/5_AI開発/2026-07-23-i-tested-kimi-k3-on-a-real-astro-codebase-strong-cross-file-ca1f.md": {
       "basename": "2026-07-23-i-tested-kimi-k3-on-a-real-astro-codebase-strong-cross-file-ca1f",
@@ -2227,6 +2432,19 @@
       ],
       "title_ja": "ループエンジニアリング：エージェントが自分のチェックをreward hackするのを止める",
       "url": "https://dev.to/reporails/loop-engineering-how-to-stop-your-agent-reward-hacking-its-own-checks-4fpn"
+    },
+    "Topics/5_AI開発/2026-07-23-mcp-just-killed-the-handshake-your-server-is-next-85f2.md": {
+      "basename": "2026-07-23-mcp-just-killed-the-handshake-your-server-is-next-85f2",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1932",
+      "tags": [
+        "api",
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "MCPがハンドシェイクを廃止した(次はあなたのサーバだ)",
+      "url": "https://dev.to/temrel/mcp-just-killed-the-handshake-your-server-is-next-47gj"
     },
     "Topics/5_AI開発/2026-07-23-mcpmark-v2-insforge-on-sonnet-4-6-4b1f.md": {
       "basename": "2026-07-23-mcpmark-v2-insforge-on-sonnet-4-6-4b1f",
@@ -2516,6 +2734,19 @@
       "title_ja": "AIエージェントの汚い秘密（デモ）",
       "url": "https://dev.to/sylwia-lask/the-dirty-secret-behind-ai-agents-demo--273d"
     },
+    "Topics/5_AI開発/2026-07-23-the-local-ai-developer-part-2-a-reality-check-after-real-wor-eda3.md": {
+      "basename": "2026-07-23-the-local-ai-developer-part-2-a-reality-check-after-real-wor-eda3",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "infra",
+        "tooling",
+        "ai-dev"
+      ],
+      "title_ja": "ローカルAI開発者(第2部)：実地テスト後の現実チェック",
+      "url": "https://dev.to/david_velle_abel/the-local-ai-developer-part-2-a-reality-check-after-real-world-testing-3532"
+    },
     "Topics/5_AI開発/2026-07-23-the-safety-screen-interrupted-the-safety-test-9641.md": {
       "basename": "2026-07-23-the-safety-screen-interrupted-the-safety-test-9641",
       "category": "ai-dev",
@@ -2610,6 +2841,18 @@
       ],
       "title_ja": "画像とラベルが一致しないとき 第2部：OCRとVQAによる特徴ベース検出",
       "url": "https://dev.to/ebrahim_arian_37097b72c7e/when-the-picture-doesnt-match-the-label-part-2-feature-based-detection-with-ocr-and-vqa-15n7"
+    },
+    "Topics/5_AI開発/2026-07-23-which-business-processes-should-you-automate-with-ai-first-a-fb74.md": {
+      "basename": "2026-07-23-which-business-processes-should-you-automate-with-ai-first-a-fb74",
+      "category": "ai-dev",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1812",
+      "tags": [
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "どの業務プロセスをまずAIで自動化すべきか：5因子スコアリングモデル",
+      "url": "https://dev.to/dhruvjoshi9/which-business-processes-should-you-automate-with-ai-first-a-5-factor-scoring-model-18j7"
     },
     "Topics/5_AI開発/2026-07-23-you-recorded-the-incident-now-prove-your-fix-actually-works-1448.md": {
       "basename": "2026-07-23-you-recorded-the-incident-now-prove-your-fix-actually-works-1448",
@@ -2809,6 +3052,18 @@
       "title_ja": "高可用性マルチリージョン Cloud Run サービスが簡単に",
       "url": "https://cloud.google.com/blog/products/serverless/cloud-run-multi-region-services-enhanced-for-high-availability/"
     },
+    "Topics/6_クラウド・インフラ/2026-07-23-microsoft-working-to-fix-exchange-online-mailbox-quarantine-a22d.md": {
+      "basename": "2026-07-23-microsoft-working-to-fix-exchange-online-mailbox-quarantine-a22d",
+      "category": "cloud",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "cloud",
+        "security"
+      ],
+      "title_ja": "Microsoft、Exchange Onlineのメールボックス隔離問題を修正中",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/"
+    },
     "Topics/6_クラウド・インフラ/2026-07-23-now-in-preview-find-and-fix-software-vulnerabilities-with-co-bc73.md": {
       "basename": "2026-07-23-now-in-preview-find-and-fix-software-vulnerabilities-with-co-bc73",
       "category": "cloud",
@@ -2857,6 +3112,19 @@
       ],
       "title_ja": "クラウドストレージ月額制を廃止、2TBの生涯ライセンスが$59",
       "url": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/"
+    },
+    "Topics/6_クラウド・インフラ/2026-07-23-storage-credentials-in-databricks-unity-catalog-aws-the-secu-bd90.md": {
+      "basename": "2026-07-23-storage-credentials-in-databricks-unity-catalog-aws-the-secu-bd90",
+      "category": "cloud",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "cloud",
+        "security",
+        "data"
+      ],
+      "title_ja": "Databricks Unity Catalog(AWS)のStorage Credentials",
+      "url": "https://dev.to/dinakar_s/storage-credentials-in-databricks-unity-catalog-aws-the-security-backbone-you-cant-ignore-3pnj"
     },
     "Topics/6_クラウド・インフラ/2026-07-23-supercharging-pgvector-4x-faster-hnsw-vector-search-with-all-01ea.md": {
       "basename": "2026-07-23-supercharging-pgvector-4x-faster-hnsw-vector-search-with-all-01ea",
@@ -2969,6 +3237,19 @@
       ],
       "title_ja": "AIエージェント入門：安全な構築方法",
       "url": "https://www.docker.com/blog/what-are-ai-agents/"
+    },
+    "Topics/7_DevOps・ツール/2026-07-23-ai-agents-inside-ci-cd-how-we-automated-pr-triage-and-reduce-9648.md": {
+      "basename": "2026-07-23-ai-agents-inside-ci-cd-how-we-automated-pr-triage-and-reduce-9648",
+      "category": "devops",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1852",
+      "tags": [
+        "devops",
+        "testing",
+        "ai-dev"
+      ],
+      "title_ja": "CI/CDの中のAIエージェント：PRトリアージを自動化しレビューの詰まりを減らす",
+      "url": "https://dev.to/joshua_dyson/ai-agents-inside-cicd-how-we-automated-pr-triage-and-reduced-review-bottlenecks-c16"
     },
     "Topics/7_DevOps・ツール/2026-07-23-ai-credit-pools-for-cost-centers-in-the-billing-ui-a4b8.md": {
       "basename": "2026-07-23-ai-credit-pools-for-cost-centers-in-the-billing-ui-a4b8",
@@ -3120,6 +3401,19 @@
       ],
       "title_ja": "citesure：LLM時代の引用整合性を検査するOSS(整合性ベンチ230/230)",
       "url": "https://dev.to/sybilgambleyyu/citesure-230230-integrity-bench-for-academic-citation-gates-532m"
+    },
+    "Topics/7_DevOps・ツール/2026-07-23-citesure-init-start-the-paper-with-a-citation-integrity-gate-96e6.md": {
+      "basename": "2026-07-23-citesure-init-start-the-paper-with-a-citation-integrity-gate-96e6",
+      "category": "tooling",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1821",
+      "tags": [
+        "testing",
+        "tooling",
+        "ai-dev"
+      ],
+      "title_ja": "citesure init：論文を引用整合性ゲート付きで始める",
+      "url": "https://dev.to/sybilgambleyyu/citesure-init-start-the-paper-with-a-citation-integrity-gate-1lj9"
     },
     "Topics/7_DevOps・ツール/2026-07-23-code-review-habits-that-actually-stick-0125.md": {
       "basename": "2026-07-23-code-review-habits-that-actually-stick-0125",
@@ -3294,6 +3588,19 @@
       ],
       "title_ja": "ゼロから自分のWireGuard VPNサーバを作る：学習の記録",
       "url": "https://dev.to/srijan-xi/from-zero-to-building-my-own-wireguard-vpn-server-my-learning-journey-4le3"
+    },
+    "Topics/7_DevOps・ツール/2026-07-23-gitlab-ci-cannot-connect-to-unix-var-run-docker-sock-5bf7.md": {
+      "basename": "2026-07-23-gitlab-ci-cannot-connect-to-unix-var-run-docker-sock-5bf7",
+      "category": "devops",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1852",
+      "tags": [
+        "devops",
+        "infra",
+        "tooling"
+      ],
+      "title_ja": "GitLab CIの『Cannot connect to unix:///var/run/docker.sock』",
+      "url": "https://dev.to/devopsstart/gitlab-ci-cannot-connect-to-unixvarrundockersock-1doj"
     },
     "Topics/7_DevOps・ツール/2026-07-23-how-i-reduced-ai-coding-context-by-95-3022.md": {
       "basename": "2026-07-23-how-i-reduced-ai-coding-context-by-95-3022",
@@ -3536,6 +3843,19 @@
       "title_ja": "ML Zoomcamp 第10週：ついにKubernetes",
       "url": "https://dev.to/olyray/ml-zoomcamp-week-10-kubernetes-finally-3ah5"
     },
+    "Topics/7_DevOps・ツール/2026-07-23-my-claude-code-skills-in-production-what-the-audit-taught-me-7d65.md": {
+      "basename": "2026-07-23-my-claude-code-skills-in-production-what-the-audit-taught-me-7d65",
+      "category": "tooling",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1812",
+      "tags": [
+        "devops",
+        "tooling",
+        "ai-dev"
+      ],
+      "title_ja": "本番のClaude Codeスキル：監査が教えてくれたこと",
+      "url": "https://dev.to/ohugonnot/my-claude-code-skills-in-production-what-the-audit-taught-me-2eeg"
+    },
     "Topics/7_DevOps・ツール/2026-07-23-new-copilot-usage-metrics-impact-dashboard-3710.md": {
       "basename": "2026-07-23-new-copilot-usage-metrics-impact-dashboard-3710",
       "category": "devops",
@@ -3686,6 +4006,19 @@
       "title_ja": "エージェントの会話をgitコミットに変えた(そして実際に役立つ)",
       "url": "https://dev.to/yashneil75/we-turned-agent-conversations-into-git-commits-and-its-actually-useful-183e"
     },
+    "Topics/7_DevOps・ツール/2026-07-23-why-google-gave-away-kubernetes-for-free-and-changed-cloud-c-c23e.md": {
+      "basename": "2026-07-23-why-google-gave-away-kubernetes-for-free-and-changed-cloud-c-c23e",
+      "category": "devops",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1812",
+      "tags": [
+        "cloud",
+        "devops",
+        "architecture"
+      ],
+      "title_ja": "なぜGoogleはKubernetesを無料で手放し、クラウドを永遠に変えたか",
+      "url": "https://dev.to/himanshudevgupta/why-google-gave-away-kubernetes-for-free-and-changed-cloud-computing-forever-2ccd"
+    },
     "Topics/7_DevOps・ツール/2026-07-23-you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-5d80.md": {
       "basename": "2026-07-23-you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-5d80",
       "category": "devops",
@@ -3698,6 +4031,19 @@
       ],
       "title_ja": "複数エージェント作業空間のためにアプリ全体をDocker化する必要はない",
       "url": "https://dev.to/themassiveone/you-do-not-need-to-dockerize-your-entire-app-to-run-multiple-agent-workspaces-4b9h"
+    },
+    "Topics/7_DevOps・ツール/2026-07-23-zero-trust-encrypted-backups-with-restic-on-ubuntu-24-04-4da7.md": {
+      "basename": "2026-07-23-zero-trust-encrypted-backups-with-restic-on-ubuntu-24-04-4da7",
+      "category": "devops",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1852",
+      "tags": [
+        "devops",
+        "infra",
+        "security"
+      ],
+      "title_ja": "Ubuntu 24.04でResticによるゼロトラスト暗号化バックアップ",
+      "url": "https://dev.to/jaksontate/zero-trust-encrypted-backups-with-restic-on-ubuntu-2404-4h5i"
     },
     "Topics/8_データ・DB/2026-07-23-active-players-looked-real-until-we-asked-which-sessions-cou-4f56.md": {
       "basename": "2026-07-23-active-players-looked-real-until-we-asked-which-sessions-cou-4f56",
@@ -3827,6 +4173,19 @@
       "title_ja": "銀行明細をデータ精度を落とさずCSVに変換する方法",
       "url": "https://dev.to/cleanstmt/how-to-convert-bank-statements-to-csv-without-losing-data-accuracy-2egk"
     },
+    "Topics/8_データ・DB/2026-07-23-how-to-import-json-into-mongodb-and-export-to-csv-with-data-81a6.md": {
+      "basename": "2026-07-23-how-to-import-json-into-mongodb-and-export-to-csv-with-data-81a6",
+      "category": "data",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1831",
+      "tags": [
+        "database",
+        "tooling",
+        "data"
+      ],
+      "title_ja": "JSONをMongoDBにインポートしデータマスキング付きでCSVエクスポートする",
+      "url": "https://dev.to/visualeaf/how-to-import-json-into-mongodb-and-export-to-csv-with-data-masking-58p4"
+    },
     "Topics/8_データ・DB/2026-07-23-i-counted-every-op-return-on-bitcoin-a-machine-out-wrote-all-46e8.md": {
       "basename": "2026-07-23-i-counted-every-op-return-on-bitcoin-a-machine-out-wrote-all-46e8",
       "category": "data",
@@ -3913,6 +4272,18 @@
       ],
       "title_ja": "powa-archivist 5.2.0 リリース",
       "url": "https://www.postgresql.org/about/news/powa-archivist-520-is-out-3347/"
+    },
+    "Topics/8_データ・DB/2026-07-23-power-bi-data-modeling-7a43.md": {
+      "basename": "2026-07-23-power-bi-data-modeling-7a43",
+      "category": "data",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "data",
+        "tutorial"
+      ],
+      "title_ja": "Power BI：データモデリング",
+      "url": "https://dev.to/flozy/power-bidata-modeling-39g8"
     },
     "Topics/8_データ・DB/2026-07-23-single-table-dynamodb-in-typescript-made-simple-meet-dynatab-de05.md": {
       "basename": "2026-07-23-single-table-dynamodb-in-typescript-made-simple-meet-dynatab-de05",
@@ -4196,6 +4567,18 @@
       "title_ja": "エージェント開発は基盤以上のものを必要とする",
       "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/"
     },
+    "Topics/99_総合/2026-07-23-businesses-with-ugly-ai-menu-redesigns-13b1.md": {
+      "basename": "2026-07-23-businesses-with-ugly-ai-menu-redesigns-13b1",
+      "category": "general",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1802",
+      "tags": [
+        "frontend",
+        "ai-dev"
+      ],
+      "title_ja": "AIによる醜いメニュー再デザインをした企業たち",
+      "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/"
+    },
     "Topics/99_総合/2026-07-23-canary-tokens-and-digital-tripwires-28ff.md": {
       "basename": "2026-07-23-canary-tokens-and-digital-tripwires-28ff",
       "category": "general",
@@ -4443,6 +4826,15 @@
       ],
       "title_ja": "Claude Codeで役割はコーディングからエンジニアリング判断へ変わったか",
       "url": "https://dev.to/sanasar_yuzbashyan_277daa/has-claude-code-changed-your-role-from-coding-to-making-engineering-decisions-28a0"
+    },
+    "Topics/99_総合/2026-07-23-hi-everyone-i-m-new-to-the-dev-to-community-and-i-m-excited-33bf.md": {
+      "basename": "2026-07-23-hi-everyone-i-m-new-to-the-dev-to-community-and-i-m-excited-33bf",
+      "category": "general",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1802",
+      "tags": [],
+      "title_ja": "はじめまして、Dev.toコミュニティに参加しました",
+      "url": "https://dev.to/amway_ebd82d7545f6b8fc34a/hi-everyone-im-new-to-the-devto-community-and-im-excited-to-be-here-1e0e"
     },
     "Topics/99_総合/2026-07-23-higgsfield-credits-vs-unlimited-when-to-use-which-7209.md": {
       "basename": "2026-07-23-higgsfield-credits-vs-unlimited-when-to-use-which-7209",
@@ -5332,6 +5724,19 @@
       "title_ja": "エージェント型コードのセキュリティ：自律AIが見落とすもの",
       "url": "https://dev.to/coppersundev/agentic-code-security-what-autonomous-ai-gets-wrong-2omg"
     },
+    "Topics/9_セキュリティ/2026-07-23-an-ai-escaped-its-sandbox-or-we-just-built-a-bad-sandbox-b918.md": {
+      "basename": "2026-07-23-an-ai-escaped-its-sandbox-or-we-just-built-a-bad-sandbox-b918",
+      "category": "security",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1922",
+      "tags": [
+        "security",
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "AIがサンドボックスを脱出したのか、それとも我々が悪いサンドボックスを作っただけか",
+      "url": "https://dev.to/coridev/an-ai-escaped-its-sandbox-or-we-just-built-a-bad-sandbox-352"
+    },
     "Topics/9_セキュリティ/2026-07-23-anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-0388.md": {
       "basename": "2026-07-23-anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-0388",
       "category": "security",
@@ -5485,6 +5890,19 @@
       ],
       "title_ja": "Dev log #13 Kademliaの堅牢化：P2Pセキュリティアーキテクチャの1週間",
       "url": "https://dev.to/yashksaini/dev-log-1-hardening-kademlia-a-week-of-p2p-security-architecture-and-neovim-maintenance-12jo"
+    },
+    "Topics/9_セキュリティ/2026-07-23-enterprise-architects-your-overdue-entra-decision-is-an-agen-0a6f.md": {
+      "basename": "2026-07-23-enterprise-architects-your-overdue-entra-decision-is-an-agen-0a6f",
+      "category": "security",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1831",
+      "tags": [
+        "security",
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "エンタープライズアーキテクト：先送りのEntra判断とはエージェントのCSAスキーマだ",
+      "url": "https://dev.to/astaykov/enterprise-architects-your-overdue-entra-decision-is-an-agent-csa-schema-2j5n"
     },
     "Topics/9_セキュリティ/2026-07-23-fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-51c9.md": {
       "basename": "2026-07-23-fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-51c9",
@@ -5641,6 +6059,17 @@
       ],
       "title_ja": "新InfraTrustレポートがインフラ脆弱性の優先順位付けを支援",
       "url": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/"
+    },
+    "Topics/9_セキュリティ/2026-07-23-new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-tra-c936.md": {
+      "basename": "2026-07-23-new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-tra-c936",
+      "category": "security",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1902",
+      "tags": [
+        "security"
+      ],
+      "title_ja": "新種マルウェアmsaRAT、Chrome/EdgeブラウザでC2通信を隠す",
+      "url": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/"
     },
     "Topics/9_セキュリティ/2026-07-23-next-chapter-restructuring-github-s-bug-bounty-program-d2fa.md": {
       "basename": "2026-07-23-next-chapter-restructuring-github-s-bug-bounty-program-d2fa",
@@ -5806,6 +6235,18 @@
       "tags": [],
       "title_ja": "FIFA 2026ワールドカップ違法配信サイト1000以上をUS押収",
       "url": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/"
+    },
+    "Topics/9_セキュリティ/2026-07-23-your-safety-guardrails-just-became-an-incident-response-bloc-3639.md": {
+      "basename": "2026-07-23-your-safety-guardrails-just-became-an-incident-response-bloc-3639",
+      "category": "security",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1911",
+      "tags": [
+        "security",
+        "ai-dev"
+      ],
+      "title_ja": "あなたの安全ガードレールが、インシデント対応の妨げになった",
+      "url": "https://dev.to/coridev/your-safety-guardrails-just-became-an-incident-response-blocker-3n1j"
     }
   }
 }

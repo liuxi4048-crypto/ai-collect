@@ -49,7 +49,10 @@ ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
 # Folder layout inside the archive.
 TOPICS_DIR = "Topics"
-RUNS_DIR = "Runs"
+# Run indexes are operational logs, not information; they live under 90_Meta
+# so the archive itself stays purely category-organised (2026-07-23 decision).
+RUNS_GIT_PATH = "90_Meta/Runs/ai-collect"
+RUNS_ROOT = os.path.join(VAULT, "90_Meta", "Runs", "ai-collect")
 ENTITIES_DIR = "Entities"
 MAPS_DIR = "Maps"
 DASHBOARD_NAME = "AI Archive.md"
@@ -626,8 +629,8 @@ def git(*args, cwd=VAULT, check=True):
 
 
 def commit_and_push(message, push=True):
-    git("add", "--", ARCHIVE_DIRNAME)
-    staged = git("diff", "--cached", "--quiet", "--", ARCHIVE_DIRNAME, check=False)
+    git("add", "--", ARCHIVE_DIRNAME, RUNS_GIT_PATH)
+    staged = git("diff", "--cached", "--quiet", check=False)
     if staged.returncode == 0:
         print("[publish] nothing to commit")
         return False
@@ -731,7 +734,7 @@ def do_publish(args):
     if trends:
         write_json(LATEST_PATH, {"run_id": run_id, "date": date, "trends": trends})
 
-    run_path = safe_join(ARCHIVE_ROOT, RUNS_DIR, run_id + ".md")
+    run_path = safe_join(RUNS_ROOT, run_id + ".md")
     write_text(run_path, render_run_note(state, written, skipped_existing, missing,
                                          trends, candidates_added))
     ecount = write_entity_notes(index)
