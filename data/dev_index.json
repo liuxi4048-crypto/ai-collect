@@ -86,6 +86,19 @@
       "title_ja": "ビルドログが機密環境変数をマスク表示",
       "url": "https://vercel.com/changelog/build-logs-now-redact-sensitive-environment-variable-values"
     },
+    "Topics/1_Web・フロントエンド/2026-07-23-building-a-browser-based-tiled-poster-pdf-generator-6376.md": {
+      "basename": "2026-07-23-building-a-browser-based-tiled-poster-pdf-generator-6376",
+      "category": "web",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1012",
+      "tags": [
+        "frontend",
+        "tooling",
+        "performance"
+      ],
+      "title_ja": "ブラウザ完結のタイル分割ポスターPDF生成器を作る",
+      "url": "https://dev.to/gaven/building-a-browser-based-tiled-poster-pdf-generator-426g"
+    },
     "Topics/1_Web・フロントエンド/2026-07-23-building-unisquads-combining-community-wikis-maps-and-intera-b135.md": {
       "basename": "2026-07-23-building-unisquads-combining-community-wikis-maps-and-intera-b135",
       "category": "web",
@@ -2069,6 +2082,19 @@
       "title_ja": "コーディング自動エージェントの失敗例：本番削除事件",
       "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-agent-that-deleted-production/"
     },
+    "Topics/7_DevOps・ツール/2026-07-23-custom-slash-commands-in-claude-code-how-they-work-now-that-7dd9.md": {
+      "basename": "2026-07-23-custom-slash-commands-in-claude-code-how-they-work-now-that-7dd9",
+      "category": "tooling",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1012",
+      "tags": [
+        "devops",
+        "tooling",
+        "ai-dev"
+      ],
+      "title_ja": "Claude Codeのカスタムslashコマンド：スキルに統合された今の仕組み",
+      "url": "https://dev.to/rulestack/custom-slash-commands-in-claude-code-how-they-work-now-that-commands-are-skills-425k"
+    },
     "Topics/7_DevOps・ツール/2026-07-23-enforcing-content-tone-with-a-lint-that-fails-the-build-571e.md": {
       "basename": "2026-07-23-enforcing-content-tone-with-a-lint-that-fails-the-build-571e",
       "category": "tooling",
@@ -2688,6 +2714,18 @@
       ],
       "title_ja": "AI生成時代におけるアートディレクターの優位性",
       "url": "https://dev.to/designbytk/art-directors-advantage-in-the-ai-gen-era-4a3k"
+    },
+    "Topics/99_総合/2026-07-23-asked-for-an-ai-assistant-and-accidentally-got-middle-manage-793d.md": {
+      "basename": "2026-07-23-asked-for-an-ai-assistant-and-accidentally-got-middle-manage-793d",
+      "category": "general",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1012",
+      "tags": [
+        "architecture",
+        "ai-dev"
+      ],
+      "title_ja": "AIアシスタントを頼んだら、うっかり中間管理職が来た",
+      "url": "https://dev.to/srsandrade/asked-for-an-ai-assistant-and-accidentally-got-middle-management-253n"
     },
     "Topics/99_総合/2026-07-23-automating-cross-repo-documentation-with-github-agentic-work-7eb4.md": {
       "basename": "2026-07-23-automating-cross-repo-documentation-with-github-agentic-work-7eb4",
@@ -3614,6 +3652,18 @@
       "tags": [],
       "title_ja": "あのコンテンツはどのストリーミングサービス？",
       "url": "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again/"
+    },
+    "Topics/99_総合/2026-07-23-why-a-free-usb-c-guide-beats-buying-a-textbook-23e4.md": {
+      "basename": "2026-07-23-why-a-free-usb-c-guide-beats-buying-a-textbook-23e4",
+      "category": "general",
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1012",
+      "tags": [
+        "infra",
+        "tutorial"
+      ],
+      "title_ja": "なぜ無料のUSB-Cガイドは教科書を買うより優れているか",
+      "url": "https://dev.to/induwara_ashinsana_9e4d5b/why-a-free-usb-c-guide-beats-buying-a-textbook-2el8"
     },
     "Topics/99_総合/2026-07-23-why-ai-apps-fail-in-production-and-how-google-solved-it-5485.md": {
       "basename": "2026-07-23-why-ai-apps-fail-in-production-and-how-google-solved-it-5485",

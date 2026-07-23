@@ -1,5 +1,12 @@
 {
   "candidates": {
+    "abot-world-0": {
+      "count": 1,
+      "example": "単一デスクトップGPUで動く行動条件付き動画ワールドモデル(arXiv 2607.19191)。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
     "activevision": {
       "count": 3,
       "example": "MLLMの能動的視覚観察能力を測定する新ベンチマーク、17タスク3カテゴリ",
@@ -7,12 +14,26 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "adaflash": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
+    },
     "adaptive adversaries": {
       "count": 1,
       "example": "LLMエージェント向け21シナリオの適応的マルチラウンド攻撃ベンチ",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "benchmark"
+    },
+    "adaptive view retrieval": {
+      "count": 1,
+      "example": "隠しヘイト画像(illusion)検出のための視点検索・較正フレームワーク(index 15)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
     },
     "agent skills": {
       "count": 1,
@@ -28,12 +49,75 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "alphafold-3": {
+      "count": 1,
+      "example": "DBMol(index 9)がリガンド設計の基盤として言及する構造予測モデル",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "amo": {
+      "count": 1,
+      "example": "任意形状のPDEを解くAdaptive Mamba Neural Operators",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "antares": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
+    },
+    "astryx": {
+      "count": 1,
+      "example": "Metaがオープンソース化した内製Reactデザインシステム",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "atlas": {
+      "count": 1,
+      "example": "非晶質材料向けの拡散モデルベースの基盤ニューラルサンプラー(手法名)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "atoms": {
+      "count": 1,
+      "example": "Travis Kalanickの産業AI/ロボティクス企業。$1.7BをUber・a16z主導で調達",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "org"
+    },
     "augment code": {
       "count": 1,
       "example": "コンテキスト重視のAIコーディングハーネスを提唱する企業",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "org"
+    },
+    "autoindex": {
+      "count": 1,
+      "example": "検索前処理の表現プログラムをエージェント探索で学習するフレームワーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "betrac": {
+      "count": 1,
+      "example": "ASRなしで医師患者対話からSOAPノート生成を競う課題(Beyond Transcription Challenge)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "benchmark"
+    },
+    "biosecbench-surveillance": {
+      "count": 1,
+      "example": "病原体ゲノム監視におけるAIエージェントの解析能力を測る検証可能ベンチマーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
     },
     "bird dev": {
       "count": 3,
@@ -42,12 +126,54 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "boltz-2": {
+      "count": 1,
+      "example": "DBMol(index 9)がAlphaFold-3と並んで言及する構造予測モデル",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "book of veyra": {
+      "count": 1,
+      "example": "8,780固有名の汚染フリー合成コーパス。プロンプト書式・指示数・文脈長の影響検証に使用(index4)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
+    },
+    "buzz": {
+      "count": 2,
+      "example": "Jack Dorseyによるチームチャット+AIエージェント+Gitホスティング統合プラットフォーム",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "product"
+    },
+    "cactus hybrid": {
+      "count": 1,
+      "example": "Gemma 4 E2Bに信頼度スコアを持たせオンデバイス/クラウドを振り分けるハイブリッド推論",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "product"
+    },
     "caisi": {
       "count": 1,
       "example": "米政権のAI標準・技術革新を担う機関(Center for AI Standards and Innovation)",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "org"
+    },
+    "candor": {
+      "count": 1,
+      "example": "凍結基盤エンコーダの偶然補正済み不一致指標",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
+    "case (causal alignment and structural enforcement)": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
     },
     "cat-gs": {
       "count": 1,
@@ -70,12 +196,33 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "circuitkit": {
+      "count": 1,
+      "example": "機構的解釈可能性の回路分析ワークフローを統合するソース公開ライブラリ",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "claude cowork": {
+      "count": 1,
+      "example": "画面録画と音声解説から再利用可能なスキルを学習するAnthropicのデスクトップアプリ",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "product"
+    },
     "claude fable 5": {
       "count": 3,
       "example": "Anthropicのモデル。今回の複数記事で中心的に扱われている",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "claude tag": {
+      "count": 1,
+      "example": "AnthropicのSlack連携機能",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
     },
     "code arena": {
       "count": 3,
@@ -84,6 +231,27 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "codemender": {
+      "count": 1,
+      "example": "Gemini 3.5 Flash Cyberが稼働を支えるとされる脆弱性発見・修正システム(Google)。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "tech"
+    },
+    "content seal": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
+    },
+    "cosmos 3 edge": {
+      "count": 1,
+      "example": "NVIDIAの4BパラメータのオープンWorld Model(Nano 16B/Super 64Bも)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
     "current ai": {
       "count": 1,
       "example": "万人向けの「AIワールドワイドウェブ」を掲げる非営利団体",
@@ -91,9 +259,23 @@
       "last_seen": "2026-07-21",
       "type": "org"
     },
+    "cursor router": {
+      "count": 1,
+      "example": "Cursorのリクエスト単位モデル振り分け機能。Teams/Enterprise向けにGA",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "product"
+    },
     "d-nova": {
       "count": 1,
       "example": "3D NANDメモリ内でベクトル類似度検索を行うストレージ内検索アクセラレータ",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "dapo": {
+      "count": 1,
+      "example": "Open Medical Concept F1を報酬とする強化学習手法",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
@@ -119,12 +301,33 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "edgebench": {
+      "count": 1,
+      "example": "AIエージェントを多様なタスク・実行環境・時間予算で評価するベンチマーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "benchmark"
+    },
     "epoch ai": {
       "count": 1,
       "example": "AIテキスト検出器のスタイル模倣耐性を評価した研究組織",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "org"
+    },
+    "evolvingworld": {
+      "count": 1,
+      "example": "キャラクターとWorld Modelが共進化する文学世界向けフレームワーク兼ベンチマーク",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "exploitgym": {
+      "count": 1,
+      "example": "AIモデルのエクスプロイト実行・攻撃能力を測るための評価環境。OpenAIが未公開モデルの検証に使用した。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "benchmark"
     },
     "frozen v2": {
       "count": 1,
@@ -133,11 +336,60 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "fusion embedding": {
+      "count": 1,
+      "example": "凍結VLMベースに音声を加えたテキスト/画像/動画/音声の統一埋め込み系列",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "gamut": {
+      "count": 1,
+      "example": "長文生成の事実的完全性を評価するベンチマーク(index 18)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
+    },
+    "gemini 3.5 flash cyber": {
+      "count": 2,
+      "example": "脆弱性の発見・パッチ適用に特化したGoogleの軽量サイバーセキュリティ向けGeminiモデル",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "model"
+    },
+    "gemini 3.5 flash-lite": {
+      "count": 1,
+      "example": "350トークン/秒で動作する軽量Geminiモデル。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "model"
+    },
+    "gemini 3.6 flash": {
+      "count": 2,
+      "example": "最大65%少ないトークンで応答する効率重視のGoogle Geminiモデル",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "model"
+    },
     "genception": {
       "count": 3,
       "example": "Google DeepMind のビデオ生成モデルをCVタスクへ転用する手法",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "genie coefficient": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
+    },
+    "geqtrain": {
+      "count": 1,
+      "example": "等変GNNを3D科学タスク間で再利用可能にするHydraベースの設定駆動フレームワーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
       "type": "tech"
     },
     "gigapath-flash": {
@@ -154,6 +406,13 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "gigatoken": {
+      "count": 1,
+      "example": "言語モデルのトークン化を約1000倍高速化するとされるOSSプロジェクト(index30)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tool"
+    },
     "glm-5.2": {
       "count": 3,
       "example": "Zhipu系のオープンMoEモデル",
@@ -162,10 +421,10 @@
       "type": "model"
     },
     "gpt-5.6 sol": {
-      "count": 3,
+      "count": 7,
       "example": "OpenAIのモデル。Kimi K3・Fable 5との比較で頻出",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "type": "model"
     },
     "gpt-red": {
@@ -175,12 +434,26 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "gritt": {
+      "count": 1,
+      "example": "太陽光発電所の建設ロボットのスタートアップ($34M調達)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
+    },
     "grok cli": {
       "count": 4,
       "example": "xAIがオープンソース化したコーディングエージェント",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "halliday": {
+      "count": 1,
+      "example": "カメラなしで会議を要約するスマートグラス「G2」のメーカー",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "org"
     },
     "healthbench": {
       "count": 1,
@@ -195,6 +468,13 @@
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "hindsightbench": {
+      "count": 1,
+      "example": "時系列LLM意思決定タスクの後知恵知識漏洩を安価に測るブラックボックス監査プロトコル(index15)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "benchmark"
     },
     "inkling": {
       "count": 3,
@@ -217,6 +497,13 @@
       "last_seen": "2026-07-21",
       "type": "org"
     },
+    "isospectral optimization": {
+      "count": 1,
+      "example": "ISO。RLVRがベースモデルの重みスペクトルを再利用する『スペクトル継承』を具現化したRLVRネイティブ最適化スタック(arXiv 2607.19331)。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "jetson thor": {
       "count": 3,
       "example": "NVIDIAのエッジAI・ロボティクス向けコンピュータ(T3000/T2000)",
@@ -224,11 +511,32 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "judgegpt": {
+      "count": 2,
+      "example": "パキスタンの裁判官の訴訟処理を支援したAIシステム(投資対効果38.50ドル/ドル)",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "product"
+    },
+    "kale": {
+      "count": 1,
+      "example": "CLIPとDINOv2をWeb規模で安定整合させる損失均衡制御",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
     "kimi k3": {
-      "count": 3,
+      "count": 4,
       "example": "Moonshot AIの2.8兆パラメータモデル",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "type": "model"
+    },
+    "laguna s 2.1": {
+      "count": 1,
+      "example": "Poolsideが公開した118B MoE(アクティブ8B・1Mトークン)のオープンウェイト・エージェント型コーディングモデル。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
       "type": "model"
     },
     "lethal trifecta": {
@@ -238,12 +546,40 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "llift (local label-informed feature transfer)": {
+      "count": 1,
+      "example": "指定領域に病変を配置した半合成医療画像を生成する手法",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "mada-rl": {
       "count": 1,
       "example": "小型モデル向けのマルチエージェント討論型強化学習フレームワーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "mage-flow": {
+      "count": 1,
+      "example": "4B規模の効率的ネイティブ解像度画像生成・編集基盤モデル。潜在トークナイザMage-VAEを含む(arXiv 2607.19064)。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "malora": {
+      "count": 1,
+      "example": "Mambaで変調し入力依存・トークン間回帰状態を持たせた低ランク適応",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "medddc-eval": {
+      "count": 1,
+      "example": "医療問診エージェントの病歴聴取と診断生成を分離評価するテストベッド",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
     },
     "medrbench": {
       "count": 1,
@@ -252,12 +588,26 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "mira-ev": {
+      "count": 1,
+      "example": "スペイン医師国家試験(MIR)症例を用いた臨床議論マイニングベンチマーク。西/英/バスク語版(index5)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "benchmark"
+    },
     "mobius learning": {
       "count": 1,
       "example": "Transformerの深さ軸を巡回シフトさせる訓練手法",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "moonshot": {
+      "count": 1,
+      "example": "中国のAI企業。Anthropic Fableの蒸留疑惑で米政府の制裁対象に浮上",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "org"
     },
     "muon": {
       "count": 3,
@@ -287,11 +637,60 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "nemotron 3.5 asr streaming 0.6b": {
+      "count": 1,
+      "example": "NVIDIAの多言語ストリーミングASR基盤。ケニア諸語へ微調整(index 21)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "neural kolmogorov equations (nke)": {
+      "count": 1,
+      "example": "Kolmogorov前進方程式に基づく決定論的・無限次元のNeural SDE再定式化",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "nvidia spectrum-6": {
+      "count": 1,
+      "example": "NVIDIA Vera Rubin向けに投入されたギガスケールAIファクトリー向けネットワーキング製品。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "tech"
+    },
+    "off-context rollout": {
+      "count": 1,
+      "example": "正解を生成できない難問題で学習信号がゼロになる『学習の崖』を、訓練時のみ特権情報を与えて克服する手法(arXiv 2607.19313)。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "ontoextend": {
       "count": 1,
       "example": "LLMとRAGによる要求駆動型オントロジー拡張フレームワーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "openai presence": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
+    },
+    "openevolve": {
+      "count": 1,
+      "example": "自動発見の進化的探索ハーネス",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "openmdw-1.1": {
+      "count": 1,
+      "example": "Laguna S 2.1が採用するオープンウェイトライセンス。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
       "type": "tech"
     },
     "openpangu-7b": {
@@ -300,6 +699,13 @@
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "openrtag": {
+      "count": 1,
+      "example": "テキスト付きグラフ学習のデータ品質劣化に対する頑健性を測るベンチマーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
     },
     "pagedweight": {
       "count": 3,
@@ -315,12 +721,54 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "parallel shapley": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
+    },
+    "pathagentbench": {
+      "count": 1,
+      "example": "全体スライド病理画像(WSI)上で証拠探索型VLMを4能力にわたり評価するベンチマーク(index 12)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
+    },
+    "pelicanmaxxing": {
+      "count": 1,
+      "example": "特定の有名AIベンチマーク(ペリカン描画)向けに意図的にモデルを最適化する行為を指すスラング。ベンチマーク汚染の一形態。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "concept"
+    },
+    "pinn (physics-informed neural network)": {
+      "count": 1,
+      "example": "index 6で楕円型ディリクレ境界値問題を解く手法として使用",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
+    "poolside": {
+      "count": 1,
+      "example": "オープンウェイトのエージェント型コーディングモデルLaguna S 2.1の開発元。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "org"
+    },
     "ppl-factory": {
       "count": 1,
       "example": "perplexityベースのタスク適応・予算適応データ選別",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "tech"
+    },
+    "project camellia": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
     },
     "project indigo": {
       "count": 1,
@@ -329,11 +777,32 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "qwen 3.8 max": {
+      "count": 1,
+      "example": "米国モデルに迫るとされるAlibabaの大規模モデル",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "model"
+    },
+    "qwen audio 3.0 tts": {
+      "count": 1,
+      "example": "Alibabaの16言語対応音声合成モデル(Plus)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
     "qwen-audio-3.0-tts": {
       "count": 1,
       "example": "Tongyi Labのホスト型TTSモデル。Flash/Plusの2バリアント、16言語対応",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "qwen-image-3.0": {
+      "count": 2,
+      "example": "Alibabaの画像生成モデル新版",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "type": "model"
     },
     "qwen2.5-0.5b-instruct": {
@@ -343,6 +812,13 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "qwen3-vl": {
+      "count": 1,
+      "example": "AEC図面情報抽出ベンチマークでF1スコア最良だったVision-Language Model",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
     "qwen3.8-max": {
       "count": 3,
       "example": "Alibabaの2.4兆パラメータ マルチモーダルMoEモデル",
@@ -350,12 +826,75 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "ramp": {
+      "count": 1,
+      "example": "recognition-parametrised modelingに基づく教師なし学習手法(Recognition parametrisation by Amortised Message Passing)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "real-pocqi": {
       "count": 1,
       "example": "臨床LLMの過信回答評価に用いる公開ベンチマーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "benchmark"
+    },
+    "rf-detr": {
+      "count": 1,
+      "example": "AEC図面レイアウト検出ベンチマークでmAP_50=0.949を達成した検出モデル",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
+    "rfig": {
+      "count": 1,
+      "example": "ランダム特徴で情報利得を近似する強化学習の探索手法",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "rlvr": {
+      "count": 1,
+      "example": "Reinforcement Learning with Verifiable Rewards。検証可能な報酬による強化学習。今回の後訓練系論文で頻出の基盤パラダイム。",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
+    "rlvr (reinforcement learning with verifiable rewards)": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
+    },
+    "roms-imle": {
+      "count": 1,
+      "example": "多段階変換を用いず最小構成で拡散モデルに匹敵する単一ステップ生成モデル(index2)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
+    "rt-shcua": {
+      "count": 1,
+      "example": "UAV制御向けのリアルタイム自己ホスト型コンピュータ操作エージェント",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "scicodepile": {
+      "count": 1,
+      "example": "37,737リポジトリ・128GBの科学コードコーパスと実行可能ベンチマーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
+    },
+    "search-on-graph-r1": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
     },
     "seedance 2.0": {
       "count": 1,
@@ -378,12 +917,40 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "shred-rom": {
+      "count": 1,
+      "example": "浅い再帰デコーダに基づく低次元化モデルによるリアルタイム最適制御",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
+    "skewadam": {
+      "count": 1,
+      "example": "MoEのバックボーン/エキスパート/ルーター毎に状態表現を変えるTiered State Allocation対応オプティマイザ(index8)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "method"
+    },
+    "spectrum-6": {
+      "count": 1,
+      "example": "Vera Rubin向けNVIDIAのギガスケールAIファクトリー用ネットワーク製品",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "product"
+    },
     "sqrl": {
       "count": 3,
       "example": "Feyn AI の Text-to-SQL モデルファミリー",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "model"
+    },
+    "srt-slurm": {
+      "count": 1,
+      "example": "分散LLMサービングのSLURMベンチマークを宣言的に構築するNVIDIAフレームワーク",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "product"
     },
     "tabpfn": {
       "count": 1,
@@ -427,6 +994,13 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "vector-bench": {
+      "count": 1,
+      "example": "SVGコードの外科的編集能力を測る40タスクのベンチマーク(index 16)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "dataset"
+    },
     "vehbench": {
       "count": 1,
       "example": "LLMの振動エネルギーハーベスタ設計を段階別に診断するベンチマーク",
@@ -435,11 +1009,25 @@
       "type": "benchmark"
     },
     "vera rubin": {
-      "count": 3,
+      "count": 5,
       "example": "NVIDIAの次世代GPUプラットフォーム。ポストトレーニング向けのコスト効率を強調",
       "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
       "type": "tech"
+    },
+    "voxtral": {
+      "count": 1,
+      "example": "TalTechが医療対話要約に用いたオープンウェイト音声LLM(Mini/Small)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "vulnerability localization benchmark": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "unknown"
     },
     "wandr": {
       "count": 1,
@@ -448,12 +1036,33 @@
       "last_seen": "2026-07-21",
       "type": "benchmark"
     },
+    "wistron": {
+      "count": 1,
+      "example": "台湾の受託製造企業。フォートワースにNVIDIA向けAIシステム製造拠点を新設。",
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "type": "org"
+    },
     "worldcuparena": {
       "count": 1,
       "example": "試合前情報からの予測でLLM・リサーチエージェントを評価する動的ベンチマーク",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
       "type": "benchmark"
+    },
+    "xiaomi-robotics-1": {
+      "count": 1,
+      "example": "Xiaomiのロボット学習モデル(10万時間超データで学習)",
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "type": "model"
+    },
+    "ソブリンai (sovereign ai)": {
+      "count": 2,
+      "example": "",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "unknown"
     }
   }
 }

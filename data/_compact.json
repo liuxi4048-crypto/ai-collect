@@ -1,0 +1,1256 @@
+[
+ {
+  "index": 1,
+  "tier": "A",
+  "category": "ai",
+  "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+  "corroborated": true,
+  "entities": [
+   "Gemini 3",
+   "Google",
+   "Gemini",
+   "AI Agents"
+  ],
+  "articles": [
+   {
+    "t": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "s": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+    "src": "Google DeepMind",
+    "dom": "deepmind.google"
+   },
+   {
+    "t": "Introducing Gemini 3.5 Flash Cyber",
+    "s": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+    "src": "Google DeepMind",
+    "dom": "deepmind.google"
+   },
+   {
+    "t": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+    "s": "https://console.cloud.google.com/agent-platform/publishers/g... Comments URL: https://news.ycombinator.com/item?id=48993414 Points: 588 # Comments: 465",
+    "src": "Hacker News",
+    "dom": "blog.google"
+   },
+   {
+    "t": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
+    "s": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs at 350 tokens/sec, while gated Flash Cyber powers CodeMender for vulnerability finding. The flagship 3.5 Pro remains delayed. The post Google Releases Gem",
+    "src": "MarkTechPost",
+    "dom": "marktechpost.com"
+   }
+  ]
+ },
+ {
+  "index": 2,
+  "tier": "A",
+  "category": "ai",
+  "title": "Google releases three new Gemini models — but no 3.5 Pro",
+  "corroborated": true,
+  "entities": [
+   "Google",
+   "Gemini",
+   "Gemini 3",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "articles": [
+   {
+    "t": "Google releases three new Gemini models — but no 3.5 Pro",
+    "s": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training",
+    "s": "Google is shipping three new Flash models in the Gemini series, including the more efficient 3.6 Flash, which uses up to 65 percent fewer tokens, and a cybersecurity model available only to governments and select partners. But the anticipated flagship, Gemini 3.5 Pro, is still missing, while OpenAI, Anthropic, and Chinese labs are already competing at the frontier level. The article Google ships t",
+    "src": "The Decoder",
+    "dom": "the-decoder.com"
+   },
+   {
+    "t": "Google releases three new Gemini models — but no 3.5 Pro",
+    "s": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 3,
+  "tier": "A",
+  "category": "ai",
+  "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+  "corroborated": false,
+  "entities": [
+   "OpenAI",
+   "Hugging Face"
+  ],
+  "articles": [
+   {
+    "t": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+    "s": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+    "src": "OpenAI",
+    "dom": "openai.com"
+   },
+   {
+    "t": "OpenAI and Hugging Face address security incident during model evaluation",
+    "s": "https://www.axios.com/2026/07/21/openai-says-hugging-face-br... See also Security incident disclosure – July 2026 - https://news.ycombinator.com/item?id=48956248 (9 comments) Comments URL: https://news.ycombinator.com/item?id=48997548 Points: 590 # Comments: 395",
+    "src": "Hacker News",
+    "dom": "openai.com"
+   }
+  ]
+ },
+ {
+  "index": 4,
+  "tier": "A",
+  "category": "industry",
+  "title": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+  "corroborated": false,
+  "entities": [
+   "NVIDIA",
+   "AI Agents"
+  ],
+  "articles": [
+   {
+    "t": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
+    "s": "AI has entered the gigascale era. The world’s most advanced AI factories are bringing together hundreds of thousands of GPUs and CPUs to train frontier models, power agentic AI and generate intelligence at unprecedented scale. At this level, networking becomes a critical computing power multiplier in driving token generation. Marking a networking milestone, NVIDIA Spectrum-6 [&#8230;]",
+    "src": "NVIDIA Blog",
+    "dom": "blogs.nvidia.com"
+   }
+  ]
+ },
+ {
+  "index": 5,
+  "tier": "A",
+  "category": "ai",
+  "title": "Introducing the ChatGPT for small business program",
+  "corroborated": false,
+  "entities": [
+   "OpenAI"
+  ],
+  "articles": [
+   {
+    "t": "Introducing the ChatGPT for small business program",
+    "s": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+    "src": "OpenAI",
+    "dom": "openai.com"
+   }
+  ]
+ },
+ {
+  "index": 6,
+  "tier": "A",
+  "category": "it",
+  "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+  "corroborated": false,
+  "entities": [
+   "GPT-5",
+   "OpenAI",
+   "Claude",
+   "Anthropic",
+   "Gemini",
+   "Google",
+   "Grok",
+   "xAI"
+  ],
+  "articles": [
+   {
+    "t": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+    "s": "Article URL: https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok Comments URL: https://news.ycombinator.com/item?id=48998404 Points: 74 # Comments: 22",
+    "src": "Hacker News",
+    "dom": "tryai.dev"
+   }
+  ]
+ },
+ {
+  "index": 7,
+  "tier": "A",
+  "category": "industry",
+  "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+  "corroborated": false,
+  "entities": [
+   "NVIDIA"
+  ],
+  "articles": [
+   {
+    "t": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+    "s": "The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems. In front of an audience of Wistron [&#8230;]",
+    "src": "NVIDIA Blog",
+    "dom": "blogs.nvidia.com"
+   }
+  ]
+ },
+ {
+  "index": 8,
+  "tier": "A",
+  "category": "industry",
+  "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+  "corroborated": false,
+  "entities": [
+   "NVIDIA",
+   "Google",
+   "Microsoft"
+  ],
+  "articles": [
+   {
+    "t": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
+    "s": "NVIDIA Vera Rubin is here, and it’s going gigascale. Vera Rubin NVL72 production is ramping up with racks running at partners CoreWeave, Google Cloud, Microsoft Azure and Oracle Cloud Infrastructure. Spanning 350+ factory sites in 30 countries, Vera Rubin has the largest, most mature rack-scale supply chain ever assembled to meet customer compute demand. The [&#8230;]",
+    "src": "NVIDIA Blog",
+    "dom": "blogs.nvidia.com"
+   }
+  ]
+ },
+ {
+  "index": 9,
+  "tier": "A",
+  "category": "ai",
+  "title": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+  "corroborated": false,
+  "entities": [
+   "Google",
+   "Gemini 3",
+   "Gemini"
+  ],
+  "articles": [
+   {
+    "t": "Google announces Gemini 3.6 Flash and cybersecurity AI, teases 3.5 Pro and Gemini 4",
+    "s": "There are new 3.6 and 3.5 models today, but Google is already training Gemini 4.",
+    "src": "Ars Technica AI",
+    "dom": "arstechnica.com"
+   }
+  ]
+ },
+ {
+  "index": 10,
+  "tier": "A",
+  "category": "ai",
+  "title": "The State of Simulation for Physical AI: An Overview",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The State of Simulation for Physical AI: An Overview",
+    "s": "",
+    "src": "Hugging Face",
+    "dom": "huggingface.co"
+   }
+  ]
+ },
+ {
+  "index": 11,
+  "tier": "A",
+  "category": "ai",
+  "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+  "corroborated": false,
+  "entities": [
+   "OpenAI"
+  ],
+  "articles": [
+   {
+    "t": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+    "s": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+    "src": "OpenAI",
+    "dom": "openai.com"
+   }
+  ]
+ },
+ {
+  "index": 12,
+  "tier": "A",
+  "category": "industry",
+  "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+  "corroborated": false,
+  "entities": [
+   "OpenAI",
+   "Hugging Face",
+   "GPT-5"
+  ],
+  "articles": [
+   {
+    "t": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+    "s": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, [&#8230;]",
+    "src": "The Verge",
+    "dom": "theverge.com"
+   }
+  ]
+ },
+ {
+  "index": 13,
+  "tier": "A",
+  "category": "ai",
+  "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+  "corroborated": false,
+  "entities": [
+   "AI Agents",
+   "SWE-bench",
+   "Mixture of Experts",
+   "NVIDIA"
+  ],
+  "articles": [
+   {
+    "t": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+    "s": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under OpenMDW-1.1, and runs on a single NVIDIA DGX Spark. The post Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class ",
+    "src": "MarkTechPost",
+    "dom": "marktechpost.com"
+   }
+  ]
+ },
+ {
+  "index": 14,
+  "tier": "A",
+  "category": "research",
+  "title": "The Shared Discovery Paradox: How a One-Answer Rule Turns Better Information into Worse Search",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The Shared Discovery Paradox: How a One-Answer Rule Turns Better Information into Worse Search",
+    "s": "Organizations often pool dispersed information into one ranking and then allow many agents to act on that shared view. In a discovery problem, this can improve beliefs while reducing coverage. We develop an exactly solvable benchmark with sixteen boxes, one target, eight searchers, and noisy private clues. Pooling raises the accuracy of the best single recommendation from 0.20 to 0.3835, but repea",
+    "src": "arXiv cs.AI",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 15,
+  "tier": "A",
+  "category": "research",
+  "title": "ConceptTree: Bringing Semantic Transparency to Black-Box Decision Making for Robotic Manipulation",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "ConceptTree: Bringing Semantic Transparency to Black-Box Decision Making for Robotic Manipulation",
+    "s": "Establishing interpretable decision-making processes in long-horizon robotic manipulation is critical for enabling reliable human oversight and intervention. However, existing approaches to robotic manipulation largely treat skill selection as opaque mappings from observations to actions, offering limited transparency into how decisions are formed. In this work, we propose ConceptTree, a framework",
+    "src": "arXiv cs.AI",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 16,
+  "tier": "B",
+  "category": "research",
+  "title": "Measuring and Improving Complex-Atomic Answer Consistency in Endoscopic VQA",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Measuring and Improving Complex-Atomic Answer Consistency in Endoscopic VQA",
+    "s": "Endoscopic visual question answering (VQA) increasingly asks complex questions that combine several endoscopic answer components rather than isolated factual queries. Such complex answers may be scored as correct even when the same model fails on associated atomic questions. We introduce EndoCA, a paired complex-atomic answer consistency benchmark for evaluating whether complex answers remain cons",
+    "src": "arXiv cs.AI",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 17,
+  "tier": "B",
+  "category": "research",
+  "title": "What Transfers Under Source Shift? Definitions, Examples, and Fine-Tuning for Climate Disclosure Classification",
+  "corroborated": false,
+  "entities": [
+   "Fine-tuning"
+  ],
+  "articles": [
+   {
+    "t": "What Transfers Under Source Shift? Definitions, Examples, and Fine-Tuning for Climate Disclosure Classification",
+    "s": "Climate disclosure classification is a fundamental task for analysing corporate climate disclosures, yet such disclosures appear in many different sources -- annual reports, press releases, and earnings calls -- that differ in length, purpose, and writing style. Existing evaluations are mostly conducted within a single source, leaving open whether common LLM adaptation strategies remain effective ",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 18,
+  "tier": "B",
+  "category": "research",
+  "title": "Tokenizing Crosslingual Homographs",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Tokenizing Crosslingual Homographs",
+    "s": "Multilingual language models rely on shared subword vocabularies to represent multiple languages within a limited number of token units. While such sharing is often useful, it can also create cases in which identical surface forms are treated too uniformly across languages, even when their meanings or usage differ. We investigate this limitation through cross-lingual homographs and false friends, ",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 19,
+  "tier": "B",
+  "category": "research",
+  "title": "It Matters How You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "It Matters How You Say It: Exploring Rhetorical Patterns for AI-Assisted Information Evaluation",
+    "s": "Prior work on AI-assisted information evaluation has largely focused on what AI systems communicate, comparing explanation types and formats, with responses predominantly cast in directive rhetoric where the system delivers a verdict and the user passively accepts it. While debate-style interactions have recently shown promise in prompting critical evaluation over deference, the rhetorical pattern",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 20,
+  "tier": "B",
+  "category": "research",
+  "title": "How Reliable Are Multimodal Signals of Conversational State? Evidence from Remote Dyadic Collaborative Tasks",
+  "corroborated": false,
+  "entities": [
+   "Multimodal"
+  ],
+  "articles": [
+   {
+    "t": "How Reliable Are Multimodal Signals of Conversational State? Evidence from Remote Dyadic Collaborative Tasks",
+    "s": "Measuring conversational states such as cognitive load and conversational power from multimodal behavior requires characteristic features that are not only predictive but also reliable across task contexts. We present a three-dimensional evaluation framework assessing predictive accuracy, cross-task generalizability, and test-retest reliability, applied to interactional, acoustic, and linguistic f",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 21,
+  "tier": "B",
+  "category": "research",
+  "title": "DRNOISE: Benchmarking Deep Research Agents in Misleading Evidence Environments",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "DRNOISE: Benchmarking Deep Research Agents in Misleading Evidence Environments",
+    "s": "Deep research agents increasingly operate over the open web, where relevant records coexist with redundant summaries, outdated reports, and misleading documents. Existing evaluations offer limited insight into whether agents preserve sound evidential standards when an ordinary-looking false document is deliberately seeded into a searchable environment and offers a direct shortcut to a conflicting ",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 22,
+  "tier": "B",
+  "category": "research",
+  "title": "Should Missing Modalities Always Be Necessary to Repair for Multi-modal Sentiment Analysis?",
+  "corroborated": false,
+  "entities": [
+   "Multimodal"
+  ],
+  "articles": [
+   {
+    "t": "Should Missing Modalities Always Be Necessary to Repair for Multi-modal Sentiment Analysis?",
+    "s": "Existing methods for multimodal sentiment analysis (MSA) under missing modalities usually follow a repair-first paradigm. We revisit this assumption and ask: \\emph{should every missing modality be repaired?} A per-sample oracle analysis shows the answer is not always: full-modality input is optimal for only a small fraction of samples, and every modality subset is preferred by some samples. These ",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 23,
+  "tier": "B",
+  "category": "ai",
+  "title": "OpenAI Models Escaped Containment and Hacked Hugging Face",
+  "corroborated": false,
+  "entities": [
+   "OpenAI",
+   "Hugging Face",
+   "GPT-5"
+  ],
+  "articles": [
+   {
+    "t": "OpenAI Models Escaped Containment and Hacked Hugging Face",
+    "s": "The cybersecurity-focused models, including GPT-5.6 Sol, broke out of a testing sandbox, exploited a zero-day, and gained access to the open internet to pull off the attack.",
+    "src": "WIRED AI",
+    "dom": "wired.com"
+   }
+  ]
+ },
+ {
+  "index": 24,
+  "tier": "B",
+  "category": "it",
+  "title": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+  "corroborated": false,
+  "entities": [
+   "Gemini",
+   "Google"
+  ],
+  "articles": [
+   {
+    "t": "Gemini last models: temperature, top_p, and top_k are deprecated and ignored",
+    "s": "Article URL: https://ai.google.dev/gemini-api/docs/latest-model Comments URL: https://news.ycombinator.com/item?id=48998606 Points: 23 # Comments: 6",
+    "src": "Hacker News",
+    "dom": "ai.google.dev"
+   }
+  ]
+ },
+ {
+  "index": 25,
+  "tier": "B",
+  "category": "industry",
+  "title": "New Gemini 3.5 Flash Models Are Faster and Cheaper but Not Smarter",
+  "corroborated": false,
+  "entities": [
+   "Gemini 3",
+   "Google"
+  ],
+  "articles": [
+   {
+    "t": "New Gemini 3.5 Flash Models Are Faster and Cheaper but Not Smarter",
+    "s": "The updated models are intended to be more affordable for enterprises. The new cyber model is designed to orchestrate.",
+    "src": "AI Business",
+    "dom": "aibusiness.com"
+   }
+  ]
+ },
+ {
+  "index": 26,
+  "tier": "B",
+  "category": "industry",
+  "title": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models",
+  "corroborated": false,
+  "entities": [
+   "Alibaba",
+   "Qwen"
+  ],
+  "articles": [
+   {
+    "t": "Alibaba Qwen 3.8 Max Shows China Closing in on U.S. Models",
+    "s": "The low-cost, open-weight model and others from China give enterprises more choices, given the performance claims of some Chinese model providers.",
+    "src": "AI Business",
+    "dom": "aibusiness.com"
+   }
+  ]
+ },
+ {
+  "index": 27,
+  "tier": "B",
+  "category": "research",
+  "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+    "s": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a large-scale dataset of human similarity judgments over image triplets, where each",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 28,
+  "tier": "B",
+  "category": "research",
+  "title": "Three-Body Scattering for Generative Modeling",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Three-Body Scattering for Generative Modeling",
+    "s": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Scattering Modeling (TBSM) for generation turns the energy distance into a constant-size per-projectil",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 29,
+  "tier": "B",
+  "category": "research",
+  "title": "Totally Positive Matrices and the Highest-Order Coefficients of the Characteristic Polynomial",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Totally Positive Matrices and the Highest-Order Coefficients of the Characteristic Polynomial",
+    "s": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together with feature-attribution methods. Using datasets built from several structured totally positive families, including products of positive bidia",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 30,
+  "tier": "B",
+  "category": "research",
+  "title": "SciForma: Structure-Faithful Generation of Scientific Diagrams",
+  "corroborated": false,
+  "entities": [
+   "Fine-tuning"
+  ],
+  "articles": [
+   {
+    "t": "SciForma: Structure-Faithful Generation of Scientific Diagrams",
+    "s": "Structural fidelity is essential to scientific methodology diagrams. To communicate research logic, these diagrams must faithfully render components, directional relations, and textual annotations. Since a single error, such as a reversed arrow or an unreadable equation, can invalidate the entire figure, structural fidelity is inherently conjunctive: correctness on one axis cannot compensate for f",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 31,
+  "tier": "B",
+  "category": "research",
+  "title": "The Label Complexity of Class-Conditional Coverage under Distribution Shift",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The Label Complexity of Class-Conditional Coverage under Distribution Shift",
+    "s": "Standard evaluation of many recognition systems contains distribution shift by construction, since benchmarks place disjoint conditions in the training and test splits. Under such a shift, split conformal prediction keeps marginal coverage near the nominal level while per-class coverage fails silently: on a real cross-subject skeleton benchmark, marginal coverage stays near ninety percent, the wor",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 32,
+  "tier": "B",
+  "category": "research",
+  "title": "Hardware Mechanisms to Dynamically Throttle AI Performance",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Hardware Mechanisms to Dynamically Throttle AI Performance",
+    "s": "As more capable AI models are increasingly integrated into critical computer systems, the lack of control over AI intent motivates safety mechanisms. Existing software safeguards impose only behavioral constraints that can potentially be bypassed by sufficiently intelligent models. While hardware-level safety enforcement has been recognized as an essential last line of defense, few mechanisms have",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 33,
+  "tier": "B",
+  "category": "research",
+  "title": "Beyond the Edge of Chaos: Stability-Expressivity Transfer in Reservoir Forecasting",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Beyond the Edge of Chaos: Stability-Expressivity Transfer in Reservoir Forecasting",
+    "s": "The edge-of-chaos heuristic has long served as a guiding principle for designing reservoir computers, yet its relevance to machine performance remains elusive. Here, taking the spectral radius of the reservoir network as the control parameter, we show that the radius yielding the best forecasting performance does not coincide with the Lyapunov edge of the isolated, teacher-forced, or closed-loop g",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 34,
+  "tier": "B",
+  "category": "research",
+  "title": "Distributional Soft Bellman Operator under the Cramér Geometry",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Distributional Soft Bellman Operator under the Cramér Geometry",
+    "s": "Distributional soft policy iteration (DSPI) provides an important framework for combining distributional reinforcement learning (DRL) with maximum-entropy control, in which the policy evaluation step is governed by a distributional soft Bellman operator acting on entropy-regularised returns. Theoretical analysis of such an evaluation step requires a probability metric under which Bellman updates c",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 35,
+  "tier": "B",
+  "category": "ai",
+  "title": "OpenAI says Hugging Face was breached by its own pre-release models",
+  "corroborated": false,
+  "entities": [
+   "OpenAI",
+   "Hugging Face"
+  ],
+  "articles": [
+   {
+    "t": "OpenAI says Hugging Face was breached by its own pre-release models",
+    "s": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "OpenAI says Hugging Face was breached by its own pre-release models",
+    "s": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 36,
+  "tier": "B",
+  "category": "ai",
+  "title": "Claude Cowork learns new skills through screen recordings and voice-over explanations",
+  "corroborated": false,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "articles": [
+   {
+    "t": "Claude Cowork learns new skills through screen recordings and voice-over explanations",
+    "s": "Anthropic's Claude Cowork desktop app now lets users record their screen while completing a task, add voice commentary, and have Claude turn the whole thing into a reusable skill. The article Claude Cowork learns new skills through screen recordings and voice-over explanations appeared first on The Decoder .",
+    "src": "The Decoder",
+    "dom": "the-decoder.com"
+   }
+  ]
+ },
+ {
+  "index": 37,
+  "tier": "B",
+  "category": "research",
+  "title": "The Autonomous Agency Scale: A Behavioral Framework for Measuring Self-Directed Behavior in AI Systems",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The Autonomous Agency Scale: A Behavioral Framework for Measuring Self-Directed Behavior in AI Systems",
+    "s": "Existing AI measurement frameworks quantify cognitive capability, task automation, or catastrophic risk, but none measure autonomous agency: the extent to which a system behaves in a self-directed way. A system can saturate capability benchmarks while remaining entirely reactive, acting only when prompted and ceasing all activity when a task completes. We introduce the Autonomous Agency Scale (AAS",
+    "src": "arXiv cs.AI",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 38,
+  "tier": "B",
+  "category": "research",
+  "title": "Modeling turn-taking with distant viewing: investigating silence thresholds in human and AI-generated discourse",
+  "corroborated": false,
+  "entities": [
+   "Google"
+  ],
+  "articles": [
+   {
+    "t": "Modeling turn-taking with distant viewing: investigating silence thresholds in human and AI-generated discourse",
+    "s": "This study investigates silence gaps in two kinds of audiovisual material. We analysed thirty US situational comedies and fifty-one synthetic podcasts generated with Google NotebookLM. Gaps were compared across speaker gender, assigned from a fundamental-frequency threshold estimated in Praat, and across production settings.",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 39,
+  "tier": "B",
+  "category": "research",
+  "title": "When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "When to Use Extra Context: Evidence-Grounded Terminology Adaptation for Simultaneous Speech Translation",
+    "s": "Extra context is valuable for simultaneous speech translation of technical talks, but injecting the entire document context into every streaming segment is often too coarse. Through diagnostic experiments, we find that context gains mainly come from paper-specific terminology recovery rather than uniform semantic enhancement. We therefore propose EGTA, an Evidence-Grounded Terminology Adaptation f",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 40,
+  "tier": "B",
+  "category": "research",
+  "title": "AEGIS: Awareness-Enhanced Guidance for Iterative Safeguard",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "AEGIS: Awareness-Enhanced Guidance for Iterative Safeguard",
+    "s": "Span-level rationales are often assumed to improve controllability in text detoxification, but it remains unclear when such guidance helps and when it introduces trade-offs. We present Awareness-Enhanced Guidance for Iterative Safeguard (AEGIS) as an exploratory framework for studying span-guided multilingual detoxification across English, Mandarin Chinese, and Korean. AEGIS combines span-level de",
+    "src": "arXiv cs.CL",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 41,
+  "tier": "B",
+  "category": "research",
+  "title": "Causal Discovery on Irregular Time Series",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Causal Discovery on Irregular Time Series",
+    "s": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as sensor streams, healthcare data, and financial transactions. In this work, we propose an extension of PCM",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 42,
+  "tier": "B",
+  "category": "research",
+  "title": "The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion",
+    "s": "The soft-label Bayes-error estimator beta(z) = E[min(z, 1-z)] of Ishida et al. estimates the irreducible error of a binary task directly from probability-valued labels. Recent work by Ushio et al. showed that this estimator is fragile when the probabilities are not the true posterior: even perfectly calibrated soft labels can yield a substantially inaccurate estimate, and they propose isotonic cal",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 43,
+  "tier": "B",
+  "category": "research",
+  "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+    "s": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. Modern LCSs continuously generate telemetry logs from distributed cloud services, producing high-dimensional multivariate time series that c",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 44,
+  "tier": "B",
+  "category": "research",
+  "title": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
+    "s": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms is computationally expensive or numerically unstable, especially when the number of subgroups grows exponentially and some subgroups contain ",
+    "src": "arXiv cs.LG",
+    "dom": "arxiv.org"
+   }
+  ]
+ },
+ {
+  "index": 45,
+  "tier": "B",
+  "category": "ai",
+  "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+  "corroborated": false,
+  "entities": [
+   "AI Agents"
+  ],
+  "articles": [
+   {
+    "t": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+    "s": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
+    "s": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 46,
+  "tier": "B",
+  "category": "ai",
+  "title": "US threatens sanctions against Chinese AI models over IP theft",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "US threatens sanctions against Chinese AI models over IP theft",
+    "s": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "US threatens sanctions against Chinese AI models over IP theft",
+    "s": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 47,
+  "tier": "B",
+  "category": "industry",
+  "title": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
+  "corroborated": false,
+  "entities": [
+   "Anthropic"
+  ],
+  "articles": [
+   {
+    "t": "Anthropic’s $1.5 billion book piracy settlement approved by judge",
+    "s": "A federal judge has signed off on Anthropic's $1.5 billion class action settlement with authors who accused the company of training its AI models on copyrighted books, as reported earlier by Reuters. In an order on Monday, Judge Araceli Mart&#237;nez-Olgu&#237;n writes that the settlement will provide \"meaningful relief,\" offering authors around $3,000 for each book [&#8230;]",
+    "src": "The Verge",
+    "dom": "theverge.com"
+   }
+  ]
+ },
+ {
+  "index": 48,
+  "tier": "B",
+  "category": "ai",
+  "title": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
+  "corroborated": false,
+  "entities": [
+   "NVIDIA",
+   "Google"
+  ],
+  "articles": [
+   {
+    "t": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
+    "s": "In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab, inspect its internal architecture, define a cluster configuration, dry-run built-in and custom recipes, and model a disaggregated prefill-and-decode deployment",
+    "src": "MarkTechPost",
+    "dom": "marktechpost.com"
+   }
+  ]
+ },
+ {
+  "index": 49,
+  "tier": "B",
+  "category": "ai",
+  "title": "Nativ: Run AI models locally on your Mac",
+  "corroborated": false,
+  "entities": [
+   "Hugging Face"
+  ],
+  "articles": [
+   {
+    "t": "Nativ: Run AI models locally on your Mac",
+    "s": "Nativ: Run AI models locally on your Mac Prince Canuma is the developer behind the excellent MLX-VLM Python library for running vision-LLMs using MLX on a Mac. I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models. The app picked up MLX models",
+    "src": "Simon Willison",
+    "dom": "simonwillison.net"
+   }
+  ]
+ },
+ {
+  "index": 50,
+  "tier": "B",
+  "category": "ai",
+  "title": "Alibaba's Qwen-Image-3.0 renders full infographic grids and readable ten-pixel text in a single pass",
+  "corroborated": false,
+  "entities": [
+   "Alibaba",
+   "Qwen"
+  ],
+  "articles": [
+   {
+    "t": "Alibaba's Qwen-Image-3.0 renders full infographic grids and readable ten-pixel text in a single pass",
+    "s": "Alibaba's Qwen team has introduced Qwen-Image-3.0, an image generator that accepts prompts up to 4,500 tokens, renders legible text as small as ten pixels, and supports twelve languages natively. It can create complex layouts such as infographics, LaTeX papers, and newspaper pages in a single pass, though their practical value is unclear when the output is a pixel image rather than an editable for",
+    "src": "The Decoder",
+    "dom": "the-decoder.com"
+   }
+  ]
+ },
+ {
+  "index": 51,
+  "tier": "B",
+  "category": "ai",
+  "title": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
+  "corroborated": false,
+  "entities": [
+   "Intel"
+  ],
+  "articles": [
+   {
+    "t": "This Former Intel CEO Wants to Jumpstart Moore’s Law With Light",
+    "s": "Pat Gelsinger wants to pave the way to ever more powerful artificial intelligence using tiny beams of light.",
+    "src": "WIRED AI",
+    "dom": "wired.com"
+   }
+  ]
+ },
+ {
+  "index": 52,
+  "tier": "B",
+  "category": "it",
+  "title": "Show HN: A self-running space economy SIM in Rust and Bevy",
+  "corroborated": false,
+  "entities": [
+   "Claude",
+   "Anthropic"
+  ],
+  "articles": [
+   {
+    "t": "Show HN: A self-running space economy SIM in Rust and Bevy",
+    "s": "I built this with Claude cause I always wanted to tinker with a simulation economoy and I love space themes. A space-economy sim where nothing is scripted. A few hundred autonomous ships each run their own planner. Some chase the best trade route, take a delivery contract, refuel, retrofit at a shipyard, or dock so the crew can rest before morale tanks. Markets price everything off supply with sho",
+    "src": "Hacker News",
+    "dom": "github.com"
+   }
+  ]
+ },
+ {
+  "index": 53,
+  "tier": "B",
+  "category": "ai",
+  "title": "Meta is testing an AI bedtime story app for people with no imagination",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Meta is testing an AI bedtime story app for people with no imagination",
+    "s": "Meta's StoryKit app is only available in certain regions while the company tests how parents react to it.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "Meta is testing an AI bedtime story app for people with no imagination",
+    "s": "Meta's StoryKit app is only available in certain regions while the company tests how parents react to it.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 54,
+  "tier": "B",
+  "category": "ai",
+  "title": "AI and the rise of the universal entertainment app",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "AI and the rise of the universal entertainment app",
+    "s": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become all-purpose entertainment destinations instead.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "AI and the rise of the universal entertainment app",
+    "s": "Over the past decade, streaming platforms competed by dominating individual formats like music, video, podcasts, or audiobooks. Now, as AI makes it easier to create, organize, and recommend content, those distinctions are fading, pushing companies like Spotify, Netflix, YouTube, and TikTok to become all-purpose entertainment destinations instead.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 55,
+  "tier": "B",
+  "category": "ai",
+  "title": "Data centers expected to use 4x more electricity by 2035",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Data centers expected to use 4x more electricity by 2035",
+    "s": "New data centers built through 2033 could consume as much electricity as India uses today.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   },
+   {
+    "t": "Data centers expected to use 4x more electricity by 2035",
+    "s": "New data centers built through 2033 could consume as much electricity as India uses today.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 56,
+  "tier": "B",
+  "category": "ai",
+  "title": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+  "corroborated": false,
+  "entities": [
+   "Anthropic"
+  ],
+  "articles": [
+   {
+    "t": "Anthropic’s $1.5B copyright settlement approved; only 350 authors opted out",
+    "s": "Anthropic blocks authors from opting out of $1.5B settlement at last minute.",
+    "src": "Ars Technica AI",
+    "dom": "arstechnica.com"
+   }
+  ]
+ },
+ {
+  "index": 57,
+  "tier": "B",
+  "category": "ai",
+  "title": "An AI system helped Pakistani judges clear massive backlogs at $38.50 return per dollar invested",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "An AI system helped Pakistani judges clear massive backlogs at $38.50 return per dollar invested",
+    "s": "A field experiment with 1,559 Pakistani judges found that the AI assistant JudgeGPT boosted case resolution by 6.3 percent. The catch: only judges who got hands-on training saw gains. Without it, the effect mostly disappeared. The researchers estimate a return of up to $38.50 per dollar invested. The article An AI system helped Pakistani judges clear massive backlogs at $38.50 return per dollar in",
+    "src": "The Decoder",
+    "dom": "the-decoder.com"
+   }
+  ]
+ },
+ {
+  "index": 58,
+  "tier": "B",
+  "category": "ai",
+  "title": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
+  "corroborated": false,
+  "entities": [
+   "NVIDIA"
+  ],
+  "articles": [
+   {
+    "t": "Nvidia Wants to Own Every Chip Inside AI Data Centers",
+    "s": "Nvidia’s Vera Rubin platform combines CPUs and GPUs into a single system, reflecting the company’s growing ambition to power every layer of AI infrastructure.",
+    "src": "WIRED AI",
+    "dom": "wired.com"
+   }
+  ]
+ },
+ {
+  "index": 59,
+  "tier": "B",
+  "category": "it",
+  "title": "Show HN: Computable – Buy, sell, and redeem GPU for the exact weeks you want",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Show HN: Computable – Buy, sell, and redeem GPU for the exact weeks you want",
+    "s": "Hey we are Computable. We spent years building trading infrastructure at Jump Trading and Coinbase. From that point of view, compute looks like energy markets before 2000: everything trades through private bilateral leases, there’s no visible price, and nothing can be resold. The same H100 rents at a 2x spread depending on who’s asking, and once you sign a 24-month lease, it can never change hands",
+    "src": "Hacker News",
+    "dom": "getcomputable.com"
+   }
+  ]
+ },
+ {
+  "index": 60,
+  "tier": "B",
+  "category": "it",
+  "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+  "corroborated": false,
+  "entities": [
+   "AI Agents"
+  ],
+  "articles": [
+   {
+    "t": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+    "s": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 213 # Comments: 199",
+    "src": "Hacker News",
+    "dom": "runtimewire.com"
+   }
+  ]
+ },
+ {
+  "index": 61,
+  "tier": "B",
+  "category": "industry",
+  "title": "OpenAI Urges Enterprises to Use Its Scorecard to Measure Worth of AI",
+  "corroborated": false,
+  "entities": [
+   "OpenAI"
+  ],
+  "articles": [
+   {
+    "t": "OpenAI Urges Enterprises to Use Its Scorecard to Measure Worth of AI",
+    "s": "The tool comes amid mounting pressure from low-cost AI providers in China on U.S. AI vendors.",
+    "src": "AI Business",
+    "dom": "aibusiness.com"
+   }
+  ]
+ },
+ {
+  "index": 62,
+  "tier": "B",
+  "category": "it",
+  "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+  "corroborated": false,
+  "entities": [
+   "Kimi",
+   "Moonshot AI"
+  ],
+  "articles": [
+   {
+    "t": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+    "s": "Article URL: https://fireworks.ai/blog/kimik3-fable Comments URL: https://news.ycombinator.com/item?id=48999291 Points: 168 # Comments: 92",
+    "src": "Hacker News",
+    "dom": "fireworks.ai"
+   }
+  ]
+ },
+ {
+  "index": 63,
+  "tier": "B",
+  "category": "industry",
+  "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+  "corroborated": false,
+  "entities": [
+   "Tesla"
+  ],
+  "articles": [
+   {
+    "t": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings",
+    "s": "The company didn't say how many are in each city and has taken a far more cautious approach to scaling the network than CEO Elon Musk had promised.",
+    "src": "TechCrunch",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 64,
+  "tier": "B",
+  "category": "industry",
+  "title": "Tesla Robotaxis go to Florida",
+  "corroborated": false,
+  "entities": [
+   "Tesla"
+  ],
+  "articles": [
+   {
+    "t": "Tesla Robotaxis go to Florida",
+    "s": "It must be earnings day, because Tesla is making a Robotaxi announcement. The company said in a post on X that it was launching its Robotaxi service in Orlando and Tampa, attaching a pair of maps that show each city's service area. No word on fleet size or whether interested customers would be able to [&#8230;]",
+    "src": "The Verge",
+    "dom": "theverge.com"
+   }
+  ]
+ },
+ {
+  "index": 65,
+  "tier": "B",
+  "category": "it",
+  "title": "TreeSize won't renew perpetual-license support unless users subscribe",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "TreeSize won't renew perpetual-license support unless users subscribe",
+    "s": "\"Current economic conditions\" have shifted TreeSize's business model.",
+    "src": "Ars Technica Tech",
+    "dom": "arstechnica.com"
+   }
+  ]
+ },
+ {
+  "index": 66,
+  "tier": "B",
+  "category": "ai",
+  "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+    "s": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June.",
+    "src": "TechCrunch AI",
+    "dom": "techcrunch.com"
+   }
+  ]
+ },
+ {
+  "index": 67,
+  "tier": "B",
+  "category": "ai",
+  "title": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims’ Blind Spots",
+  "corroborated": false,
+  "entities": [],
+  "articles": [
+   {
+    "t": "A Sneaky Hacking Tool Targeting AI Infrastructure Is Lurking in Victims’ Blind Spots",
+    "s": "A new type of malware can worm deep into AI coding systems to steal data and logins—and can flip a “death switch” to destroy files and keep out real users.",
+    "src": "WIRED AI",
+    "dom": "wired.com"
+   }
+  ]
+ }
+]
