@@ -12,7 +12,7 @@ Layout (all under `12_Dev Archive/`):
 
     Dev Archive.md              dashboard / landing page
     Runs/<run_id>.md            per-run index with the theme synthesis
-    Topics/YYYY/MM/<slug>.md    one note per cluster
+    Topics/<N_分野>/<slug>.md   one note per cluster, foldered by category
 
 Design properties (same guarantees as publish.py):
 
@@ -62,6 +62,29 @@ CATEGORY_LABELS = {
     "general": "総合",
 }
 
+# Topic notes are foldered by build-domain, not by date (user decision
+# 2026-07-23: date folders were unreadable). Folder names mirror the
+# 11_AI Archive/Topics naming style. Unknown categories fall back to 99_総合.
+CATEGORY_DIRS = {
+    "web": "1_Web・フロントエンド",
+    "backend": "2_バックエンド・API",
+    "language": "3_言語・ランタイム",
+    "mobile": "4_モバイル",
+    "ai-dev": "5_AI開発",
+    "cloud": "6_クラウド・インフラ",
+    "infra": "6_クラウド・インフラ",
+    "devops": "7_DevOps・ツール",
+    "tooling": "7_DevOps・ツール",
+    "data": "8_データ・DB",
+    "security": "9_セキュリティ",
+    "general": "99_総合",
+}
+DEFAULT_CATEGORY_DIR = "99_総合"
+
+
+def category_dir(cat):
+    return CATEGORY_DIRS.get(cat, DEFAULT_CATEGORY_DIR)
+
 
 # --- helpers -----------------------------------------------------------------
 def yaml_str(s):
@@ -106,8 +129,8 @@ def cat_label(cat):
 
 
 # --- topic notes -------------------------------------------------------------
-def topic_rel_path(date, filename):
-    return "{}/{}/{}/{}".format(TOPICS_DIR, date[:4], date[5:7], filename)
+def topic_rel_path(category, filename):
+    return "{}/{}/{}".format(TOPICS_DIR, category_dir(category), filename)
 
 
 def render_topic_note(item, note, run_id, date):
@@ -239,8 +262,9 @@ def render_dashboard(index):
            "**総ノート数: {}**".format(total), ""]
 
     out.append("## 分野別")
+    out.append("ノートは `Topics/` 配下の分野フォルダに置かれる。")
     for cat, c in sorted(cat_counts.items(), key=lambda kv: -kv[1]):
-        out.append("- **{}** — {}件".format(cat_label(cat), c))
+        out.append("- **{}** — {}件 (`Topics/{}`)".format(cat_label(cat), c, category_dir(cat)))
     out.append("")
 
     if tag_counts:
@@ -317,8 +341,8 @@ def do_publish(args):
         tags = filter_tags(note.get("tags"))
         category = note.get("category") or item.get("category") or "general"
         filename = make_filename(date, item["representative_title"], item["representative_url"])
-        rel_path = topic_rel_path(date, filename)
-        abs_path = safe_join(ARCHIVE_ROOT, TOPICS_DIR, date[:4], date[5:7], filename)
+        rel_path = topic_rel_path(category, filename)
+        abs_path = safe_join(ARCHIVE_ROOT, TOPICS_DIR, category_dir(category), filename)
 
         if os.path.exists(abs_path):
             skipped_existing += 1
