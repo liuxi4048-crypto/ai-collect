@@ -406,6 +406,17 @@ def render_dashboard(index, latest):
         b.append("→ 最新の収集: [[{}]]".format(runs[0]))
         b.append("")
 
+    # Weekly trend reports (written by trends.py, so listed from disk).
+    reports_dir = os.path.join(ARCHIVE_ROOT, "Reports")
+    if os.path.isdir(reports_dir):
+        reports = sorted((f for f in os.listdir(reports_dir) if f.endswith(".md")),
+                         reverse=True)[:4]
+        if reports:
+            b.append("## 📊 週次トレンドレポート")
+            b.append("")
+            b.append(" · ".join("[[{}]]".format(os.path.splitext(f)[0]) for f in reports))
+            b.append("")
+
     # Visual map.
     b.append("## 🗺 ビジュアルマップ")
     b.append("")
