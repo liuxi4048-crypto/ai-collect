@@ -33,7 +33,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from slugify import make_filename
 from dev_vocab import filter_tags
-from collect import load_seen, save_seen, normalize_url
+from collect import load_seen, save_seen
+from dev_collect import canonical_url
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(REPO_ROOT, "data")
@@ -358,7 +359,7 @@ def do_publish(args):
         # Recorded only after the file exists, so a crash mid-run leaves the
         # remaining items collectable rather than silently marked done.
         for a in item["articles"]:
-            seen[normalize_url(a["link"])] = date
+            seen[canonical_url(a["link"])] = date
 
         basename = filename[:-3]  # strip .md for wikilinks
         meta = {

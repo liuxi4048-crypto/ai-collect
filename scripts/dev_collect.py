@@ -38,6 +38,26 @@ FETCH_WORKERS = 8
 PRIMARY_BONUS = 1.5
 
 
+def canonical_url(url):
+    """Seen-index key. dev.to frequently republishes the *same* article under a
+    different author handle (`/<handle>/<slug>`); the `<slug>` carries the title
+    plus dev.to's own per-article id and is stable across those reposts, while
+    the handle is not. Collapsing dev.to URLs to host + slug lets a repost under
+    a new handle be recognised as already-seen. Every other host falls through
+    to collect.normalize_url unchanged, so this only affects dev.to dedup."""
+    from urllib.parse import urlsplit, urlunsplit
+    norm = collect.normalize_url(url)
+    try:
+        parts = urlsplit(norm)
+    except ValueError:
+        return norm
+    if parts.netloc.lower().endswith("dev.to"):
+        segs = [s for s in parts.path.split("/") if s]
+        if len(segs) >= 2:  # /<handle>/<slug> -> keep only the slug
+            norm = urlunsplit((parts.scheme, parts.netloc, "/" + segs[-1], "", ""))
+    return norm
+
+
 def collect_all():
     """Fetch every DEV feed concurrently. Mirrors collect.collect_all but over
     DEV_FEEDS; fetch_feed itself is shared so failures are handled identically."""
@@ -82,7 +102,7 @@ def build_clusters(articles, seen):
     for a in articles:
         if collect.gd.is_junk(a["title"]):
             continue
-        if collect.normalize_url(a["link"]) in seen:
+        if canonical_url(a["link"]) in seen:
             skipped_seen += 1
             continue
         usable.append(a)
