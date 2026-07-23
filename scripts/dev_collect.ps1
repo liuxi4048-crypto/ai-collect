@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Mechanical stages of a dev-collect run. Claude does the translation between.
 
@@ -8,7 +8,7 @@
     Sibling of ai_collect.ps1. Same two-stage shape, but this routine gathers
     build-relevant material (framework releases, changelogs, cloud/infra,
     databases, security advisories) WITHOUT ai-collect's AI-relevance gate, and
-    publishes to `12_Dev Archive/` instead of `11_AI Archive/`. The two never
+    publishes to `10_情報/Dev Archive/` instead of `10_情報/AI Archive/`. The two never
     share state. Deliberately ASCII-only: Windows PowerShell 5.1 reads a
     BOM-less script as ANSI and mangles multibyte string literals.
 

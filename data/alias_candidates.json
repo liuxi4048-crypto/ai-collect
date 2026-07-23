@@ -70,6 +70,13 @@
       "last_seen": "2026-07-22",
       "type": "unknown"
     },
+    "ascend superpod": {
+      "count": 1,
+      "example": "HuaweiのAscendチップによる大規模学習クラスタ。DeepSeek-V4の事後学習に使用",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "astryx": {
       "count": 1,
       "example": "Metaがオープンソース化した内製Reactデザインシステム",
@@ -287,11 +294,25 @@
       "last_seen": "2026-07-21",
       "type": "model"
     },
+    "deepseek-v4": {
+      "count": 1,
+      "example": "DeepSeekの次世代LLMファミリー。Ascend上でフルパラメータ事後学習",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "model"
+    },
     "deliver": {
       "count": 1,
       "example": "知識グラフ探索によるRLベースのファクトチェック",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "dynamicrubric": {
+      "count": 1,
+      "example": "LLM評価器とポリシーを共進化させる最適化フレームワーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
       "type": "tech"
     },
     "ear": {
@@ -304,6 +325,13 @@
     "edgebench": {
       "count": 1,
       "example": "AIエージェントを多様なタスク・実行環境・時間予算で評価するベンチマーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "benchmark"
+    },
+    "entrap-vl": {
+      "count": 1,
+      "example": "視覚言語モデルの二重文脈エントレインメントを診断する分類学的プローブ",
       "first_seen": "2026-07-23",
       "last_seen": "2026-07-23",
       "type": "benchmark"
@@ -467,6 +495,13 @@
       "example": "AMDのAIプラットフォーム。Microsoft が Azure で採用",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "hijackkv": {
+      "count": 1,
+      "example": "位置非依存KVキャッシュ再利用を突く新たなLLM推論攻撃フレームワーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
       "type": "tech"
     },
     "hindsightbench": {
@@ -742,6 +777,13 @@
       "last_seen": "2026-07-23",
       "type": "concept"
     },
+    "petals": {
+      "count": 1,
+      "example": "BitTorrent方式で大規模LLMを家庭用GPUに分散実行するプロジェクト",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "pinn (physics-informed neural network)": {
       "count": 1,
       "example": "index 6で楕円型ディリクレ境界値問題を解く手法として使用",
@@ -763,6 +805,13 @@
       "last_seen": "2026-07-21",
       "type": "tech"
     },
+    "pro-long": {
+      "count": 1,
+      "example": "プログラム的メモリで長期ホライズン推論を可能にする手法(ARC-AGIで評価)",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
+      "type": "tech"
+    },
     "project camellia": {
       "count": 2,
       "example": "",
@@ -775,6 +824,13 @@
       "example": "Adobeの実験的カメラアプリ。生成AIによる背景除去などを追加",
       "first_seen": "2026-07-21",
       "last_seen": "2026-07-21",
+      "type": "tech"
+    },
+    "pyrodash": {
+      "count": 1,
+      "example": "SLMとLLMのトークン単位協調推論によるコスト効率化フレームワーク",
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-07-23",
       "type": "tech"
     },
     "qwen 3.8 max": {

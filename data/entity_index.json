@@ -2,9 +2,10 @@
   "entities": {
     "AI Agents": {
       "cooccur": {
-        "Anthropic": 1,
+        "Anthropic": 2,
         "Arm": 1,
-        "Claude Code": 1,
+        "Claude": 1,
+        "Claude Code": 2,
         "Codex": 1,
         "Context Window": 1,
         "Distillation": 1,
@@ -36,6 +37,16 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-aggregate-in-the-advantage-not-the-ratio-a-canonical-form-an-c809.md",
+          "title_ja": "協調マルチエージェントPPOにおけるAdvantage集約の正準形分析"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-finsagent-corpus-aligned-multi-agent-rag-framework-for-evide-6f82.md",
+          "title_ja": "FinSAgent：SEC申告書QA向けコーパス準拠マルチエージェントRAG"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-how-cars24-scales-conversations-and-builds-faster-with-opena-6f16.md",
           "title_ja": "Cars24、OpenAIのボイス/チャットエージェントで会話を大規模運用"
         },
@@ -51,6 +62,26 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-is-progressive-disclosure-all-you-need-for-long-context-agen-66b6.md",
+          "title_ja": "長文脈エージェントに漸進的開示だけで十分か検証"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-llms-and-agentic-ai-systems-for-smart-grids-a-tutorial-on-ar-1f03.md",
+          "title_ja": "スマートグリッド向けLLM・自律AIのチュートリアルとアーキテクチャ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-mada-rl-multi-agent-debate-aware-reinforcement-learning-for-e86a.md",
+          "title_ja": "小型モデルの推論力を高めるマルチエージェント討論型RL"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-natural-language-access-to-domain-specific-metadata-a-reusab-06ea.md",
+          "title_ja": "ドメイン固有メタデータへの自然言語アクセス：LLMクエリ生成の再利用可能枠組み"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-natural-raises-30m-to-reinvent-payments-for-ai-agents-and-ta-4580.md",
           "title_ja": "Natural、AIエージェント向け決済で$30M調達しStripeに挑む"
         },
@@ -58,6 +89,21 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-c516.md",
           "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
+          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-o-vad-industrial-video-anomaly-detection-through-object-cent-31d5.md",
+          "title_ja": "産業ビデオ異常検出：オブジェクト中心的追跡と推論"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-prime-plasticity-recovery-in-multi-agent-environments-for-ua-b7c6.md",
+          "title_ja": "PRIME: UAV緊急通信網におけるマルチエージェントの可塑性回復"
         },
         {
           "date": "2026-07-21",
@@ -71,8 +117,33 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-self-state-attacks-on-self-hosted-ai-agents-how-far-can-os-d-6b9d.md",
+          "title_ja": "自己ホスティングAIエージェントの自己状態攻撃とOS防御"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-sparse-evidence-can-suffice-agentic-evidence-seeking-for-mul-0d25.md",
+          "title_ja": "疎な証拠で足りる：マルチモーダル動画偽情報検出のエージェント証拠探索"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-towards-agentic-agent-based-models-feasibility-performance-a-c0fc.md",
+          "title_ja": "エージェント型ABMへの展開：実現可能性・性能・統計的モデル検証"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-value-aware-prediction-for-robust-multi-agent-coordination-u-4d79.md",
+          "title_ja": "価値認識予測：通信途絶下での堅牢なマルチエージェント協調"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-vertu-wants-executives-to-pay-6-880-for-an-ai-agent-here-s-h-d9b5.md",
           "title_ja": "Vertu、経営者向けAIエージェントを$6,880で提供"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-war-workload-aware-rollouts-for-synchronous-agentic-reinforc-7142.md",
+          "title_ja": "WAR：同期エージェント強化学習のための負荷認識ロールアウト"
         },
         {
           "date": "2026-07-21",
@@ -90,94 +161,9 @@
           "title_ja": "1ワットあたりのパフォーマンスがAIインフラ効率の究極指標である理由"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-3cc8.md",
-          "title_ja": "NVIDIA Vera Rubin、ポストトレーニングの「1ドルあたり知能」を最大化"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
-          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-mada-rl-multi-agent-debate-aware-reinforcement-learning-for-e86a.md",
-          "title_ja": "小型モデルの推論力を高めるマルチエージェント討論型RL"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-o-vad-industrial-video-anomaly-detection-through-object-cent-31d5.md",
-          "title_ja": "産業ビデオ異常検出：オブジェクト中心的追跡と推論"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-llms-and-agentic-ai-systems-for-smart-grids-a-tutorial-on-ar-1f03.md",
-          "title_ja": "スマートグリッド向けLLM・自律AIのチュートリアルとアーキテクチャ"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-zero-hallucination-by-construction-hallucination-aware-layer-2f2b.md",
-          "title_ja": "構成による幻覚ゼロ：エンタープライズAIの階層的監視"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-salience-induction-against-multi-hop-rag-agents-threat-and-d-8149.md",
-          "title_ja": "マルチホップRAGエージェントへの顕著性誘導攻撃と防御"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-natural-language-access-to-domain-specific-metadata-a-reusab-06ea.md",
-          "title_ja": "ドメイン固有メタデータへの自然言語アクセス：LLMクエリ生成の再利用可能枠組み"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-towards-agentic-agent-based-models-feasibility-performance-a-c0fc.md",
-          "title_ja": "エージェント型ABMへの展開：実現可能性・性能・統計的モデル検証"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-value-aware-prediction-for-robust-multi-agent-coordination-u-4d79.md",
-          "title_ja": "価値認識予測：通信途絶下での堅牢なマルチエージェント協調"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-finsagent-corpus-aligned-multi-agent-rag-framework-for-evide-6f82.md",
-          "title_ja": "FinSAgent：SEC申告書QA向けコーパス準拠マルチエージェントRAG"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-sparse-evidence-can-suffice-agentic-evidence-seeking-for-mul-0d25.md",
-          "title_ja": "疎な証拠で足りる：マルチモーダル動画偽情報検出のエージェント証拠探索"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-self-state-attacks-on-self-hosted-ai-agents-how-far-can-os-d-6b9d.md",
-          "title_ja": "自己ホスティングAIエージェントの自己状態攻撃とOS防御"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-war-workload-aware-rollouts-for-synchronous-agentic-reinforc-7142.md",
-          "title_ja": "WAR：同期エージェント強化学習のための負荷認識ロールアウト"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-is-progressive-disclosure-all-you-need-for-long-context-agen-66b6.md",
-          "title_ja": "長文脈エージェントに漸進的開示だけで十分か検証"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-aggregate-in-the-advantage-not-the-ratio-a-canonical-form-an-c809.md",
-          "title_ja": "協調マルチエージェントPPOにおけるAdvantage集約の正準形分析"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-prime-plasticity-recovery-in-multi-agent-environments-for-ua-b7c6.md",
-          "title_ja": "PRIME: UAV緊急通信網におけるマルチエージェントの可塑性回復"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
-          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-end-b7e6.md",
+          "title_ja": "セキュリティ新興Glow、評価額$1.2Bでステルス脱却"
         },
         {
           "date": "2026-07-22",
@@ -186,13 +172,8 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-built-for-vera-rubin-nvidia-spectrum-6-arrives-in-gigascale-a211.md",
-          "title_ja": "Vera Rubin向けNVIDIA Spectrum-6、ギガスケールAIファクトリーに登場"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
+          "path": "Topics/1_モデルと能力/2026-07-22-introducing-openai-presence-c54f.md",
+          "title_ja": "OpenAI Presence発表"
         },
         {
           "date": "2026-07-22",
@@ -201,48 +182,13 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-jack-dorsey-launches-buzz-to-combine-team-chat-ai-agents-and-a54a.md",
-          "title_ja": "OpenAI、企業向けAI価値測定スコアカード導入を奨励"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
-        },
-        {
-          "date": "2026-07-22",
           "path": "Topics/1_モデルと能力/2026-07-22-jack-dorsey-launches-buzz-to-combine-team-chat-ai-agents-and-a54a.md",
           "title_ja": "Jack DorseyがチームチャットとAIエージェント、Gitホスティングを統合したBuzzを立ち上げ"
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-introducing-openai-presence-c54f.md",
-          "title_ja": "OpenAI Presence発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-end-b7e6.md",
-          "title_ja": "セキュリティ新興Glow、評価額$1.2Bでステルス脱却"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-agents-in-the-wild-where-research-meets-deployment-aea2.md",
-          "title_ja": "現場で動くエージェント:研究と実運用の接点"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-researcharena-evaluating-sabotage-and-monitoring-in-automate-5836.md",
-          "title_ja": "ResearchArena:自動化AI研究開発における妨害行為と監視の評価"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-toward-auditable-fraud-detection-combining-graph-features-mo-d4b0.md",
-          "title_ja": "監査可能な不正検知に向けて:グラフ特徴量・モデル説明・エージェント型ケース調査の統合"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-they-ll-verify-they-just-won-t-act-how-authority-framing-and-341b.md",
-          "title_ja": "彼らは検証するが行動しない——権限フレーミングと偽装コードがエージェント型CI/CDパイプラインをアタック面に変える"
+          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
         },
         {
           "date": "2026-07-23",
@@ -251,28 +197,8 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-filmworld-agentic-novel-to-film-generation-through-dynamic-c-706b.md",
-          "title_ja": "動的シネマティック世界モデリングによる小説映像化フレームワーク「FilmWorld」"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-rf-agent-a-practical-framework-for-building-language-agents-c834.md",
-          "title_ja": "RF-Agent：RFIC設計のための言語エージェント構築の実践的フレームワーク"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-graph-based-agentic-ai-with-langgraph-workflow-pathways-for-7741.md",
-          "title_ja": "LangGraphによるグラフベースのエージェンティックAI：長時間実行ステートフルビジネスプロセス"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
-          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
-          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
+          "path": "Topics/1_モデルと能力/2026-07-23-agents-in-the-wild-where-research-meets-deployment-aea2.md",
+          "title_ja": "現場で動くエージェント:研究と実運用の接点"
         },
         {
           "date": "2026-07-23",
@@ -281,8 +207,43 @@
         },
         {
           "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
+          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
+        },
+        {
+          "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-comparative-study-of-multi-agent-actor-critic-algorithms-in-96da.md",
           "title_ja": "パラメータ化行動強化学習でマルチエージェントActor-Critic手法を比較"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-filmworld-agentic-novel-to-film-generation-through-dynamic-c-706b.md",
+          "title_ja": "動的シネマティック世界モデリングによる小説映像化フレームワーク「FilmWorld」"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-graph-based-agentic-ai-with-langgraph-workflow-pathways-for-7741.md",
+          "title_ja": "LangGraphによるグラフベースのエージェンティックAI：長時間実行ステートフルビジネスプロセス"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
+          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-research-grade-edgebench-analysis-ai-agent-benchmarking-lead-afc7.md",
+          "title_ja": "EdgeBench分析：AIエージェントのベンチマーク・スケーリング則・評価指標の解説"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-researcharena-evaluating-sabotage-and-monitoring-in-automate-5836.md",
+          "title_ja": "ResearchArena:自動化AI研究開発における妨害行為と監視の評価"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-rf-agent-a-practical-framework-for-building-language-agents-c834.md",
+          "title_ja": "RF-Agent：RFIC設計のための言語エージェント構築の実践的フレームワーク"
         },
         {
           "date": "2026-07-23",
@@ -291,8 +252,58 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-research-grade-edgebench-analysis-ai-agent-benchmarking-lead-afc7.md",
-          "title_ja": "EdgeBench分析：AIエージェントのベンチマーク・スケーリング則・評価指標の解説"
+          "path": "Topics/1_モデルと能力/2026-07-23-they-ll-verify-they-just-won-t-act-how-authority-framing-and-341b.md",
+          "title_ja": "彼らは検証するが行動しない——権限フレーミングと偽装コードがエージェント型CI/CDパイプラインをアタック面に変える"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-toward-auditable-fraud-detection-combining-graph-features-mo-d4b0.md",
+          "title_ja": "監査可能な不正検知に向けて:グラフ特徴量・モデル説明・エージェント型ケース調査の統合"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-nvidia-vera-rubin-maximizes-intelligence-per-dollar-for-post-3cc8.md",
+          "title_ja": "NVIDIA Vera Rubin、ポストトレーニングの「1ドルあたり知能」を最大化"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-built-for-vera-rubin-nvidia-spectrum-6-arrives-in-gigascale-a211.md",
+          "title_ja": "Vera Rubin向けNVIDIA Spectrum-6、ギガスケールAIファクトリーに登場"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-salience-induction-against-multi-hop-rag-agents-threat-and-d-8149.md",
+          "title_ja": "マルチホップRAGエージェントへの顕著性誘導攻撃と防御"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-zero-hallucination-by-construction-hallucination-aware-layer-2f2b.md",
+          "title_ja": "構成による幻覚ゼロ：エンタープライズAIの階層的監視"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
+          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/5_産業/2026-07-22-jack-dorsey-launches-buzz-to-combine-team-chat-ai-agents-and-a54a.md",
+          "title_ja": "OpenAI、企業向けAI価値測定スコアカード導入を奨励"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-docops-a-verifiable-benchmark-for-autonomous-agents-in-compl-1e58.md",
+          "title_ja": "DocOps: 複雑な文書操作における自律エージェントのための検証可能なベンチマーク"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-anthropic-releases-claude-security-plugin-for-claude-code-in-7ef2.md",
+          "title_ja": "Anthropic、Claude Code向けセキュリティプラグインをベータ公開"
         }
       ],
       "type": "tech"
@@ -319,6 +330,18 @@
       ],
       "type": "org"
     },
+    "ARC-AGI": {
+      "cooccur": {},
+      "first_seen": "2026-07-23",
+      "notes": [
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-pro-long-programmatic-memory-enables-long-horizon-reasoning-c488.md",
+          "title_ja": "PRO-LONG: プログラム的メモリが長期ホライズン推論を可能にする(ベンチマーク: ARC-AGI)"
+        }
+      ],
+      "type": "benchmark"
+    },
     "Alibaba": {
       "cooccur": {
         "Anthropic": 2,
@@ -333,7 +356,7 @@
         "Moonshot AI": 4,
         "Multimodal": 2,
         "OpenAI": 1,
-        "Qwen": 11
+        "Qwen": 12
       },
       "first_seen": "2026-07-21",
       "notes": [
@@ -341,6 +364,11 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
           "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-alibaba-s-qwen-audio-3-0-tts-plus-tops-the-competition-in-th-f8da.md",
+          "title_ja": "AlibabaのQwen Audio 3.0 TTS Plus、音声合成ランキングで首位"
         },
         {
           "date": "2026-07-21",
@@ -364,23 +392,13 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
-          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+          "path": "Topics/1_モデルと能力/2026-07-21-qwen-image-3-0-rich-content-authentic-details-deep-knowledge-8a76.md",
+          "title_ja": "Qwen-Image-3.0：豊富なコンテンツと精細なディテール"
         },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
           "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-alibaba-s-qwen-audio-3-0-tts-plus-tops-the-competition-in-th-f8da.md",
-          "title_ja": "AlibabaのQwen Audio 3.0 TTS Plus、音声合成ランキングで首位"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-qwen-image-3-0-rich-content-authentic-details-deep-knowledge-8a76.md",
-          "title_ja": "Qwen-Image-3.0：豊富なコンテンツと精細なディテール"
         },
         {
           "date": "2026-07-22",
@@ -389,13 +407,23 @@
         },
         {
           "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
+          "title_ja": "AlibabaのQwen-Image-3.0、インフォグラフィックと10ピクセルテキストを1回のパスで描画"
+        },
+        {
+          "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
           "title_ja": "前Intel CEO、光ビームでムーアの法則を再開させたい"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
-          "title_ja": "AlibabaのQwen-Image-3.0、インフォグラフィックと10ピクセルテキストを1回のパスで描画"
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-china-delivers-a-one-two-punch-to-america-s-ai-dominance-90ce.md",
+          "title_ja": "中国がアメリカのAI優位性に二重の打撃を与える"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-train-the-model-not-the-reader-decodability-supervision-for-f136.md",
+          "title_ja": "訓練時デコード可能性監督による検証可能な活性化説明"
         }
       ],
       "type": "org"
@@ -450,11 +478,11 @@
     },
     "Anthropic": {
       "cooccur": {
-        "AI Agents": 1,
+        "AI Agents": 2,
         "AMD": 2,
         "Alibaba": 2,
-        "Claude": 16,
-        "Claude Code": 7,
+        "Claude": 18,
+        "Claude Code": 8,
         "Claude Opus": 2,
         "Claude Opus 4.8": 4,
         "Codex": 1,
@@ -462,23 +490,33 @@
         "DeepSeek": 1,
         "FrontierMath": 1,
         "GPT-5": 8,
-        "Gemini": 3,
+        "Gemini": 4,
         "Gemini 3": 2,
         "GitHub": 4,
-        "Google": 5,
+        "Google": 6,
         "Grok": 3,
         "Hugging Face": 1,
         "Kimi": 4,
         "Microsoft": 1,
         "Moonshot AI": 6,
         "NVIDIA": 2,
-        "OpenAI": 18,
+        "OpenAI": 19,
         "Qwen": 1,
         "Together AI": 1,
         "xAI": 3
       },
       "first_seen": "2026-07-21",
       "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
+          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-autoresearch-with-coding-agents-generalizers-and-metric-maxi-a28c.md",
+          "title_ja": "コーディングエージェントによる自動研究：汎化器と指標最大化器"
+        },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-claude-code-uses-bun-written-in-rust-now-165d.md",
@@ -510,6 +548,46 @@
           "title_ja": "Simon Willison、FableでSQLiteクエリ解説ツールを構築"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-anthropic-s-1-5b-copyright-settlement-approved-only-350-auth-64a6.md",
+          "title_ja": "パキスタン司法支援AI、投資対効果38.50ドル/ドル実現"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-claude-cowork-learns-new-skills-through-screen-recordings-an-feb9.md",
+          "title_ja": "Claude Coworkが画面記録と音声説明から新しいスキルを学習"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
+          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-judge-approves-1-5b-anthropic-settlement-for-pirated-books-u-70ac.md",
+          "title_ja": "Anthropicの海賊版書籍訴訟、$1.5B和解を裁判官が承認"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy-3c5a.md",
+          "title_ja": "AIと汎用エンターテイメントアプリの台頭"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
+          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-china-s-open-ai-models-are-challenging-silicon-valley-s-play-016e.md",
+          "title_ja": "中国のオープンAIモデルがシリコンバレーの戦略に対抗"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-anthropic-s-landmark-1-5b-copyright-settlement-is-approved-758b.md",
           "title_ja": "Anthropicの15億ドル著作権和解が最終承認"
@@ -530,6 +608,11 @@
           "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/2_研究と評価/2026-07-22-anthropic-s-1-5-billion-book-piracy-settlement-approved-by-j-0bd5.md",
+          "title_ja": "NVIDIA srt-slurm、SLURMレシピ、パラメータスイープ、Pareto分析による分散LLMサービングベンチマークの検証"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/3_基盤とコスト/2026-07-21-google-s-frozen-v2-chip-reportedly-bakes-gemini-s-architectu-c481.md",
           "title_ja": "Googleの新型チップ「Frozen v2」、Geminiを直接シリコン化か"
@@ -540,14 +623,64 @@
           "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-chinese-ai-model-uses-less-muscle-for-coding-tasks-c827.md",
+          "title_ja": "中国のAIモデル、コーディングタスク効率化へ"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-amd-commits-up-to-5-billion-to-anthropic-ad3e.md",
+          "title_ja": "AMDがAnthropicに最大50億ドルを投資"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-cursor-releases-cursor-router-a-request-level-classifier-del-b467.md",
+          "title_ja": "Cursor、リクエスト単位で振り分けるCursor Routerを一般提供——フロンティア品質を低コストで"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-america-needs-to-stop-getting-shocked-by-chinese-ai-ed34.md",
+          "title_ja": "米国は中国AIの進展にいちいち驚くのをやめるべき"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-how-i-tricked-claude-into-leaking-your-deepest-darkest-secre-38e6.md",
           "title_ja": "Claudeのweb_fetchツールにデータ漏洩の抜け穴、外部指摘"
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md",
           "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-anthropic-s-1-5-billion-book-piracy-settlement-approved-by-j-0bd5.md",
+          "title_ja": "Anthropicの15億ドル書籍著作権訴訟和解が判事に認可される"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-anthropic-s-1-5b-copyright-settlement-approved-only-350-auth-64a6.md",
+          "title_ja": "Anthropicの15億ドル著作権和解が承認、離脱した著者はわずか350人"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-anthropic-s-1-5b-piracy-settlement-with-book-authors-is-a-re-c3d3.md",
+          "title_ja": "Anthropic、書籍著作権侵害で15億ドルの和解に合意"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-every-frontier-ai-model-tested-by-britain-s-safety-institute-f6a5.md",
+          "title_ja": "英国AI安全機構のサイバー評価で最先端5モデルが全て不正を試みた"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-treasury-threatens-sanctions-after-white-house-claims-moonsh-d341.md",
+          "title_ja": "米財務省、Moonshotが「AnthropicのFableを蒸留した」との主張を受け制裁を示唆"
         },
         {
           "date": "2026-07-21",
@@ -580,99 +713,9 @@
           "title_ja": "推論スタートアップInfinityがTuring CapitalおよびOpenAI・Anthropic研究者から1,500万ドルを調達"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-autoresearch-with-coding-agents-generalizers-and-metric-maxi-a28c.md",
-          "title_ja": "コーディングエージェントによる自動研究：汎化器と指標最大化器"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
-          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-america-needs-to-stop-getting-shocked-by-chinese-ai-ed34.md",
-          "title_ja": "米国は中国AIの進展にいちいち驚くのをやめるべき"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
-          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-claude-cowork-learns-new-skills-through-screen-recordings-an-feb9.md",
-          "title_ja": "Claude Coworkが画面記録と音声説明から新しいスキルを学習"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-anthropic-s-1-5-billion-book-piracy-settlement-approved-by-j-0bd5.md",
-          "title_ja": "NVIDIA srt-slurm、SLURMレシピ、パラメータスイープ、Pareto分析による分散LLMサービングベンチマークの検証"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy-3c5a.md",
-          "title_ja": "AIと汎用エンターテイメントアプリの台頭"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-anthropic-s-1-5b-copyright-settlement-approved-only-350-auth-64a6.md",
-          "title_ja": "パキスタン司法支援AI、投資対効果38.50ドル/ドル実現"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-anthropic-s-1-5-billion-book-piracy-settlement-approved-by-j-0bd5.md",
-          "title_ja": "Anthropicの15億ドル書籍著作権訴訟和解が判事に認可される"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-anthropic-s-1-5b-copyright-settlement-approved-only-350-auth-64a6.md",
-          "title_ja": "Anthropicの15億ドル著作権和解が承認、離脱した著者はわずか350人"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/5_産業/2026-07-22-the-anthropic-physical-intelligence-rumor-roiling-ai-twitter-fedc.md",
           "title_ja": "Anthropicによる Physical Intelligence 買収の噂が拡散"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-judge-approves-1-5b-anthropic-settlement-for-pirated-books-u-70ac.md",
-          "title_ja": "Anthropicの海賊版書籍訴訟、$1.5B和解を裁判官が承認"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-chinese-ai-model-uses-less-muscle-for-coding-tasks-c827.md",
-          "title_ja": "中国のAIモデル、コーディングタスク効率化へ"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/5_産業/2026-07-23-show-hn-bento-an-entire-powerpoint-in-one-html-file-edit-vie-819b.md",
-          "title_ja": "Bentoー1つのHTMLファイル内の完全なスライドツール"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-amd-commits-up-to-5-billion-to-anthropic-ad3e.md",
-          "title_ja": "AMDがAnthropicに最大50億ドルを投資"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-every-frontier-ai-model-tested-by-britain-s-safety-institute-f6a5.md",
-          "title_ja": "英国AI安全機構のサイバー評価で最先端5モデルが全て不正を試みた"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/5_産業/2026-07-23-menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-2ad7.md",
-          "title_ja": "Menlo VenturesのMatt Murphyが語る、Anthropicが勝つ理由"
         },
         {
           "date": "2026-07-23",
@@ -681,28 +724,23 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-china-s-open-ai-models-are-challenging-silicon-valley-s-play-016e.md",
-          "title_ja": "中国のオープンAIモデルがシリコンバレーの戦略に対抗"
+          "path": "Topics/5_産業/2026-07-23-menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-2ad7.md",
+          "title_ja": "Menlo VenturesのMatt Murphyが語る、Anthropicが勝つ理由"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-anthropic-s-1-5b-piracy-settlement-with-book-authors-is-a-re-c3d3.md",
-          "title_ja": "Anthropic、書籍著作権侵害で15億ドルの和解に合意"
+          "path": "Topics/5_産業/2026-07-23-show-hn-bento-an-entire-powerpoint-in-one-html-file-edit-vie-819b.md",
+          "title_ja": "Bentoー1つのHTMLファイル内の完全なスライドツール"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-treasury-threatens-sanctions-after-white-house-claims-moonsh-d341.md",
-          "title_ja": "米財務省、Moonshotが「AnthropicのFableを蒸留した」との主張を受け制裁を示唆"
+          "path": "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md",
+          "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-cursor-releases-cursor-router-a-request-level-classifier-del-b467.md",
-          "title_ja": "Cursor、リクエスト単位で振り分けるCursor Routerを一般提供——フロンティア品質を低コストで"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
-          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
+          "path": "Topics/1_モデルと能力/2026-07-23-anthropic-releases-claude-security-plugin-for-claude-code-in-7ef2.md",
+          "title_ja": "Anthropic、Claude Code向けセキュリティプラグインをベータ公開"
         }
       ],
       "type": "org"
@@ -744,9 +782,9 @@
       "first_seen": "2026-07-21",
       "notes": [
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-abliteration-is-not-a-scalpel-off-target-effects-of-refusal-fb40.md",
-          "title_ja": "Abliterationはメスではない：拒否除去の的外れな副作用"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-hindsightbench-a-black-box-behavioral-audit-protocol-for-par-5efd.md",
+          "title_ja": "HindsightBench: 時系列LLM意思決定タスクの後知恵知識漏洩を監査"
         },
         {
           "date": "2026-07-23",
@@ -754,9 +792,9 @@
           "title_ja": "彼らは検証するが行動しない——権限フレーミングと偽装コードがエージェント型CI/CDパイプラインをアタック面に変える"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-hindsightbench-a-black-box-behavioral-audit-protocol-for-par-5efd.md",
-          "title_ja": "HindsightBench: 時系列LLM意思決定タスクの後知恵知識漏洩を監査"
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-abliteration-is-not-a-scalpel-off-target-effects-of-refusal-fb40.md",
+          "title_ja": "Abliterationはメスではない：拒否除去の的外れな副作用"
         }
       ],
       "type": "org"
@@ -772,23 +810,13 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-a-geometric-perspective-on-stabilizing-value-conflict-resolu-70bf.md",
-          "title_ja": "CoTがRLHFの価値観衝突解決を安定化させる幾何学的分析"
+          "path": "Topics/1_モデルと能力/2026-07-21-reasoning-as-a-double-edged-sword-architecture-and-cross-sta-54e9.md",
+          "title_ja": "推論は両刃の剣：Vision-Language-Actionモデルの頑健性"
         },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-st-veto-spatio-temporal-token-veto-for-diffusion-mllms-via-t-082b.md",
           "title_ja": "ST-Veto：拡散型MLLMの時空間トークン拒否"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-reasoning-as-a-double-edged-sword-architecture-and-cross-sta-54e9.md",
-          "title_ja": "推論は両刃の剣：Vision-Language-Actionモデルの頑健性"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-the-price-of-reasoning-cost-quality-tradeoffs-in-reinforceme-98fe.md",
-          "title_ja": "推論のコスト:ニューラル機械翻訳における強化学習のコストと品質のトレードオフ"
         },
         {
           "date": "2026-07-23",
@@ -797,38 +825,54 @@
         },
         {
           "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-dais-dependency-aware-intermediate-qa-supervision-for-comple-4e0c.md",
+          "title_ja": "DAIS、依存関係を考慮した中間QA教師信号で複雑推論を強化"
+        },
+        {
+          "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-reasoning-fine-tuning-induces-persistent-latent-policy-state-2031.md",
           "title_ja": "推論微調整は持続的潜在ポリシー状態を誘導する"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-dais-dependency-aware-intermediate-qa-supervision-for-comple-4e0c.md",
-          "title_ja": "DAIS、依存関係を考慮した中間QA教師信号で複雑推論を強化"
+          "path": "Topics/1_モデルと能力/2026-07-23-the-price-of-reasoning-cost-quality-tradeoffs-in-reinforceme-98fe.md",
+          "title_ja": "推論のコスト:ニューラル機械翻訳における強化学習のコストと品質のトレードオフ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-a-geometric-perspective-on-stabilizing-value-conflict-resolu-70bf.md",
+          "title_ja": "CoTがRLHFの価値観衝突解決を安定化させる幾何学的分析"
         }
       ],
       "type": "tech"
     },
     "Claude": {
       "cooccur": {
-        "Anthropic": 16,
-        "Claude Code": 4,
+        "AI Agents": 1,
+        "Anthropic": 18,
+        "Claude Code": 5,
         "Claude Opus": 1,
         "Claude Opus 4.8": 1,
         "DeepSeek": 1,
         "FrontierMath": 1,
         "GPT-5": 6,
-        "Gemini": 1,
+        "Gemini": 2,
         "GitHub": 1,
-        "Google": 1,
+        "Google": 2,
         "Grok": 2,
         "Hugging Face": 1,
         "Kimi": 3,
         "Moonshot AI": 3,
-        "OpenAI": 6,
+        "OpenAI": 7,
         "xAI": 2
       },
       "first_seen": "2026-07-21",
       "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
+          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
+        },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-claude-code-uses-bun-written-in-rust-now-165d.md",
@@ -848,6 +892,31 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-sqlite-query-explainer-ccfb.md",
           "title_ja": "Simon Willison、FableでSQLiteクエリ解説ツールを構築"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-claude-cowork-learns-new-skills-through-screen-recordings-an-feb9.md",
+          "title_ja": "Claude Coworkが画面記録と音声説明から新しいスキルを学習"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-judge-approves-1-5b-anthropic-settlement-for-pirated-books-u-70ac.md",
+          "title_ja": "Anthropicの海賊版書籍訴訟、$1.5B和解を裁判官が承認"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy-3c5a.md",
+          "title_ja": "AIと汎用エンターテイメントアプリの台頭"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
+          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
         },
         {
           "date": "2026-07-21",
@@ -880,43 +949,23 @@
           "title_ja": "Fableがさらなるバージョンアップ"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
-          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-claude-cowork-learns-new-skills-through-screen-recordings-an-feb9.md",
-          "title_ja": "Claude Coworkが画面記録と音声説明から新しいスキルを学習"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-show-hn-a-self-running-space-economy-sim-in-rust-and-bevy-3c5a.md",
-          "title_ja": "AIと汎用エンターテイメントアプリの台頭"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-judge-approves-1-5b-anthropic-settlement-for-pirated-books-u-70ac.md",
-          "title_ja": "Anthropicの海賊版書籍訴訟、$1.5B和解を裁判官が承認"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md",
+          "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
-          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
+          "path": "Topics/1_モデルと能力/2026-07-23-anthropic-releases-claude-security-plugin-for-claude-code-in-7ef2.md",
+          "title_ja": "Anthropic、Claude Code向けセキュリティプラグインをベータ公開"
         }
       ],
       "type": "model"
     },
     "Claude Code": {
       "cooccur": {
-        "AI Agents": 1,
-        "Anthropic": 7,
-        "Claude": 4,
+        "AI Agents": 2,
+        "Anthropic": 8,
+        "Claude": 5,
         "Codex": 1,
         "GPT-5": 1,
         "GitHub": 2,
@@ -927,6 +976,16 @@
       },
       "first_seen": "2026-07-21",
       "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
+          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-autoresearch-with-coding-agents-generalizers-and-metric-maxi-a28c.md",
+          "title_ja": "コーディングエージェントによる自動研究：汎化器と指標最大化器"
+        },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-claude-code-uses-bun-written-in-rust-now-165d.md",
@@ -948,19 +1007,14 @@
           "title_ja": "Fableがさらなるバージョンアップ"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-autoresearch-with-coding-agents-generalizers-and-metric-maxi-a28c.md",
-          "title_ja": "コーディングエージェントによる自動研究：汎化器と指標最大化器"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-a-fireside-chat-with-cat-and-thariq-from-the-claude-code-tea-009d.md",
-          "title_ja": "Simon Willison氏、Claude CodeチームのCatとThariq氏と対談"
-        },
-        {
           "date": "2026-07-23",
           "path": "Topics/5_産業/2026-07-23-show-hn-bento-an-entire-powerpoint-in-one-html-file-edit-vie-819b.md",
           "title_ja": "Bentoー1つのHTMLファイル内の完全なスライドツール"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-anthropic-releases-claude-security-plugin-for-claude-code-in-7ef2.md",
+          "title_ja": "Anthropic、Claude Code向けセキュリティプラグインをベータ公開"
         }
       ],
       "type": "model"
@@ -1009,9 +1063,9 @@
           "title_ja": "Kimi K3とペリカンベンチマークから学べること"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
-          "title_ja": "GitHub上のdatasette code-frequencyチャート"
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-cursor-releases-cursor-router-a-request-level-classifier-del-b467.md",
+          "title_ja": "Cursor、リクエスト単位で振り分けるCursor Routerを一般提供——フロンティア品質を低コストで"
         },
         {
           "date": "2026-07-21",
@@ -1019,9 +1073,9 @@
           "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-cursor-releases-cursor-router-a-request-level-classifier-del-b467.md",
-          "title_ja": "Cursor、リクエスト単位で振り分けるCursor Routerを一般提供——フロンティア品質を低コストで"
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
+          "title_ja": "GitHub上のdatasette code-frequencyチャート"
         }
       ],
       "type": "model"
@@ -1044,9 +1098,9 @@
           "title_ja": "NVIDIAがDeepStream 9.1をリリース、13機能でビジョンAIにエージェントを実装"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-quoting-thibault-sottiaux-b62b.md",
-          "title_ja": "ファイル削除について述べるThibault Sottiaux"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-cod-ce62.md",
+          "title_ja": "NTT DATA、OpenAI Codexでインシデント分析を30分に短縮"
         },
         {
           "date": "2026-07-22",
@@ -1054,9 +1108,9 @@
           "title_ja": "OpenAI「Project Camellia」、ジョージア州エフィンガム郡でデータセンター展開"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-cod-ce62.md",
-          "title_ja": "NTT DATA、OpenAI Codexでインシデント分析を30分に短縮"
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-quoting-thibault-sottiaux-b62b.md",
+          "title_ja": "ファイル削除について述べるThibault Sottiaux"
         }
       ],
       "type": "model"
@@ -1070,11 +1124,6 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-swe-pruner-pro-the-coder-llm-already-knows-what-to-prune-8ed8.md",
-          "title_ja": "SWE-Pruner Pro：コーダーLLMは何を削るか既に知っている"
-        },
-        {
-          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-exploratory-and-assimilating-reflection-reflective-recall-cy-848f.md",
           "title_ja": "EAR: LLMエージェントの長期記憶のための探索と同化の内省サイクル"
         },
@@ -1082,6 +1131,11 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-is-progressive-disclosure-all-you-need-for-long-context-agen-66b6.md",
           "title_ja": "長文脈エージェントに漸進的開示だけで十分か検証"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-swe-pruner-pro-the-coder-llm-already-knows-what-to-prune-8ed8.md",
+          "title_ja": "SWE-Pruner Pro：コーダーLLMは何を削るか既に知っている"
         }
       ],
       "type": "tech"
@@ -1118,7 +1172,7 @@
         "Google": 1,
         "Kimi": 2,
         "Mistral AI": 1,
-        "Mixture of Experts": 1,
+        "Mixture of Experts": 2,
         "Moonshot AI": 2,
         "OpenAI": 1,
         "Qwen": 1
@@ -1139,6 +1193,11 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-mo-7196.md",
           "title_ja": "Kimi K3、DeepSeek V4 Pro、GLM-5.2：オープンMoEモデルをベンチマークで比較"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-slai-t-rex-full-parameter-post-training-of-the-deepseek-v4-f-d3ac.md",
+          "title_ja": "SLAI T-Rex: Ascend SuperPOD上でのDeepSeek-V4ファミリーのフルパラメータ事後学習"
         }
       ],
       "type": "org"
@@ -1170,13 +1229,18 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-who-s-afraid-of-chinese-models-1ee0.md",
-          "title_ja": "中国製モデルへの警戒論、蒸留規制の矛盾を指摘する提言"
-        },
-        {
-          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-llm-as-a-coach-experiential-learning-for-non-verifiable-task-3ce7.md",
           "title_ja": "スカラー報酬に代わるLLM-as-a-Coachによる経験学習"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-rationale-guided-knowledge-distillation-for-cross-lingual-st-6cb9.md",
+          "title_ja": "言語横断スタンス検出のための根拠誘導知識蒸留"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-rf-agent-a-practical-framework-for-building-language-agents-c834.md",
+          "title_ja": "RF-Agent：RFIC設計のための言語エージェント構築の実践的フレームワーク"
         },
         {
           "date": "2026-07-21",
@@ -1189,19 +1253,19 @@
           "title_ja": "異種LLMマージの再考：重み付き平均化の観点"
         },
         {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-who-s-afraid-of-chinese-models-1ee0.md",
+          "title_ja": "中国製モデルへの警戒論、蒸留規制の矛盾を指摘する提言"
+        },
+        {
           "date": "2026-07-23",
           "path": "Topics/2_研究と評価/2026-07-23-h-2-sd-hybrid-hindsight-self-distillation-dbdf.md",
           "title_ja": "H^2SD: ハイブリッド後知恵自己蒸留"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-rf-agent-a-practical-framework-for-building-language-agents-c834.md",
-          "title_ja": "RF-Agent：RFIC設計のための言語エージェント構築の実践的フレームワーク"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-rationale-guided-knowledge-distillation-for-cross-lingual-st-6cb9.md",
-          "title_ja": "言語横断スタンス検出のための根拠誘導知識蒸留"
+          "path": "Topics/1_モデルと能力/2026-07-23-when-does-knowledge-distillation-hurt-reliability-aware-dist-77ac.md",
+          "title_ja": "知識蒸留はいつ有害になるか: 低資源言語要約のための信頼性考慮型蒸留"
         }
       ],
       "type": "tech"
@@ -1222,13 +1286,13 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-nvidia-introduces-new-jetson-thor-computers-to-advance-mains-dc5a.md",
-          "title_ja": "NVIDIAがロボティクスとエッジAIを推進する新Jetson Thorコンピュータを導入"
+          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
+          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
-          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-athena-brain-technical-report-an-efficient-robot-brain-for-g-2df7.md",
+          "title_ja": "Athena-Brain技術報告：汎用知能と身体化インタラクションのための効率的ロボット脳"
         },
         {
           "date": "2026-07-21",
@@ -1237,13 +1301,13 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
-          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
+          "path": "Topics/3_基盤とコスト/2026-07-21-nvidia-introduces-new-jetson-thor-computers-to-advance-mains-dc5a.md",
+          "title_ja": "NVIDIAがロボティクスとエッジAIを推進する新Jetson Thorコンピュータを導入"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-athena-brain-technical-report-an-efficient-robot-brain-for-g-2df7.md",
-          "title_ja": "Athena-Brain技術報告：汎用知能と身体化インタラクションのための効率的ロボット脳"
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
+          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
         },
         {
           "date": "2026-07-23",
@@ -1271,28 +1335,13 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-swe-pruner-pro-the-coder-llm-already-knows-what-to-prune-8ed8.md",
-          "title_ja": "SWE-Pruner Pro：コーダーLLMは何を削るか既に知っている"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-vdar-router-adaptive-llms-routing-via-verbalized-query-diffi-2980.md",
-          "title_ja": "VDAR-Router：クエリ難度分析によるLLM適応ルーティング"
+          "path": "Topics/1_モデルと能力/2026-07-21-multilingual-sentence-embeddings-for-linguistic-integrated-r-9b5b.md",
+          "title_ja": "言語統合の信頼性監査のための多言語文埋め込み"
         },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-vector-search-as-nearest-neighbor-matching-rag-based-policy-4400.md",
           "title_ja": "ベクトル検索を最近傍マッチングとみなすRAGベース方針学習"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-fsrd-fuzzy-spectral-region-decomposition-automated-multi-ope-aa6c.md",
-          "title_ja": "fSRD: ファジィスペクトル領域分解による適応的Koopman表現学習"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-multilingual-sentence-embeddings-for-linguistic-integrated-r-9b5b.md",
-          "title_ja": "言語統合の信頼性監査のための多言語文埋め込み"
         },
         {
           "date": "2026-07-23",
@@ -1301,13 +1350,28 @@
         },
         {
           "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-fusion-embedding-a-unified-embedding-space-for-text-image-vi-a3ec.md",
+          "title_ja": "Fusion Embedding: テキスト、画像、ビデオ、オーディオの統一埋め込み空間"
+        },
+        {
+          "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-supra-cognitive-modes-a-routed-architecture-for-agent-memory-1590.md",
           "title_ja": "エージェント記憶の「モード別ルーティング」新設計、Supra Cognitive Modes"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-fusion-embedding-a-unified-embedding-space-for-text-image-vi-a3ec.md",
-          "title_ja": "Fusion Embedding: テキスト、画像、ビデオ、オーディオの統一埋め込み空間"
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-fsrd-fuzzy-spectral-region-decomposition-automated-multi-ope-aa6c.md",
+          "title_ja": "fSRD: ファジィスペクトル領域分解による適応的Koopman表現学習"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-swe-pruner-pro-the-coder-llm-already-knows-what-to-prune-8ed8.md",
+          "title_ja": "SWE-Pruner Pro：コーダーLLMは何を削るか既に知っている"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-vdar-router-adaptive-llms-routing-via-verbalized-query-diffi-2980.md",
+          "title_ja": "VDAR-Router：クエリ難度分析によるLLM適応ルーティング"
         }
       ],
       "type": "tech"
@@ -1323,7 +1387,7 @@
         "Interpretability": 1,
         "Llama": 1,
         "Llama 3": 1,
-        "LoRA": 3,
+        "LoRA": 4,
         "Meta": 2,
         "Mistral AI": 1,
         "NVIDIA": 2,
@@ -1334,28 +1398,8 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
-          "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
-        },
-        {
-          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-mada-rl-multi-agent-debate-aware-reinforcement-learning-for-e86a.md",
           "title_ja": "小型モデルの推論力を高めるマルチエージェント討論型RL"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-ppl-factory-task-aware-and-budget-aware-data-selection-from-1d6c.md",
-          "title_ja": "タスク適応型のデータ選別でLLM学習コストを削減"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
-          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
-          "title_ja": "引用機能分類のための大規模言語モデル"
         },
         {
           "date": "2026-07-21",
@@ -1364,23 +1408,8 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-autoencoder-compressed-parallel-split-learning-for-pre-train-f42e.md",
-          "title_ja": "AutoEncoder圧縮を用いた並列分割学習による基盤モデルのファインチューニング"
-        },
-        {
-          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-robust-summarization-of-doctor-patient-conversations-taltech-76ef.md",
           "title_ja": "TalTech、対話から直接SOAPノート生成しBeTraCで首位"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-what-transfers-under-source-shift-definitions-examples-and-f-ba45.md",
-          "title_ja": "DRNOISE：誤った証拠環境における深層研究エージェントのベンチマーク"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-sciforma-structure-faithful-generation-of-scientific-diagram-4711.md",
-          "title_ja": "分布シフト下のクラス条件付きカバレッジのラベル複雑性"
         },
         {
           "date": "2026-07-22",
@@ -1393,9 +1422,14 @@
           "title_ja": "LLMファインチューニングOSS4種を比較(Unsloth/Axolotl/TRL/LLaMA-Factory)"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-what-transfers-under-source-shift-definitions-examples-and-f-ba45.md",
+          "title_ja": "DRNOISE：誤った証拠環境における深層研究エージェントのベンチマーク"
+        },
+        {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-reasoning-before-translation-enhancing-legal-machine-transla-843e.md",
-          "title_ja": "翻訳前に推論する:構造化推論による法律機械翻訳の強化"
+          "path": "Topics/1_モデルと能力/2026-07-23-adopting-reinforcement-learning-with-verifiable-rewards-for-6019.md",
+          "title_ja": "検証可能報酬付き強化学習による分子生成"
         },
         {
           "date": "2026-07-23",
@@ -1404,13 +1438,13 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-code-division-modulation-layers-against-forgetting-and-infer-da5e.md",
-          "title_ja": "継続学習型歩容認証における忘却・推論攻撃対策「Code Division Modulation Layers」"
+          "path": "Topics/1_モデルと能力/2026-07-23-find-before-you-fine-tune-a-diagnostic-study-of-small-llms-f-d777.md",
+          "title_ja": "微調整前に診断：サイバーセキュリティQAの小型LLM診断研究"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-find-before-you-fine-tune-a-diagnostic-study-of-small-llms-f-d777.md",
-          "title_ja": "微調整前に診断：サイバーセキュリティQAの小型LLM診断研究"
+          "path": "Topics/1_モデルと能力/2026-07-23-reasoning-before-translation-enhancing-legal-machine-transla-843e.md",
+          "title_ja": "翻訳前に推論する:構造化推論による法律機械翻訳の強化"
         },
         {
           "date": "2026-07-23",
@@ -1423,14 +1457,29 @@
           "title_ja": "Search-on-Graph-R1：強化学習でナレッジグラフ検索するLLMの訓練"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-adopting-reinforcement-learning-with-verifiable-rewards-for-6019.md",
-          "title_ja": "検証可能報酬付き強化学習による分子生成"
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-autoencoder-compressed-parallel-split-learning-for-pre-train-f42e.md",
+          "title_ja": "AutoEncoder圧縮を用いた並列分割学習による基盤モデルのファインチューニング"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-circuitkit-circuit-discovery-evaluation-and-application-tool-79a0.md",
-          "title_ja": "機構的解釈可能性の回路分析を統合するツールキットCircuitKIT"
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
+          "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
+          "title_ja": "引用機能分類のための大規模言語モデル"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-ppl-factory-task-aware-and-budget-aware-data-selection-from-1d6c.md",
+          "title_ja": "タスク適応型のデータ選別でLLM学習コストを削減"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/2_研究と評価/2026-07-22-sciforma-structure-faithful-generation-of-scientific-diagram-4711.md",
+          "title_ja": "分布シフト下のクラス条件付きカバレッジのラベル複雑性"
         },
         {
           "date": "2026-07-23",
@@ -1441,6 +1490,36 @@
           "date": "2026-07-23",
           "path": "Topics/2_研究と評価/2026-07-23-sfga-a-statistics-first-gating-architecture-with-adjudicativ-482c.md",
           "title_ja": "SFGA：SFTデータ調達を信頼性高く行う統計優先ゲーティング構成"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
+          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-circuitkit-circuit-discovery-evaluation-and-application-tool-79a0.md",
+          "title_ja": "機構的解釈可能性の回路分析を統合するツールキットCircuitKIT"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-code-division-modulation-layers-against-forgetting-and-infer-da5e.md",
+          "title_ja": "継続学習型歩容認証における忘却・推論攻撃対策「Code Division Modulation Layers」"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-tiny-schiller-a-drop-in-german-drama-corpus-for-small-langua-fe24.md",
+          "title_ja": "TINY_SCHILLER: 小規模言語モデル向けドロップイン式ドイツ語演劇コーパス"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-the-blessing-of-dimensionality-how-near-orthogonality-in-hig-bf30.md",
+          "title_ja": "次元の恩恵: 高次元空間における準直交性が時間的可搬性を説明する仕組み"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-lkvalues-aligning-large-language-models-with-sri-lankan-soci-644e.md",
+          "title_ja": "シンハラ語社会価値観でのLLM調整フレームワーク（LKValues）"
         }
       ],
       "type": "tech"
@@ -1508,14 +1587,54 @@
           "title_ja": "Kimi K3とペリカンベンチマークから学べること"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
+          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
+          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
+          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
+          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
+          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
           "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-quoting-thibault-sottiaux-b62b.md",
           "title_ja": "ファイル削除について述べるThibault Sottiaux"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
+          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
         },
         {
           "date": "2026-07-21",
@@ -1531,46 +1650,6 @@
           "date": "2026-07-21",
           "path": "Topics/5_産業/2026-07-21-fable-gets-another-bump-2bd9.md",
           "title_ja": "Fableがさらなるバージョンアップ"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
-          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
-          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
-          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
-          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
-          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
-          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
         }
       ],
       "type": "model"
@@ -1579,13 +1658,13 @@
       "cooccur": {
         "AI Agents": 1,
         "Alibaba": 1,
-        "Anthropic": 3,
-        "Claude": 1,
+        "Anthropic": 4,
+        "Claude": 2,
         "GPT-5": 1,
         "Gemini 3": 4,
-        "Google": 12,
+        "Google": 13,
         "Grok": 1,
-        "OpenAI": 3,
+        "OpenAI": 4,
         "Qwen": 1,
         "xAI": 1
       },
@@ -1595,6 +1674,36 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-create-edit-and-star-in-videos-with-two-google-vids-updates-0199.md",
           "title_ja": "Google Vidsの2つの更新でビデオを作成・編集・スターに"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
+          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-gemini-last-models-temperature-top-p-and-top-k-are-deprecate-bf82.md",
+          "title_ja": "新Gemini 3.5 Flashモデル：高速・低価格だが能力は向上なし"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
+          "title_ja": "Google、Gemini 3.6 Flash等を発表しつつ次世代Gemini 4の学習も明かす"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
+          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
+          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
         },
         {
           "date": "2026-07-21",
@@ -1612,44 +1721,19 @@
           "title_ja": "Googleの新Gemini料金体系と使用量追跡の仕組み"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-empowering-india-s-next-generation-of-innovators-with-atl-sa-6618.md",
-          "title_ja": "ATL SaathiによるインドのAI人材育成"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
-          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
-          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
-          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
           "title_ja": "NVIDIA Vera Rubin、パートナー各社で性能効率と最低トークンコストを牽引"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-gemini-last-models-temperature-top-p-and-top-k-are-deprecate-bf82.md",
-          "title_ja": "新Gemini 3.5 Flashモデル：高速・低価格だが能力は向上なし"
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-empowering-india-s-next-generation-of-innovators-with-atl-sa-6618.md",
+          "title_ja": "ATL SaathiによるインドのAI人材育成"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
-          "title_ja": "Google、Gemini 3.6 Flash等を発表しつつ次世代Gemini 4の学習も明かす"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md",
+          "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
         }
       ],
       "type": "model"
@@ -1680,29 +1764,9 @@
           "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
-          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
-          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
-          "title_ja": "NVIDIA Vera Rubin、パートナー各社で性能効率と最低トークンコストを牽引"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-new-gemini-3-5-flash-models-are-faster-and-cheaper-but-not-s-d4d2.md",
-          "title_ja": "Alibaba Qwen 3.8 Maxが中国がUS既製品に追いつきつつあることを示す"
+          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
+          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
         },
         {
           "date": "2026-07-22",
@@ -1711,13 +1775,33 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
-          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
+          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
+          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
+          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-new-gemini-3-5-flash-models-are-faster-and-cheaper-but-not-s-d4d2.md",
+          "title_ja": "Alibaba Qwen 3.8 Maxが中国がUS既製品に追いつきつつあることを示す"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
+          "title_ja": "NVIDIA Vera Rubin、パートナー各社で性能効率と最低トークンコストを牽引"
         },
         {
           "date": "2026-07-23",
           "path": "Topics/3_基盤とコスト/2026-07-23-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wr-bc4d.md",
           "title_ja": "Cactus Hybrid：「自分が間違っている時」を判別できるGemma 4のオンデバイス/クラウド振り分け"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
         }
       ],
       "type": "model"
@@ -1729,7 +1813,7 @@
         "DeepSeek-R1": 1,
         "Edge AI": 1,
         "Gemini 3": 1,
-        "Google": 3,
+        "Google": 4,
         "MMLU": 1,
         "Mistral AI": 1,
         "Mixture of Experts": 1,
@@ -1751,6 +1835,11 @@
           "date": "2026-07-23",
           "path": "Topics/3_基盤とコスト/2026-07-23-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wr-bc4d.md",
           "title_ja": "Cactus Hybrid：「自分が間違っている時」を判別できるGemma 4のオンデバイス/クラウド振り分け"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-reading-and-steering-representations-of-materials-science-me-a315.md",
+          "title_ja": "オープンウェイトLLMの材料科学メカニズム表現の読み取り・制御"
         }
       ],
       "type": "model"
@@ -1797,6 +1886,11 @@
           "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
         },
         {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-gigatoken-1000x-faster-language-model-tokenization-e08b.md",
+          "title_ja": "GigaToken：言語モデルのトークン化を約1000倍高速化"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-quoting-github-changelog-7b74.md",
           "title_ja": "GitHub Changelogの発言"
@@ -1805,11 +1899,6 @@
           "date": "2026-07-21",
           "path": "Topics/5_産業/2026-07-21-datasette-code-frequency-chart-on-github-7a71.md",
           "title_ja": "GitHub上のdatasette code-frequencyチャート"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-gigatoken-1000x-faster-language-model-tokenization-e08b.md",
-          "title_ja": "GigaToken：言語モデルのトークン化を約1000倍高速化"
         }
       ],
       "type": "org"
@@ -1818,8 +1907,8 @@
       "cooccur": {
         "AI Agents": 1,
         "Alibaba": 2,
-        "Anthropic": 5,
-        "Claude": 1,
+        "Anthropic": 6,
+        "Claude": 2,
         "Claude Opus 4.8": 1,
         "DeepSeek": 1,
         "DeepSeek-R1": 1,
@@ -1827,9 +1916,9 @@
         "Embeddings": 1,
         "Fine-tuning": 1,
         "GPT-5": 3,
-        "Gemini": 12,
+        "Gemini": 13,
         "Gemini 3": 9,
-        "Gemma": 3,
+        "Gemma": 4,
         "Grok": 3,
         "LoRA": 1,
         "MMLU": 1,
@@ -1837,7 +1926,7 @@
         "Mistral AI": 1,
         "Mixture of Experts": 1,
         "NVIDIA": 5,
-        "OpenAI": 6,
+        "OpenAI": 7,
         "Qwen": 2,
         "RAG": 1,
         "Vector Database": 1,
@@ -1862,8 +1951,73 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-logical-judgments-under-pressure-diagnosing-syllogistic-stab-77f4.md",
+          "title_ja": "圧力下の論理判断：三段論法の安定性を学習プレフィックスで診断"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
+          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-3-google-updates-from-galaxy-unpacked-2026-23fc.md",
+          "title_ja": "Galaxy Unpacked 2026でのGoogleの3つのアップデート"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
+          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-gemini-last-models-temperature-top-p-and-top-k-are-deprecate-bf82.md",
+          "title_ja": "新Gemini 3.5 Flashモデル：高速・低価格だが能力は向上なし"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
+          "title_ja": "Google、Gemini 3.6 Flash等を発表しつつ次世代Gemini 4の学習も明かす"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
+          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
+          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-modeling-turn-taking-with-distant-viewing-investigating-sile-19fd.md",
+          "title_ja": "遠隔視点によるターン取りモデル化: 人間とAI生成談話における沈黙閾値調査"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-new-gemini-3-5-flash-models-are-faster-and-cheaper-but-not-s-d4d2.md",
+          "title_ja": "Alibaba Qwen 3.8 Maxが中国がUS既製品に追いつきつつあることを示す"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
           "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/2_研究と評価/2026-07-22-modeling-turn-taking-with-distant-viewing-investigating-sile-19fd.md",
+          "title_ja": "追加コンテキストの活用時期：同時音声翻訳のための証拠ベース専門用語適応"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-benchmarking-human-and-automatic-speech-recognition-of-diver-10e6.md",
+          "title_ja": "多様な話者の音声認識における人間と自動認識(ASR)のベンチマーク：初期結果"
         },
         {
           "date": "2026-07-21",
@@ -1886,6 +2040,51 @@
           "title_ja": "ゴルフではなく鳥を探せ（データセンターの水使用）"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-accelerating-the-frontiers-of-scientific-discovery-google-s-15eb.md",
+          "title_ja": "Google、Genesis Missionに$40M相当をコミット"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
+          "title_ja": "NVIDIA Vera Rubin、パートナー各社で性能効率と最低トークンコストを牽引"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-4616.md",
+          "title_ja": "フォートワースに新工場 ― WistronがNVIDIA AIシステムの先進製造拠点を開所"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
+          "title_ja": "NVIDIA srt-slurm等を用いた分散LLMサービングベンチマークの検証"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-google-cloud-nvidia-collaborate-with-german-startup-for-ai-r-9f67.md",
+          "title_ja": "Google CloudとNvidiaがドイツのAIロボット企業と協業"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-google-justifies-its-massive-ai-spending-with-a-booming-clou-e99b.md",
+          "title_ja": "Google、好調なクラウド事業で巨額のAI投資を正当化"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wr-bc4d.md",
+          "title_ja": "Cactus Hybrid：「自分が間違っている時」を判別できるGemma 4のオンデバイス/クラウド振り分け"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-it-s-a-modern-day-draft-why-stanford-students-walked-out-on-8370.md",
+          "title_ja": "スタンフォードの学生、ピチャイ氏の卒業式講演で退場"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-trump-administration-reportedly-builds-a-slow-motion-ban-on-7981.md",
           "title_ja": "Trump政権が制裁と圧力により中国AI企業に対するスローモーション禁止を構築"
@@ -1894,6 +2093,11 @@
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-xai-org-grok-build-now-open-source-b836.md",
           "title_ja": "xai-org/grok-build、オープンソース化"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-meta-made-its-own-ai-detection-system-it-should-have-just-us-cd49.md",
+          "title_ja": "MetaがAI検出システム導入、GoogleのSynthIDが代替案に浮上"
         },
         {
           "date": "2026-07-21",
@@ -1911,124 +2115,19 @@
           "title_ja": "The Voice of Google"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
-          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-logical-judgments-under-pressure-diagnosing-syllogistic-stab-77f4.md",
-          "title_ja": "圧力下の論理判断：三段論法の安定性を学習プレフィックスで診断"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-it-s-a-modern-day-draft-why-stanford-students-walked-out-on-8370.md",
-          "title_ja": "スタンフォードの学生、ピチャイ氏の卒業式講演で退場"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cy-8985.md",
-          "title_ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
-          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-4616.md",
-          "title_ja": "フォートワースに新工場 ― WistronがNVIDIA AIシステムの先進製造拠点を開所"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
-          "title_ja": "NVIDIA Vera Rubin、パートナー各社で性能効率と最低トークンコストを牽引"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-gemini-last-models-temperature-top-p-and-top-k-are-deprecate-bf82.md",
-          "title_ja": "新Gemini 3.5 Flashモデル：高速・低価格だが能力は向上なし"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-new-gemini-3-5-flash-models-are-faster-and-cheaper-but-not-s-d4d2.md",
-          "title_ja": "Alibaba Qwen 3.8 Maxが中国がUS既製品に追いつきつつあることを示す"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-modeling-turn-taking-with-distant-viewing-investigating-sile-19fd.md",
-          "title_ja": "追加コンテキストの活用時期：同時音声翻訳のための証拠ベース専門用語適応"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/5_産業/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
           "title_ja": "Nativ：MacでAIモデルをローカルで実行"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-announces-gemini-3-6-flash-and-cybersecurity-ai-tease-d2db.md",
-          "title_ja": "Google、Gemini 3.6 Flash等を発表しつつ次世代Gemini 4の学習も明かす"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-modeling-turn-taking-with-distant-viewing-investigating-sile-19fd.md",
-          "title_ja": "遠隔視点によるターン取りモデル化: 人間とAI生成談話における沈黙閾値調査"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
-          "title_ja": "NVIDIA srt-slurm等を用いた分散LLMサービングベンチマークの検証"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-3-google-updates-from-galaxy-unpacked-2026-23fc.md",
-          "title_ja": "Galaxy Unpacked 2026でのGoogleの3つのアップデート"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
-          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-accelerating-the-frontiers-of-scientific-discovery-google-s-15eb.md",
-          "title_ja": "Google、Genesis Missionに$40M相当をコミット"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-meta-made-its-own-ai-detection-system-it-should-have-just-us-cd49.md",
-          "title_ja": "MetaがAI検出システム導入、GoogleのSynthIDが代替案に浮上"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md",
+          "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-google-cloud-nvidia-collaborate-with-german-startup-for-ai-r-9f67.md",
-          "title_ja": "Google CloudとNvidiaがドイツのAIロボット企業と協業"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-show-hn-cactus-hybrid-we-taught-gemma-4-to-know-when-it-s-wr-bc4d.md",
-          "title_ja": "Cactus Hybrid：「自分が間違っている時」を判別できるGemma 4のオンデバイス/クラウド振り分け"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/2_研究と評価/2026-07-23-benchmarking-human-and-automatic-speech-recognition-of-diver-10e6.md",
-          "title_ja": "多様な話者の音声認識における人間と自動認識(ASR)のベンチマーク：初期結果"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-google-justifies-its-massive-ai-spending-with-a-booming-clou-e99b.md",
-          "title_ja": "Google、好調なクラウド事業で巨額のAI投資を正当化"
+          "path": "Topics/1_モデルと能力/2026-07-23-reading-and-steering-representations-of-materials-science-me-a315.md",
+          "title_ja": "オープンウェイトLLMの材料科学メカニズム表現の読み取り・制御"
         }
       ],
       "type": "org"
@@ -2079,9 +2178,14 @@
           "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
           "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-xai-org-grok-build-now-open-source-b836.md",
-          "title_ja": "xai-org/grok-build、オープンソース化"
+          "path": "Topics/2_研究と評価/2026-07-21-i-wanted-it-to-feel-more-personal-customization-of-social-ai-aa59.md",
+          "title_ja": "「もっと個人的に感じてほしい」：社会的AIのカスタマイズ"
         },
         {
           "date": "2026-07-21",
@@ -2090,13 +2194,8 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-i-wanted-it-to-feel-more-personal-customization-of-social-ai-aa59.md",
-          "title_ja": "「もっと個人的に感じてほしい」：社会的AIのカスタマイズ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+          "path": "Topics/4_安全性と規制/2026-07-21-xai-org-grok-build-now-open-source-b836.md",
+          "title_ja": "xai-org/grok-build、オープンソース化"
         }
       ],
       "type": "model"
@@ -2109,11 +2208,6 @@
       "first_seen": "2026-07-21",
       "notes": [
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-zero-hallucination-by-construction-hallucination-aware-layer-2f2b.md",
-          "title_ja": "構成による幻覚ゼロ：エンタープライズAIの階層的監視"
-        },
-        {
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-find-before-you-fine-tune-a-diagnostic-study-of-small-llms-f-d777.md",
           "title_ja": "微調整前に診断：サイバーセキュリティQAの小型LLM診断研究"
@@ -2122,6 +2216,11 @@
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-prompt-design-at-scale-how-format-instruction-count-and-cont-975f.md",
           "title_ja": "プロンプト書式・指示数・文脈長がLLMの指示遵守とハルシネーションに与える影響を検証"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-zero-hallucination-by-construction-hallucination-aware-layer-2f2b.md",
+          "title_ja": "構成による幻覚ゼロ：エンタープライズAIの階層的監視"
         }
       ],
       "type": "tech"
@@ -2145,9 +2244,49 @@
           "title_ja": "Hugging Face、AIエージェントがインフラを侵害、AIで反撃したと報告"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-nativ-run-ai-models-locally-on-your-mac-99e4.md",
+          "title_ja": "AlibabaのQwen-Image-3.0が単一パスで完全なインフォグラフィックグリッドと読める10ピクセルテキストを描画"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
+          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
+          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-fra-13cb.md",
+          "title_ja": "LLMファインチューニングOSS4種を比較(Unsloth/Axolotl/TRL/LLaMA-Factory)"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-openai-s-accidental-cyberattack-against-hugging-face-is-scie-4fec.md",
+          "title_ja": "OpenAIの検証中モデルが誤ってHugging Faceを「攻撃」した一件"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
+          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-research-grade-edgebench-analysis-ai-agent-benchmarking-lead-afc7.md",
+          "title_ja": "EdgeBench分析：AIエージェントのベンチマーク・スケーリング則・評価指標の解説"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-someone-fine-tuned-openbmb-s-minicpm5-1b-on-claude-fable-5-t-49ae.md",
           "title_ja": "MiniCPM5-1BをClaude Fable 5トレースで微調整した657MBローカル思考モデル"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
+          "title_ja": "中国のAIモデルがコーディングタスクで少ないリソースを使用"
         },
         {
           "date": "2026-07-21",
@@ -2161,43 +2300,8 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
-          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
-          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
-          "title_ja": "中国のAIモデルがコーディングタスクで少ないリソースを使用"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-nativ-run-ai-models-locally-on-your-mac-99e4.md",
-          "title_ja": "AlibabaのQwen-Image-3.0が単一パスで完全なインフォグラフィックグリッドと読める10ピクセルテキストを描画"
-        },
-        {
-          "date": "2026-07-22",
           "path": "Topics/4_安全性と規制/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
           "title_ja": "OpenAI、Hugging Faceの侵害は自社プレリリースモデルによると報告"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-nativ-run-ai-models-locally-on-your-mac-99e4.md",
-          "title_ja": "Nativ: MacでローカルにAIモデルを実行"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-fra-13cb.md",
-          "title_ja": "LLMファインチューニングOSS4種を比較(Unsloth/Axolotl/TRL/LLaMA-Factory)"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
-          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
         },
         {
           "date": "2026-07-22",
@@ -2205,9 +2309,9 @@
           "title_ja": "OpenAI、Hugging Face侵害は自社の公開前モデルによるものと説明(TechCrunch)"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
-          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
+          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
         },
         {
           "date": "2026-07-23",
@@ -2215,14 +2319,9 @@
           "title_ja": "OpenAIの人的ミスがHugging FaceへのAI駆動型攻撃を招いた"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-research-grade-edgebench-analysis-ai-agent-benchmarking-lead-afc7.md",
-          "title_ja": "EdgeBench分析：AIエージェントのベンチマーク・スケーリング則・評価指標の解説"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-openai-s-accidental-cyberattack-against-hugging-face-is-scie-4fec.md",
-          "title_ja": "OpenAIの検証中モデルが誤ってHugging Faceを「攻撃」した一件"
+          "date": "2026-07-22",
+          "path": "Topics/5_産業/2026-07-22-nativ-run-ai-models-locally-on-your-mac-99e4.md",
+          "title_ja": "Nativ: MacでローカルにAIモデルを実行"
         }
       ],
       "type": "org"
@@ -2269,6 +2368,16 @@
       "first_seen": "2026-07-21",
       "notes": [
         {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-case-causal-alignment-and-structural-enforcement-for-improvi-1f66.md",
+          "title_ja": "CASE：Chain-of-Thoughtの忠実性向上のための因果的整合と構造的強制"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
+          "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-chemical-filters-for-ultra-high-throughput-materials-screeni-5253.md",
           "title_ja": "超高スループット材料スクリーニング・生成向け化学フィルター"
@@ -2280,18 +2389,13 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
-          "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-case-causal-alignment-and-structural-enforcement-for-improvi-1f66.md",
-          "title_ja": "CASE：Chain-of-Thoughtの忠実性向上のための因果的整合と構造的強制"
-        },
-        {
-          "date": "2026-07-23",
           "path": "Topics/4_安全性と規制/2026-07-23-circuitkit-circuit-discovery-evaluation-and-application-tool-79a0.md",
           "title_ja": "機構的解釈可能性の回路分析を統合するツールキットCircuitKIT"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-the-quadrilateral-loss-additivity-as-a-measurable-behavior-o-d41f.md",
+          "title_ja": "四辺形損失: 密なニューラルネットワークにおける加法性の測定可能な振る舞いとして"
         }
       ],
       "type": "tech"
@@ -2330,6 +2434,11 @@
           "date": "2026-07-21",
           "path": "Topics/3_基盤とコスト/2026-07-21-c-2-kv-compressed-and-composable-kv-cache-reuse-for-efficien-c878.md",
           "title_ja": "効率的なLLM推論のための圧縮・構成可能なKVキャッシュ再利用"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-hijackkv-new-threat-in-position-independent-kv-cache-reuse-2c0f.md",
+          "title_ja": "位置非依存KVキャッシュ再利用の新たなセキュリティ脅威（HijackKV）"
         }
       ],
       "type": "tech"
@@ -2387,6 +2496,11 @@
           "title_ja": "Kimi K3を引用する"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
+          "title_ja": "Kimi K3はFableと競争力があり、Kimi K3とFableはSOTA"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
           "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
@@ -2405,11 +2519,6 @@
           "date": "2026-07-22",
           "path": "Topics/5_産業/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
           "title_ja": "TeslaがOrlandoとTampaでロボタクシーパイロットを展開"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
-          "title_ja": "Kimi K3はFableと競争力があり、Kimi K3とFableはSOTA"
         }
       ],
       "type": "model"
@@ -2449,13 +2558,13 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
-          "title_ja": "引用機能分類のための大規模言語モデル"
+          "path": "Topics/2_研究と評価/2026-07-21-after-the-euclidean-highway-hyperbolic-expert-ai-as-the-next-4910.md",
+          "title_ja": "ユークリッド以降：双曲専門家AIを次の革新に"
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-after-the-euclidean-highway-hyperbolic-expert-ai-as-the-next-4910.md",
-          "title_ja": "ユークリッド以降：双曲専門家AIを次の革新に"
+          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
+          "title_ja": "引用機能分類のための大規模言語モデル"
         }
       ],
       "type": "model"
@@ -2463,17 +2572,12 @@
     "LoRA": {
       "cooccur": {
         "AI Agents": 1,
-        "Fine-tuning": 3,
+        "Fine-tuning": 4,
         "Google": 1,
         "NVIDIA": 1
       },
       "first_seen": "2026-07-21",
       "notes": [
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
-          "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
-        },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-mada-rl-multi-agent-debate-aware-reinforcement-learning-for-e86a.md",
@@ -2486,8 +2590,18 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
+          "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-polora-a-preconditioned-orthogonalized-lora-optimizer-a105.md",
           "title_ja": "PoLoRA：前処理直交化を施したLoRA最適化手法"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-the-blessing-of-dimensionality-how-near-orthogonality-in-hig-bf30.md",
+          "title_ja": "次元の恩恵: 高次元空間における準直交性が時間的可搬性を説明する仕組み"
         }
       ],
       "type": "tech"
@@ -2522,16 +2636,6 @@
       "first_seen": "2026-07-21",
       "notes": [
         {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
-          "title_ja": "引用機能分類のための大規模言語モデル"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-after-the-euclidean-highway-hyperbolic-expert-ai-as-the-next-4910.md",
-          "title_ja": "ユークリッド以降：双曲専門家AIを次の革新に"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/1_モデルと能力/2026-07-22-unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-fra-13cb.md",
           "title_ja": "LLMファインチューニングOSS4種を比較(Unsloth/Axolotl/TRL/LLaMA-Factory)"
@@ -2540,6 +2644,16 @@
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
           "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-after-the-euclidean-highway-hyperbolic-expert-ai-as-the-next-4910.md",
+          "title_ja": "ユークリッド以降：双曲専門家AIを次の革新に"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
+          "title_ja": "引用機能分類のための大規模言語モデル"
         }
       ],
       "type": "org"
@@ -2561,14 +2675,14 @@
           "title_ja": "MicrosoftがAMDに転換し、Anthropicも続く可能性があり、NVIDIAのAIチップ支配が弱まる"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-verifying-rust-cryptography-in-symcrypt-from-standards-to-co-5a03.md",
-          "title_ja": "Rust暗号化をSymCryptで検証する、標準からコードまで"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-4616.md",
           "title_ja": "フォートワースに新工場 ― WistronがNVIDIA AIシステムの先進製造拠点を開所"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-verifying-rust-cryptography-in-symcrypt-from-standards-to-co-5a03.md",
+          "title_ja": "Rust暗号化をSymCryptで検証する、標準からコードまで"
         },
         {
           "date": "2026-07-23",
@@ -2602,11 +2716,6 @@
           "title_ja": "2026年:単一24GB GPUで実行可能な最良のローカルLLM"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
-          "title_ja": "引用機能分類のための大規模言語モデル"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/1_モデルと能力/2026-07-22-samsung-deepens-its-ai-empire-with-a-potential-billion-euro-88f9.md",
           "title_ja": "Samsung、仏スタートアップMistralへ最大10億ユーロ出資交渉中"
@@ -2615,6 +2724,11 @@
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
           "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-large-language-models-for-citation-function-classification-8d88.md",
+          "title_ja": "引用機能分類のための大規模言語モデル"
         },
         {
           "date": "2026-07-23",
@@ -2628,7 +2742,7 @@
       "cooccur": {
         "AI Agents": 2,
         "Alibaba": 1,
-        "DeepSeek": 1,
+        "DeepSeek": 2,
         "Gemma": 1,
         "Google": 1,
         "KV Cache": 1,
@@ -2660,13 +2774,18 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-logical-judgments-under-pressure-diagnosing-syllogistic-stab-77f4.md",
+          "title_ja": "圧力下の論理判断：三段論法の安定性を学習プレフィックスで診断"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-pagedweight-efficient-moe-llm-serving-with-dynamic-quality-a-0e34.md",
           "title_ja": "MoE LLM推論向け動的量子化手法「PagedWeight」を提案する論文"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-logical-judgments-under-pressure-diagnosing-syllogistic-stab-77f4.md",
-          "title_ja": "圧力下の論理判断：三段論法の安定性を学習プレフィックスで診断"
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
         },
         {
           "date": "2026-07-22",
@@ -2674,9 +2793,9 @@
           "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-stale-but-stable-staleness-adaptive-trust-regions-for-stabil-a670.md",
+          "title_ja": "Staleness-Adaptive信頼領域による非同期強化学習の安定化"
         },
         {
           "date": "2026-07-23",
@@ -2685,8 +2804,8 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/2_研究と評価/2026-07-23-stale-but-stable-staleness-adaptive-trust-regions-for-stabil-a670.md",
-          "title_ja": "Staleness-Adaptive信頼領域による非同期強化学習の安定化"
+          "path": "Topics/1_モデルと能力/2026-07-23-slai-t-rex-full-parameter-post-training-of-the-deepseek-v4-f-d3ac.md",
+          "title_ja": "SLAI T-Rex: Ascend SuperPOD上でのDeepSeek-V4ファミリーのフルパラメータ事後学習"
         }
       ],
       "type": "tech"
@@ -2744,6 +2863,11 @@
           "title_ja": "Kimi K3を引用する"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
+          "title_ja": "Kimi K3はFableと競争力があり、Kimi K3とFableはSOTA"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
           "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
@@ -2752,6 +2876,11 @@
           "date": "2026-07-21",
           "path": "Topics/3_基盤とコスト/2026-07-21-moonshot-pauses-new-kimi-k3-subscriptions-after-gpu-demand-m-b13a.md",
           "title_ja": "Moonshot、GPU需要が48時間で上限に達したため新規Kimi K3購読を一時停止"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-treasury-threatens-sanctions-after-white-house-claims-moonsh-d341.md",
+          "title_ja": "米財務省、Moonshotが「AnthropicのFableを蒸留した」との主張を受け制裁を示唆"
         },
         {
           "date": "2026-07-21",
@@ -2767,16 +2896,6 @@
           "date": "2026-07-22",
           "path": "Topics/5_産業/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
           "title_ja": "TeslaがOrlandoとTampaでロボタクシーパイロットを展開"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-kimi-k3-is-competitive-with-fable-kimi-k3-and-fable-is-sota-162a.md",
-          "title_ja": "Kimi K3はFableと競争力があり、Kimi K3とFableはSOTA"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-treasury-threatens-sanctions-after-white-house-claims-moonsh-d341.md",
-          "title_ja": "米財務省、Moonshotが「AnthropicのFableを蒸留した」との主張を受け制裁を示唆"
         }
       ],
       "type": "org"
@@ -2812,13 +2931,8 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-inkling-our-open-weights-model-5864.md",
-          "title_ja": "Inkling: オープンウェイトモデル"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-toolsciver-multimodal-scientific-claim-verification-with-vis-c6a7.md",
-          "title_ja": "ToolSciVer：ツール拡張VLMで科学論文の主張を検証"
+          "path": "Topics/1_モデルと能力/2026-07-21-eii-scl-harnessing-emotional-inertia-for-multimodal-emotion-3ca5.md",
+          "title_ja": "EII-SCL：感情慣性を活用した会話マルチモーダル感情認識"
         },
         {
           "date": "2026-07-21",
@@ -2832,8 +2946,8 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-st-veto-spatio-temporal-token-veto-for-diffusion-mllms-via-t-082b.md",
-          "title_ja": "ST-Veto：拡散型MLLMの時空間トークン拒否"
+          "path": "Topics/1_モデルと能力/2026-07-21-inkling-our-open-weights-model-5864.md",
+          "title_ja": "Inkling: オープンウェイトモデル"
         },
         {
           "date": "2026-07-21",
@@ -2847,18 +2961,13 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-eii-scl-harnessing-emotional-inertia-for-multimodal-emotion-3ca5.md",
-          "title_ja": "EII-SCL：感情慣性を活用した会話マルチモーダル感情認識"
+          "path": "Topics/1_モデルと能力/2026-07-21-st-veto-spatio-temporal-token-veto-for-diffusion-mllms-via-t-082b.md",
+          "title_ja": "ST-Veto：拡散型MLLMの時空間トークン拒否"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-how-reliable-are-multimodal-signals-of-conversational-state-4881.md",
-          "title_ja": "ConceptTree：ロボット操作の黒箱意思決定への意味透明性導入"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-should-missing-modalities-always-be-necessary-to-repair-for-74c3.md",
-          "title_ja": "OpenAIモデルがコンテナから脱出しHugging Faceをハッキング"
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-toolsciver-multimodal-scientific-claim-verification-with-vis-c6a7.md",
+          "title_ja": "ToolSciVer：ツール拡張VLMで科学論文の主張を検証"
         },
         {
           "date": "2026-07-22",
@@ -2866,34 +2975,9 @@
           "title_ja": "マルチモーダル信号による会話状態の測定の信頼性:遠隔ダイアド協調タスクの実証"
         },
         {
-          "date": "2026-07-23",
-          "path": "Topics/5_産業/2026-07-23-breaking-the-homogeneity-assumption-specialized-multi-genera-c775.md",
-          "title_ja": "均質性仮定を打ち破る:予知保全における稀少故障検知のための特化型マルチジェネレータ敵対的学習"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-mage-flow-an-efficient-native-resolution-foundation-model-fo-f02e.md",
-          "title_ja": "Mage-Flow:画像生成・編集のための効率的なネイティブ解像度基盤モデル"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-meetingtom-evaluating-multimodal-llms-on-theory-of-mind-reas-d187.md",
-          "title_ja": "MeetingToM: 多者会議場面におけるマルチモーダルLLMの心の理論推論の評価"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-computational-humor-with-multimodal-llms-methods-datasets-ev-3357.md",
-          "title_ja": "マルチモーダルLLMによる計算的ユーモア——方法論、データセット、評価、課題"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-stochastic-meta-unlearning-bridging-language-backbone-and-mu-6c0d.md",
-          "title_ja": "Stochastic Meta-Unlearning：マルチモーダルのアンラーニング"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-pathreporteval-a-systematic-benchmark-for-pathology-report-g-991e.md",
-          "title_ja": "PathReportEval：病理報告書生成の体系的ベンチマーク"
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-should-missing-modalities-always-be-necessary-to-repair-for-74c3.md",
+          "title_ja": "OpenAIモデルがコンテナから脱出しHugging Faceをハッキング"
         },
         {
           "date": "2026-07-23",
@@ -2902,8 +2986,33 @@
         },
         {
           "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-computational-humor-with-multimodal-llms-methods-datasets-ev-3357.md",
+          "title_ja": "マルチモーダルLLMによる計算的ユーモア——方法論、データセット、評価、課題"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-meetingtom-evaluating-multimodal-llms-on-theory-of-mind-reas-d187.md",
+          "title_ja": "MeetingToM: 多者会議場面におけるマルチモーダルLLMの心の理論推論の評価"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-now-you-see-the-hate-adaptive-view-retrieval-for-hidden-hate-25d1.md",
+          "title_ja": "隠しヘイト画像、既存の安全対策が軒並み見逃す実態"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-pathreporteval-a-systematic-benchmark-for-pathology-report-g-991e.md",
+          "title_ja": "PathReportEval：病理報告書生成の体系的ベンチマーク"
+        },
+        {
+          "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-quality-action-assurance-multimodal-verification-of-examiner-9f67.md",
           "title_ja": "Quality Action Assurance: VR OSCE試験官主張のマルチモーダル検証"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-stochastic-meta-unlearning-bridging-language-backbone-and-mu-6c0d.md",
+          "title_ja": "Stochastic Meta-Unlearning：マルチモーダルのアンラーニング"
         },
         {
           "date": "2026-07-23",
@@ -2912,8 +3021,23 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-now-you-see-the-hate-adaptive-view-retrieval-for-hidden-hate-25d1.md",
-          "title_ja": "隠しヘイト画像、既存の安全対策が軒並み見逃す実態"
+          "path": "Topics/3_基盤とコスト/2026-07-23-mage-flow-an-efficient-native-resolution-foundation-model-fo-f02e.md",
+          "title_ja": "Mage-Flow:画像生成・編集のための効率的なネイティブ解像度基盤モデル"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/5_産業/2026-07-22-how-reliable-are-multimodal-signals-of-conversational-state-4881.md",
+          "title_ja": "ConceptTree：ロボット操作の黒箱意思決定への意味透明性導入"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/5_産業/2026-07-23-breaking-the-homogeneity-assumption-specialized-multi-genera-c775.md",
+          "title_ja": "均質性仮定を打ち破る:予知保全における稀少故障検知のための特化型マルチジェネレータ敵対的学習"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-entrap-vl-a-taxonomic-probe-for-dual-contextual-entrainment-402e.md",
+          "title_ja": "ENTRAP-VL: 視覚言語モデルにおける二重文脈エントレインメントのための分類学的プローブ"
         }
       ],
       "type": "tech"
@@ -2945,13 +3069,43 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
+          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-nvidia-open-sources-first-gpu-accelerated-medical-physics-si-5626.md",
+          "title_ja": "NVIDIA、GPUアクセラレーテッド医療物理シミュレーションフレームワークを初オープンソース化"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-co-8ba0.md",
           "title_ja": "Qwen3をLoRAでファインチューニング、NVIDIA NeMo AutoModelのColab手順"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-from-a-multilingual-streaming-asr-backbone-to-kenyan-languag-3ad4.md",
+          "title_ja": "多言語ストリーミングASR基盤からケニア諸語システムへ（Nemotron 3.5適応）"
         },
         {
           "date": "2026-07-21",
           "path": "Topics/3_基盤とコスト/2026-07-21-bristol-myers-squibb-building-life-science-industry-s-most-a-c1d1.md",
           "title_ja": "Bristol Myers SquibbがNVIDIA Vera Rubinで生命科学産業最高度のAIファクトリーを構築"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/3_基盤とコスト/2026-07-21-harness-engineering-for-llm-driven-gpu-kernel-generation-a29f.md",
+          "title_ja": "LLM主導のGPUカーネル生成向けハーネス設計手法"
         },
         {
           "date": "2026-07-21",
@@ -2979,49 +3133,9 @@
           "title_ja": "チップ材料開発企業Foundryが発足"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
-          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-harness-engineering-for-llm-driven-gpu-kernel-generation-a29f.md",
-          "title_ja": "LLM主導のGPUカーネル生成向けハーネス設計手法"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
-          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-built-for-vera-rubin-nvidia-spectrum-6-arrives-in-gigascale-a211.md",
           "title_ja": "Vera Rubin向けNVIDIA Spectrum-6、ギガスケールAIファクトリーに登場"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-built-in-fort-worth-wistron-opens-advanced-manufacturing-pla-ce1c.md",
-          "title_ja": "David Vélez氏とRobin Vince氏、OpenAI Foundation/OpenAI Group PBCの理事会に参加"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-4616.md",
-          "title_ja": "フォートワースに新工場 ― WistronがNVIDIA AIシステムの先進製造拠点を開所"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
-          "title_ja": "Nativ：MacでAIモデルをローカルで実行"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-wants-to-own-every-chip-inside-ai-data-centers-a3f7.md",
-          "title_ja": "Computable、必要な週数の精度でGPUを売買・償却可能に"
         },
         {
           "date": "2026-07-22",
@@ -3030,18 +3144,18 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
+          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-vera-rubin-driving-performance-per-watt-lowest-token-4616.md",
+          "title_ja": "フォートワースに新工場 ― WistronがNVIDIA AIシステムの先進製造拠点を開所"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-nvidia-wants-to-own-every-chip-inside-ai-data-centers-a3f7.md",
+          "title_ja": "Computable、必要な週数の精度でGPUを売買・償却可能に"
         },
         {
           "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
           "title_ja": "NVIDIA srt-slurm等を用いた分散LLMサービングベンチマークの検証"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-nvidia-open-sources-first-gpu-accelerated-medical-physics-si-5626.md",
-          "title_ja": "NVIDIA、GPUアクセラレーテッド医療物理シミュレーションフレームワークを初オープンソース化"
         },
         {
           "date": "2026-07-23",
@@ -3050,13 +3164,28 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/2_研究と評価/2026-07-23-from-a-multilingual-streaming-asr-backbone-to-kenyan-languag-3ad4.md",
-          "title_ja": "多言語ストリーミングASR基盤からケニア諸語システムへ（Nemotron 3.5適応）"
+          "path": "Topics/3_基盤とコスト/2026-07-23-nvidia-and-partners-build-in-america-for-america-9195.md",
+          "title_ja": "NVIDIAとパートナー、米国内での製造・インフラ投資を強化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-at-siggraph-nvidia-advances-graphics-and-simulation-with-age-2863.md",
+          "title_ja": "NVIDIA、SIGGRAPHでエージェント型・フィジカルAIのグラフィックス技術を発表"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/5_産業/2026-07-22-built-in-fort-worth-wistron-opens-advanced-manufacturing-pla-ce1c.md",
+          "title_ja": "David Vélez氏とRobin Vince氏、OpenAI Foundation/OpenAI Group PBCの理事会に参加"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/5_産業/2026-07-22-validating-distributed-llm-serving-benchmarks-with-nvidia-sr-f347.md",
+          "title_ja": "Nativ：MacでAIモデルをローカルで実行"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-nvidia-and-partners-build-in-america-for-america-9195.md",
-          "title_ja": "NVIDIAとパートナー、米国内での製造・インフラ投資を強化"
+          "path": "Topics/3_基盤とコスト/2026-07-23-nvidia-ai-supercomputer-comes-online-at-naval-postgraduate-s-6479.md",
+          "title_ja": "NVIDIAのAIスーパーコンピュータが海軍大学院に稼働開始"
         }
       ],
       "type": "org"
@@ -3080,9 +3209,9 @@
       "cooccur": {
         "AI Agents": 5,
         "Alibaba": 1,
-        "Anthropic": 18,
+        "Anthropic": 19,
         "Apple": 1,
-        "Claude": 6,
+        "Claude": 7,
         "Claude Code": 2,
         "Claude Opus 4.8": 3,
         "Codex": 4,
@@ -3090,21 +3219,27 @@
         "FrontierMath": 1,
         "GPT-4o": 1,
         "GPT-5": 14,
-        "Gemini": 3,
+        "Gemini": 4,
         "Gemini 3": 3,
         "GitHub": 2,
-        "Google": 6,
+        "Google": 7,
         "Grok": 2,
         "Hugging Face": 10,
         "Kimi": 3,
         "Moonshot AI": 4,
         "NVIDIA": 1,
         "Prompt Injection": 1,
-        "Whisper": 1,
+        "Transformer": 1,
+        "Whisper": 2,
         "xAI": 2
       },
       "first_seen": "2026-07-21",
       "notes": [
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-ai-lecturenote-a-retrospective-pilot-study-of-a-post-asr-wor-f101.md",
+          "title_ja": "韓英医療講義のASR後処理で医学用語の英語表記率を改善"
+        },
         {
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-how-cars24-scales-conversations-and-builds-faster-with-opena-6f16.md",
@@ -3136,9 +3271,84 @@
           "title_ja": "OpenAI、長時間稼働AIモデルの安全性とアライメントの知見を公開"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
+          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
+          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
+          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-introducing-openai-presence-c54f.md",
+          "title_ja": "OpenAI Presence発表"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
+          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
+          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-openai-urges-enterprises-to-use-its-scorecard-to-measure-wor-12c2.md",
+          "title_ja": "Kimi K3がFableと同等、両者が最先端（SoTA）"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
+          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-china-s-open-ai-models-are-challenging-silicon-valley-s-play-016e.md",
+          "title_ja": "中国のオープンAIモデルがシリコンバレーの戦略に対抗"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
+          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-cod-ce62.md",
+          "title_ja": "NTT DATA、OpenAI Codexでインシデント分析を30分に短縮"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-openai-s-accidental-cyberattack-against-hugging-face-is-scie-4fec.md",
+          "title_ja": "OpenAIの検証中モデルが誤ってHugging Faceを「攻撃」した一件"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
+          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-quoting-thomas-ptacek-1c70.md",
+          "title_ja": "「侵入にフロンティアモデルは不要」— Thomas Ptacekの指摘"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-moonshot-s-kimi-k3-outperforms-fable-5-in-frontend-code-but-3cfd.md",
           "title_ja": "MoonshotのKimi K3がFable 5をフロントエンドコードで上回るが複雑な数学では大きく遅れる"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-advancing-the-next-era-of-national-science-fc35.md",
+          "title_ja": "国家科学の次世代を推進"
         },
         {
           "date": "2026-07-21",
@@ -3146,9 +3356,34 @@
           "title_ja": "Googleの新型チップ「Frozen v2」、Geminiを直接シリコン化か"
         },
         {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-building-ai-infrastructure-with-the-effingham-county-communi-bd6c.md",
+          "title_ja": "OpenAI「Project Camellia」、ジョージア州エフィンガム郡でデータセンター展開"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/3_基盤とコスト/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
+          "title_ja": "中国のAIモデルがコーディングタスクで少ないリソースを使用"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/3_基盤とコスト/2026-07-23-openai-s-ai-spending-spree-has-ballooned-to-750b-9573.md",
+          "title_ja": "OpenAIのAI支出計画が7500億ドルに膨張"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-america-needs-to-stop-getting-shocked-by-chinese-ai-ed34.md",
+          "title_ja": "米国は中国AIの進展にいちいち驚くのをやめるべき"
+        },
+        {
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-gpt-red-unlocking-self-improvement-for-robustness-ee23.md",
           "title_ja": "OpenAI、自己対戦で頑健性を高める自動レッドチーミング「GPT-Red」"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
         },
         {
           "date": "2026-07-21",
@@ -3169,6 +3404,41 @@
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-why-teens-deserve-access-to-safe-ai-8fe3.md",
           "title_ja": "OpenAI、ティーン向けChatGPTの安全機能を拡充"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-and-hugging-face-partner-to-address-security-incident-20b0.md",
+          "title_ja": "OpenAIとHugging Face、モデル評価中のセキュリティインシデントで連携"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
+          "title_ja": "OpenAI、Hugging Faceの侵害は自社プレリリースモデルによると報告"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-hugging-face-was-breached-by-its-pre-release-mod-8eac.md",
+          "title_ja": "OpenAI、Hugging Face侵害は自社の公開前モデルによるものと説明(TechCrunch)"
+        },
+        {
+          "date": "2026-07-22",
+          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
+          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-every-frontier-ai-model-tested-by-britain-s-safety-institute-f6a5.md",
+          "title_ja": "英国AI安全機構のサイバー評価で最先端5モデルが全て不正を試みた"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-how-openai-s-human-mistake-led-to-the-ai-powered-hack-on-hug-5018.md",
+          "title_ja": "OpenAIの人的ミスがHugging FaceへのAI駆動型攻撃を招いた"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/4_安全性と規制/2026-07-23-openai-models-escaped-and-hacked-a-company-in-cybersecurity-0fe3.md",
+          "title_ja": "OpenAIモデル、サイバーセキュリティテストで企業をハック"
         },
         {
           "date": "2026-07-21",
@@ -3206,39 +3476,9 @@
           "title_ja": "推論スタートアップInfinityがTuring CapitalおよびOpenAI・Anthropic研究者から1,500万ドルを調達"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-ai-lecturenote-a-retrospective-pilot-study-of-a-post-asr-wor-f101.md",
-          "title_ja": "韓英医療講義のASR後処理で医学用語の英語表記率を改善"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-america-needs-to-stop-getting-shocked-by-chinese-ai-ed34.md",
-          "title_ja": "米国は中国AIの進展にいちいち驚くのをやめるべき"
-        },
-        {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-google-releases-three-new-gemini-models-but-no-3-5-pro-ec57.md",
-          "title_ja": "Googleが新Geminiモデル3種をリリース ― 3.5 Proはまだ"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-and-hugging-face-partner-to-address-security-incident-20b0.md",
-          "title_ja": "OpenAIとHugging Face、モデル評価中のセキュリティインシデントで連携"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-introducing-the-chatgpt-for-small-business-program-d423.md",
-          "title_ja": "中小企業向け「ChatGPT for small business」プログラムを発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
-          "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
+          "path": "Topics/5_産業/2026-07-22-advertise-in-chatgpt-f5d9.md",
+          "title_ja": "OpenAI、ChatGPT内広告サービスを公開"
         },
         {
           "date": "2026-07-22",
@@ -3247,28 +3487,8 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-it-accidentally-hacked-hugging-face-with-a-new-a-3e18.md",
-          "title_ja": "OpenAI、新AIシステムが誤ってHugging Faceに侵入したと発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-models-escaped-containment-and-hacked-hugging-face-823d.md",
-          "title_ja": "最新Geminiモデル：temperature、top_p、top_kがdeprecated化"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
-          "title_ja": "中国のAIモデルがコーディングタスクで少ないリソースを使用"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-urges-enterprises-to-use-its-scorecard-to-measure-wor-12c2.md",
-          "title_ja": "Kimi K3がFableと同等、両者が最先端（SoTA）"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-hugging-face-was-breached-by-its-own-pre-release-fda0.md",
-          "title_ja": "OpenAI、Hugging Faceの侵害は自社プレリリースモデルによると報告"
+          "path": "Topics/5_産業/2026-07-22-introducing-the-chatgpt-for-small-business-program-d423.md",
+          "title_ja": "中小企業向け「ChatGPT for small business」プログラムを発表"
         },
         {
           "date": "2026-07-22",
@@ -3277,68 +3497,8 @@
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-introducing-openai-presence-c54f.md",
-          "title_ja": "OpenAI Presence発表"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/3_基盤とコスト/2026-07-22-building-ai-infrastructure-with-the-effingham-county-communi-bd6c.md",
-          "title_ja": "OpenAI「Project Camellia」、ジョージア州エフィンガム郡でデータセンター展開"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-ab33.md",
-          "title_ja": "Cisco Foundation AI、脆弱性特定用の小型オープンウェイトモデル「Antares」公開"
-        },
-        {
-          "date": "2026-07-22",
           "path": "Topics/5_産業/2026-07-22-the-anthropic-physical-intelligence-rumor-roiling-ai-twitter-fedc.md",
           "title_ja": "Anthropicによる Physical Intelligence 買収の噂が拡散"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-openai-claims-responsibility-for-the-hugging-face-hack-after-9aba.md",
-          "title_ja": "OpenAIモデルがサンドボックス脱出、Hugging Face侵害の責任を認める(the-decoder.com)"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/4_安全性と規制/2026-07-22-openai-says-hugging-face-was-breached-by-its-pre-release-mod-8eac.md",
-          "title_ja": "OpenAI、Hugging Face侵害は自社の公開前モデルによるものと説明(TechCrunch)"
-        },
-        {
-          "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-advertise-in-chatgpt-f5d9.md",
-          "title_ja": "OpenAI、ChatGPT内広告サービスを公開"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/2_研究と評価/2026-07-23-advancing-the-next-era-of-national-science-fc35.md",
-          "title_ja": "国家科学の次世代を推進"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-openai-models-escaped-and-hacked-a-company-in-cybersecurity-0fe3.md",
-          "title_ja": "OpenAIモデル、サイバーセキュリティテストで企業をハック"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-cisco-bets-its-small-open-cybersecurity-models-can-outperfor-7590.md",
-          "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-openai-s-ai-spending-spree-has-ballooned-to-750b-9573.md",
-          "title_ja": "OpenAIのAI支出計画が7500億ドルに膨張"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-every-frontier-ai-model-tested-by-britain-s-safety-institute-f6a5.md",
-          "title_ja": "英国AI安全機構のサイバー評価で最先端5モデルが全て不正を試みた"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-openai-says-its-ai-agent-broke-out-of-testing-sandbox-to-hac-5d0c.md",
-          "title_ja": "OpenAIのAIエージェント、テスト用サンドボックスを脱出しHugging Faceを攻撃"
         },
         {
           "date": "2026-07-23",
@@ -3347,33 +3507,13 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-china-s-open-ai-models-are-challenging-silicon-valley-s-play-016e.md",
-          "title_ja": "中国のオープンAIモデルがシリコンバレーの戦略に対抗"
+          "path": "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md",
+          "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/4_安全性と規制/2026-07-23-how-openai-s-human-mistake-led-to-the-ai-powered-hack-on-hug-5018.md",
-          "title_ja": "OpenAIの人的ミスがHugging FaceへのAI駆動型攻撃を招いた"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-are-ai-labs-pelicanmaxxing-3c14.md",
-          "title_ja": "AIラボは「ペリカン特化」しているのか — ベンチマーク過学習の検証"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-ntt-data-group-cuts-incident-analysis-to-30-minutes-with-cod-ce62.md",
-          "title_ja": "NTT DATA、OpenAI Codexでインシデント分析を30分に短縮"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-quoting-thomas-ptacek-1c70.md",
-          "title_ja": "「侵入にフロンティアモデルは不要」— Thomas Ptacekの指摘"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-openai-s-accidental-cyberattack-against-hugging-face-is-scie-4fec.md",
-          "title_ja": "OpenAIの検証中モデルが誤ってHugging Faceを「攻撃」した一件"
+          "path": "Topics/1_モデルと能力/2026-07-23-learning-the-arabic-dialect-continuum-as-a-continuous-space-e365.md",
+          "title_ja": "アラビア語方言を連続地理空間としてモデル化した話者起源予測"
         }
       ],
       "type": "org"
@@ -3407,6 +3547,11 @@
       "notes": [
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-adaptive-adversaries-a-multi-turn-multi-llm-benchmark-for-ll-f626.md",
+          "title_ja": "LLMエージェントのプロンプト注入耐性を測る21シナリオ基準"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-prompt-injection-attacks-are-thwarting-ai-hacking-agents-b4a1.md",
           "title_ja": "プロンプトインジェクション攻撃がAIハッキングエージェントを妨害"
         },
@@ -3414,11 +3559,6 @@
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-gpt-red-unlocking-self-improvement-for-robustness-ee23.md",
           "title_ja": "OpenAI、自己対戦で頑健性を高める自動レッドチーミング「GPT-Red」"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-adaptive-adversaries-a-multi-turn-multi-llm-benchmark-for-ll-f626.md",
-          "title_ja": "LLMエージェントのプロンプト注入耐性を測る21シナリオ基準"
         },
         {
           "date": "2026-07-21",
@@ -3444,20 +3584,20 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
-          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
+          "path": "Topics/2_研究と評価/2026-07-21-autoencoder-compressed-parallel-split-learning-for-pre-train-f42e.md",
+          "title_ja": "AutoEncoder圧縮を用いた並列分割学習による基盤モデルのファインチューニング"
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-autoencoder-compressed-parallel-split-learning-for-pre-train-f42e.md",
-          "title_ja": "AutoEncoder圧縮を用いた並列分割学習による基盤モデルのファインチューニング"
+          "path": "Topics/3_基盤とコスト/2026-07-21-selectinfer-selective-neuron-loading-and-computation-for-on-81c4.md",
+          "title_ja": "エッジデバイス向けLLM推論をニューロン単位で高速化"
         }
       ],
       "type": "tech"
     },
     "Qwen": {
       "cooccur": {
-        "Alibaba": 11,
+        "Alibaba": 12,
         "Anthropic": 1,
         "DeepSeek": 1,
         "DeepSeek-R1": 1,
@@ -3476,6 +3616,11 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multim-29e7.md",
           "title_ja": "Alibaba、2.4兆パラメータのマルチモーダルモデルQwen3.8-Maxをプレビュー発表"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-alibaba-s-qwen-audio-3-0-tts-plus-tops-the-competition-in-th-f8da.md",
+          "title_ja": "AlibabaのQwen Audio 3.0 TTS Plus、音声合成ランキングで首位"
         },
         {
           "date": "2026-07-21",
@@ -3499,18 +3644,13 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
-          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-alibaba-s-qwen-audio-3-0-tts-plus-tops-the-competition-in-th-f8da.md",
-          "title_ja": "AlibabaのQwen Audio 3.0 TTS Plus、音声合成ランキングで首位"
-        },
-        {
-          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-qwen-image-3-0-rich-content-authentic-details-deep-knowledge-8a76.md",
           "title_ja": "Qwen-Image-3.0：豊富なコンテンツと精細なディテール"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-simple-domain-generalization-for-strong-pixel-level-image-ta-b4d5.md",
+          "title_ja": "VLM生成画像の改ざん検出、モデル間汎化を狙う手法提案"
         },
         {
           "date": "2026-07-22",
@@ -3519,13 +3659,18 @@
         },
         {
           "date": "2026-07-22",
+          "path": "Topics/1_モデルと能力/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
+          "title_ja": "AlibabaのQwen-Image-3.0、インフォグラフィックと10ピクセルテキストを1回のパスで描画"
+        },
+        {
+          "date": "2026-07-22",
           "path": "Topics/3_基盤とコスト/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
           "title_ja": "前Intel CEO、光ビームでムーアの法則を再開させたい"
         },
         {
-          "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-alibaba-s-qwen-image-3-0-renders-full-infographic-grids-and-51d0.md",
-          "title_ja": "AlibabaのQwen-Image-3.0、インフォグラフィックと10ピクセルテキストを1回のパスで描画"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-train-the-model-not-the-reader-decodability-supervision-for-f136.md",
+          "title_ja": "訓練時デコード可能性監督による検証可能な活性化説明"
         }
       ],
       "type": "model"
@@ -3549,13 +3694,28 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-finsagent-corpus-aligned-multi-agent-rag-framework-for-evide-6f82.md",
+          "title_ja": "FinSAgent：SEC申告書QA向けコーパス準拠マルチエージェントRAG"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-google-cloud-s-always-on-memory-agent-replaces-rag-and-embed-c85b.md",
           "title_ja": "Google CloudのAlways-On Memory AgentがRAGとEmbeddingsをGemini 3.1 Flash-Liteで置換"
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-ontoextend-a-framework-for-requirement-driven-and-scalable-o-3179.md",
+          "title_ja": "OntoExtend: LLMによる要求駆動型オントロジー拡張フレームワーク"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-vector-search-as-nearest-neighbor-matching-rag-based-policy-4400.md",
           "title_ja": "ベクトル検索を最近傍マッチングとみなすRAGベース方針学習"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-graph-based-agentic-ai-with-langgraph-workflow-pathways-for-7741.md",
+          "title_ja": "LangGraphによるグラフベースのエージェンティックAI：長時間実行ステートフルビジネスプロセス"
         },
         {
           "date": "2026-07-21",
@@ -3571,21 +3731,6 @@
           "date": "2026-07-21",
           "path": "Topics/4_安全性と規制/2026-07-21-salience-induction-against-multi-hop-rag-agents-threat-and-d-8149.md",
           "title_ja": "マルチホップRAGエージェントへの顕著性誘導攻撃と防御"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-finsagent-corpus-aligned-multi-agent-rag-framework-for-evide-6f82.md",
-          "title_ja": "FinSAgent：SEC申告書QA向けコーパス準拠マルチエージェントRAG"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-ontoextend-a-framework-for-requirement-driven-and-scalable-o-3179.md",
-          "title_ja": "OntoExtend: LLMによる要求駆動型オントロジー拡張フレームワーク"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-graph-based-agentic-ai-with-langgraph-workflow-pathways-for-7741.md",
-          "title_ja": "LangGraphによるグラフベースのエージェンティックAI：長時間実行ステートフルビジネスプロセス"
         }
       ],
       "type": "tech"
@@ -3612,6 +3757,11 @@
           "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-theoretical-foundations-of-max-k-reinforcement-learning-ee1a.md",
           "title_ja": "max@k強化学習の理論的基礎"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-auto-fill-learning-to-predict-missing-values-accurately-with-8827.md",
+          "title_ja": "Auto-Fill: 専門特化型言語モデルによる欠損値の高精度予測学習"
         }
       ],
       "type": "tech"
@@ -3638,13 +3788,13 @@
       "notes": [
         {
           "date": "2026-07-22",
-          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
+          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/1_モデルと能力/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
-          "title_ja": "Poolside、SWE-Bench Multilingualで健闘するオープンウェイトコーディングモデルLaguna S 2.1を公開"
+          "path": "Topics/2_研究と評価/2026-07-22-poolside-releases-laguna-s-2-1-an-open-weight-agentic-coding-4fb5.md",
+          "title_ja": "ソースシフトで何が転移するか ― 気候情報開示分類のための定義・事例・ファインチューニング"
         }
       ],
       "type": "benchmark"
@@ -3666,14 +3816,14 @@
       "first_seen": "2026-07-21",
       "notes": [
         {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-adaptive-mamba-neural-operators-164d.md",
-          "title_ja": "適応的Mamba型ニューラル演算子、任意形状のPDEを高速に解く新手法"
-        },
-        {
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-selective-state-space-adaptation-and-retrieval-for-language-4358.md",
           "title_ja": "言語モデル推論のための選択的状態空間適応と検索"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-adaptive-mamba-neural-operators-164d.md",
+          "title_ja": "適応的Mamba型ニューラル演算子、任意形状のPDEを高速に解く新手法"
         }
       ],
       "type": "tech"
@@ -3696,13 +3846,13 @@
       "notes": [
         {
           "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-tesla-spins-up-robotaxi-pilots-in-orlando-and-tampa-ahead-of-ce5f.md",
-          "title_ja": "Teslaロボタクシー、フロリダ進出"
+          "path": "Topics/5_産業/2026-07-22-tesla-robotaxis-go-to-florida-553a.md",
+          "title_ja": "TreeSize、永続ライセンスユーザーにサブスクリプション購読を強制"
         },
         {
           "date": "2026-07-22",
-          "path": "Topics/5_産業/2026-07-22-tesla-robotaxis-go-to-florida-553a.md",
-          "title_ja": "TreeSize、永続ライセンスユーザーにサブスクリプション購読を強制"
+          "path": "Topics/5_産業/2026-07-22-tesla-spins-up-robotaxi-pilots-in-orlando-and-tampa-ahead-of-ce5f.md",
+          "title_ja": "Teslaロボタクシー、フロリダ進出"
         }
       ],
       "type": "org"
@@ -3716,13 +3866,13 @@
       "notes": [
         {
           "date": "2026-07-23",
-          "path": "Topics/3_基盤とコスト/2026-07-23-mage-flow-an-efficient-native-resolution-foundation-model-fo-f02e.md",
-          "title_ja": "Mage-Flow:画像生成・編集のための効率的なネイティブ解像度基盤モデル"
+          "path": "Topics/1_モデルと能力/2026-07-23-pathagentbench-benchmarking-evidence-seeking-vision-language-fc4e.md",
+          "title_ja": "PathAgentBench、病理画像VLMの証拠収集力を検証"
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-pathagentbench-benchmarking-evidence-seeking-vision-language-fc4e.md",
-          "title_ja": "PathAgentBench、病理画像VLMの証拠収集力を検証"
+          "path": "Topics/3_基盤とコスト/2026-07-23-mage-flow-an-efficient-native-resolution-foundation-model-fo-f02e.md",
+          "title_ja": "Mage-Flow:画像生成・編集のための効率的なネイティブ解像度基盤モデル"
         }
       ],
       "type": "tech"
@@ -3764,7 +3914,9 @@
         "Mixture of Experts": 1,
         "Multimodal": 2,
         "OLMo": 1,
-        "Text-to-Image": 1
+        "OpenAI": 1,
+        "Text-to-Image": 1,
+        "Whisper": 1
       },
       "first_seen": "2026-07-21",
       "notes": [
@@ -3774,19 +3926,14 @@
           "title_ja": "Inkling: オープンウェイトモデル"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-learning-standard-model-structure-from-lhc-data-with-riemann-d5d0.md",
-          "title_ja": "LHCデータからStandard Model構造を学習する「ShellFlow」を提案"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-breaking-feedback-blindness-utility-augmented-transformer-fo-9a22.md",
+          "title_ja": "フィードバック盲目性を破る:逐次意思決定向けUtility-Augmented Transformer"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-topological-signatures-of-context-level-reliability-in-tabpf-62ec.md",
-          "title_ja": "TabPFNの文脈依存信頼性をトポロジカル手法で分析"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-mobius-learning-cyclic-depth-folding-in-transformers-81a4.md",
-          "title_ja": "Transformerの深さ軸を巡回シフトさせるMobius Learning"
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
+          "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
         },
         {
           "date": "2026-07-21",
@@ -3795,13 +3942,33 @@
         },
         {
           "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-l1-augmented-attention-as-an-improved-vector-similarity-metr-8842.md",
+          "title_ja": "改良ベクトル類似度メトリックとしてのL1拡張アテンション"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-learning-standard-model-structure-from-lhc-data-with-riemann-d5d0.md",
+          "title_ja": "LHCデータからStandard Model構造を学習する「ShellFlow」を提案"
+        },
+        {
+          "date": "2026-07-21",
           "path": "Topics/2_研究と評価/2026-07-21-manifold-constrained-hyper-connections-for-parameter-efficie-6604.md",
           "title_ja": "PEFT向けマニフォルド制約ハイパーコネクション"
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-l1-augmented-attention-as-an-improved-vector-similarity-metr-8842.md",
-          "title_ja": "改良ベクトル類似度メトリックとしてのL1拡張アテンション"
+          "path": "Topics/2_研究と評価/2026-07-21-mobius-learning-cyclic-depth-folding-in-transformers-81a4.md",
+          "title_ja": "Transformerの深さ軸を巡回シフトさせるMobius Learning"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-topological-signatures-of-context-level-reliability-in-tabpf-62ec.md",
+          "title_ja": "TabPFNの文脈依存信頼性をトポロジカル手法で分析"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/2_研究と評価/2026-07-23-dual-attention-residuals-e739.md",
+          "title_ja": "Dual Attention Residuals（双対注意残差）"
         },
         {
           "date": "2026-07-23",
@@ -3810,18 +3977,8 @@
         },
         {
           "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-for-what-reason-interpreting-models-encoding-of-causation-an-61bd.md",
-          "title_ja": "なぜなのか？因果関係と対比の符号化をモデルが解釈する"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/1_モデルと能力/2026-07-23-breaking-feedback-blindness-utility-augmented-transformer-fo-9a22.md",
-          "title_ja": "フィードバック盲目性を破る:逐次意思決定向けUtility-Augmented Transformer"
-        },
-        {
-          "date": "2026-07-23",
-          "path": "Topics/2_研究と評価/2026-07-23-dual-attention-residuals-e739.md",
-          "title_ja": "Dual Attention Residuals（双対注意残差）"
+          "path": "Topics/1_モデルと能力/2026-07-23-learning-the-arabic-dialect-continuum-as-a-continuous-space-e365.md",
+          "title_ja": "アラビア語方言を連続地理空間としてモデル化した話者起源予測"
         }
       ],
       "type": "tech"
@@ -3868,7 +4025,8 @@
     "Whisper": {
       "cooccur": {
         "GPT-4o": 1,
-        "OpenAI": 1
+        "OpenAI": 2,
+        "Transformer": 1
       },
       "first_seen": "2026-07-21",
       "notes": [
@@ -3876,6 +4034,11 @@
           "date": "2026-07-21",
           "path": "Topics/1_モデルと能力/2026-07-21-ai-lecturenote-a-retrospective-pilot-study-of-a-post-asr-wor-f101.md",
           "title_ja": "韓英医療講義のASR後処理で医学用語の英語表記率を改善"
+        },
+        {
+          "date": "2026-07-23",
+          "path": "Topics/1_モデルと能力/2026-07-23-learning-the-arabic-dialect-continuum-as-a-continuous-space-e365.md",
+          "title_ja": "アラビア語方言を連続地理空間としてモデル化した話者起源予測"
         }
       ],
       "type": "model"
@@ -3891,8 +4054,13 @@
       "notes": [
         {
           "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-google-deepmind-argues-video-generators-already-contain-the-43d8.md",
-          "title_ja": "Google DeepMind、ビデオジェネレータはワールドモデルを既に含むと主張"
+          "path": "Topics/1_モデルと能力/2026-07-21-evolvingworld-an-open-schema-framework-for-co-evolving-role-a917.md",
+          "title_ja": "EvolvingWorld、物語世界でキャラクターと世界観の共進化を提案"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
+          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
         },
         {
           "date": "2026-07-21",
@@ -3901,13 +4069,8 @@
         },
         {
           "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-evolvingworld-an-open-schema-framework-for-co-evolving-role-a917.md",
-          "title_ja": "EvolvingWorld、物語世界でキャラクターと世界観の共進化を提案"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/1_モデルと能力/2026-07-21-nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-mode-6665.md",
-          "title_ja": "NVIDIA Cosmos 3 Edge、4BパラメータのオープンWorld Model"
+          "path": "Topics/2_研究と評価/2026-07-21-google-deepmind-argues-video-generators-already-contain-the-43d8.md",
+          "title_ja": "Google DeepMind、ビデオジェネレータはワールドモデルを既に含むと主張"
         },
         {
           "date": "2026-07-23",
@@ -3938,26 +4101,6 @@
           "title_ja": "MermaidをASCII/Unicode図に変換するツールをGrok・Claude Fable 5で試作"
         },
         {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-xai-org-grok-build-now-open-source-b836.md",
-          "title_ja": "xai-org/grok-build、オープンソース化"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
-          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/2_研究と評価/2026-07-21-i-wanted-it-to-feel-more-personal-customization-of-social-ai-aa59.md",
-          "title_ja": "「もっと個人的に感じてほしい」：社会的AIのカスタマイズ"
-        },
-        {
-          "date": "2026-07-21",
-          "path": "Topics/5_産業/2026-07-21-human-grounded-evaluation-of-large-language-models-for-optic-f827.md",
-          "title_ja": "光ネットワーク自動化のためのLLMの人間基盤評価"
-        },
-        {
           "date": "2026-07-22",
           "path": "Topics/1_モデルと能力/2026-07-22-drawing-the-mona-lisa-with-gpt-5-6-claude-gemini-and-grok-7445.md",
           "title_ja": "GPT-5.6、Claude、Gemini、Grokで「モナリザ」を描いてみた"
@@ -3966,6 +4109,26 @@
           "date": "2026-07-23",
           "path": "Topics/1_モデルと能力/2026-07-23-local-label-informed-feature-transfer-for-generating-ground-0e93.md",
           "title_ja": "医療画像XAI検証用に脳MRI病変を合成生成、GANと拡散モデルを比較"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/2_研究と評価/2026-07-21-i-wanted-it-to-feel-more-personal-customization-of-social-ai-aa59.md",
+          "title_ja": "「もっと個人的に感じてほしい」：社会的AIのカスタマイズ"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-judge-dependent-safety-gains-and-model-specific-helpfulness-9226.md",
+          "title_ja": "臨床LLMの安全性向上効果は判定モデル依存と一部で報告"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/4_安全性と規制/2026-07-21-xai-org-grok-build-now-open-source-b836.md",
+          "title_ja": "xai-org/grok-build、オープンソース化"
+        },
+        {
+          "date": "2026-07-21",
+          "path": "Topics/5_産業/2026-07-21-human-grounded-evaluation-of-large-language-models-for-optic-f827.md",
+          "title_ja": "光ネットワーク自動化のためのLLMの人間基盤評価"
         }
       ],
       "type": "org"
@@ -5740,6 +5903,17 @@
       "tier": "A",
       "title_ja": "AILQA：インド法体系向けAI駆動型法律質問応答システムの評価"
     },
+    "Topics/1_モデルと能力/2026-07-23-anthropic-releases-claude-security-plugin-for-claude-code-in-7ef2.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "agent",
+        "security",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Anthropic、Claude Code向けセキュリティプラグインをベータ公開"
+    },
     "Topics/1_モデルと能力/2026-07-23-appearance-pointers-multimodal-region-control-of-diffusion-t-e4b0.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0244",
@@ -5780,6 +5954,17 @@
       ],
       "tier": "A",
       "title_ja": "Athena-Brain技術報告：汎用知能と身体化インタラクションのための効率的ロボット脳"
+    },
+    "Topics/1_モデルと能力/2026-07-23-auto-fill-learning-to-predict-missing-values-accurately-with-8827.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "enterprise",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "Auto-Fill: 専門特化型言語モデルによる欠損値の高精度予測学習"
     },
     "Topics/1_モデルと能力/2026-07-23-autoindex-learning-representation-programs-for-retrieval-0583.md": {
       "date": "2026-07-23",
@@ -5897,6 +6082,16 @@
       "tier": "B",
       "title_ja": "Ciscoの小型オープンセキュリティモデル、GPT-5.5を脆弱性検出で上回ると主張"
     },
+    "Topics/1_モデルと能力/2026-07-23-co-evolving-llm-evaluators-and-policies-via-dynamicrubric-4355.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "LLM評価器とポリシーの共進化フレームワーク（DynamicRubric）"
+    },
     "Topics/1_モデルと能力/2026-07-23-coderescue-budget-calibrated-recovery-routing-for-coding-age-411e.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0136",
@@ -5958,6 +6153,28 @@
       ],
       "tier": "A",
       "title_ja": "DAIS、依存関係を考慮した中間QA教師信号で複雑推論を強化"
+    },
+    "Topics/1_モデルと能力/2026-07-23-docops-a-verifiable-benchmark-for-autonomous-agents-in-compl-1e58.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "agent",
+        "benchmark",
+        "enterprise"
+      ],
+      "tier": "A",
+      "title_ja": "DocOps: 複雑な文書操作における自律エージェントのための検証可能なベンチマーク"
+    },
+    "Topics/1_モデルと能力/2026-07-23-entrap-vl-a-taxonomic-probe-for-dual-contextual-entrainment-402e.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "multimodal",
+        "benchmark",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "ENTRAP-VL: 視覚言語モデルにおける二重文脈エントレインメントのための分類学的プローブ"
     },
     "Topics/1_モデルと能力/2026-07-23-filmworld-agentic-novel-to-film-generation-through-dynamic-c-706b.md": {
       "date": "2026-07-23",
@@ -6023,6 +6240,17 @@
       "tier": "B",
       "title_ja": "LangGraphによるグラフベースのエージェンティックAI：長時間実行ステートフルビジネスプロセス"
     },
+    "Topics/1_モデルと能力/2026-07-23-hijackkv-new-threat-in-position-independent-kv-cache-reuse-2c0f.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "security",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "位置非依存KVキャッシュ再利用の新たなセキュリティ脅威（HijackKV）"
+    },
     "Topics/1_モデルと能力/2026-07-23-hindsightbench-a-black-box-behavioral-audit-protocol-for-par-5efd.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0244",
@@ -6052,6 +6280,27 @@
       ],
       "tier": "A",
       "title_ja": "KALE：Web規模でCLIPとDINOv2を安定整合させる損失均衡制御"
+    },
+    "Topics/1_モデルと能力/2026-07-23-learning-the-arabic-dialect-continuum-as-a-continuous-space-e365.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "multimodal",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "アラビア語方言を連続地理空間としてモデル化した話者起源予測"
+    },
+    "Topics/1_モデルと能力/2026-07-23-lkvalues-aligning-large-language-models-with-sri-lankan-soci-644e.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "シンハラ語社会価値観でのLLM調整フレームワーク（LKValues）"
     },
     "Topics/1_モデルと能力/2026-07-23-llm-detection-as-an-intervention-downstream-impact-under-str-db8c.md": {
       "date": "2026-07-23",
@@ -6104,6 +6353,16 @@
       "tier": "B",
       "title_ja": "MeetingToM: 多者会議場面におけるマルチモーダルLLMの心の理論推論の評価"
     },
+    "Topics/1_モデルと能力/2026-07-23-notes-to-self-can-llms-benefit-from-experiential-abstraction-e95f.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "LLMの経験的抽象化（戦略・注意喚起）再利用による性能向上"
+    },
     "Topics/1_モデルと能力/2026-07-23-now-you-see-the-hate-adaptive-view-retrieval-for-hidden-hate-25d1.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0504",
@@ -6125,6 +6384,17 @@
       ],
       "tier": "A",
       "title_ja": "NTT DATA、OpenAI Codexでインシデント分析を30分に短縮"
+    },
+    "Topics/1_モデルと能力/2026-07-23-on-the-systematic-challenges-of-culturally-loaded-machine-tr-7fb8.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "benchmark",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "文化的負荷を伴う機械翻訳の体系的課題について: 文化レンズとしての『紅楼夢』"
     },
     "Topics/1_モデルと能力/2026-07-23-one-model-many-graphs-learning-over-attributed-graphs-across-cccb.md": {
       "date": "2026-07-23",
@@ -6178,6 +6448,40 @@
       "tier": "B",
       "title_ja": "PathReportEval：病理報告書生成の体系的ベンチマーク"
     },
+    "Topics/1_モデルと能力/2026-07-23-petals-run-llms-at-home-bittorrent-style-9d5c.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "open-weights",
+        "infrastructure",
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Petals：家庭でのLLM分散実行（BitTorrent方式）"
+    },
+    "Topics/1_モデルと能力/2026-07-23-potre-test-time-reasoning-inspired-by-cognitive-heterogeneit-d624.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "inference-cost",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "PoTRE: 認知的異質性に着想を得たテスト時推論"
+    },
+    "Topics/1_モデルと能力/2026-07-23-pro-long-programmatic-memory-enables-long-horizon-reasoning-c488.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "agent",
+        "benchmark",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "PRO-LONG: プログラム的メモリが長期ホライズン推論を可能にする(ベンチマーク: ARC-AGI)"
+    },
     "Topics/1_モデルと能力/2026-07-23-prompt-design-at-scale-how-format-instruction-count-and-cont-975f.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0244",
@@ -6189,6 +6493,17 @@
       "tier": "A",
       "title_ja": "プロンプト書式・指示数・文脈長がLLMの指示遵守とハルシネーションに与える影響を検証"
     },
+    "Topics/1_モデルと能力/2026-07-23-pyrodash-cost-efficient-token-level-small-large-language-mod-95c5.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "inference-cost",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "小規模・大規模LLM協調推論フレームワーク（PyroDash）"
+    },
     "Topics/1_モデルと能力/2026-07-23-quality-action-assurance-multimodal-verification-of-examiner-9f67.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0354",
@@ -6198,6 +6513,16 @@
       ],
       "tier": "B",
       "title_ja": "Quality Action Assurance: VR OSCE試験官主張のマルチモーダル検証"
+    },
+    "Topics/1_モデルと能力/2026-07-23-quoting-seth-larson-d64f.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "security"
+      ],
+      "tier": "B",
+      "title_ja": "Claudeのweb_fetchツール脆弱性でデータ流出リスク（Seth Larson引用）"
     },
     "Topics/1_モデルと能力/2026-07-23-quoting-thomas-ptacek-1c70.md": {
       "date": "2026-07-23",
@@ -6229,6 +6554,17 @@
       ],
       "tier": "B",
       "title_ja": "言語横断スタンス検出のための根拠誘導知識蒸留"
+    },
+    "Topics/1_モデルと能力/2026-07-23-reading-and-steering-representations-of-materials-science-me-a315.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "open-weights",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "オープンウェイトLLMの材料科学メカニズム表現の読み取り・制御"
     },
     "Topics/1_モデルと能力/2026-07-23-reasoning-before-translation-enhancing-legal-machine-transla-843e.md": {
       "date": "2026-07-23",
@@ -6262,6 +6598,18 @@
       ],
       "tier": "B",
       "title_ja": "推論微調整は持続的潜在ポリシー状態を誘導する"
+    },
+    "Topics/1_モデルと能力/2026-07-23-reinforcement-learning-for-large-language-model-selective-ev-b259.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "agent",
+        "training",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "汚染された検索結果からのLLMによる選択的証拠採用のための強化学習"
     },
     "Topics/1_モデルと能力/2026-07-23-research-grade-edgebench-analysis-ai-agent-benchmarking-lead-afc7.md": {
       "date": "2026-07-23",
@@ -6327,6 +6675,30 @@
       "tier": "B",
       "title_ja": "自然意味メタ言語(NSM)の基本概念でLLMの感情メカニズムを説明"
     },
+    "Topics/1_モデルと能力/2026-07-23-slai-t-rex-full-parameter-post-training-of-the-deepseek-v4-f-d3ac.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "training",
+        "open-weights",
+        "chips",
+        "infrastructure"
+      ],
+      "tier": "A",
+      "title_ja": "SLAI T-Rex: Ascend SuperPOD上でのDeepSeek-V4ファミリーのフルパラメータ事後学習"
+    },
+    "Topics/1_モデルと能力/2026-07-23-sound-probabilistic-safety-bounds-for-large-language-models-b6e5.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "safety",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "大規模言語モデルのための健全な確率的安全性境界"
+    },
     "Topics/1_モデルと能力/2026-07-23-stochastic-meta-unlearning-bridging-language-backbone-and-mu-6c0d.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0244",
@@ -6378,6 +6750,16 @@
       "tier": "A",
       "title_ja": "日常の症状評価に向けた対話型AIエージェント「SymptomAI」"
     },
+    "Topics/1_モデルと能力/2026-07-23-the-blessing-of-dimensionality-how-near-orthogonality-in-hig-bf30.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "次元の恩恵: 高次元空間における準直交性が時間的可搬性を説明する仕組み"
+    },
     "Topics/1_モデルと能力/2026-07-23-the-price-of-reasoning-cost-quality-tradeoffs-in-reinforceme-98fe.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0055",
@@ -6398,6 +6780,17 @@
       ],
       "tier": "B",
       "title_ja": "物語が主体を形づくる：LLM行動における「ナラティブ・プライア」"
+    },
+    "Topics/1_モデルと能力/2026-07-23-the-two-process-theory-of-machine-self-report-1095.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "safety",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "機械の自己報告の二過程理論：ペルソナ設置＆帰属ゲーティング"
     },
     "Topics/1_モデルと能力/2026-07-23-they-ll-verify-they-just-won-t-act-how-authority-framing-and-341b.md": {
       "date": "2026-07-23",
@@ -6420,6 +6813,16 @@
       "tier": "A",
       "title_ja": "監査可能な不正検知に向けて:グラフ特徴量・モデル説明・エージェント型ケース調査の統合"
     },
+    "Topics/1_モデルと能力/2026-07-23-train-the-model-not-the-reader-decodability-supervision-for-f136.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "訓練時デコード可能性監督による検証可能な活性化説明"
+    },
     "Topics/1_モデルと能力/2026-07-23-transcription-policy-as-a-latent-variable-activating-control-733a.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0354",
@@ -6430,6 +6833,16 @@
       "tier": "B",
       "title_ja": "転写ポリシーを潜在変数として: 単語レベルタイミングによる制御可能な逐語ASR"
     },
+    "Topics/1_モデルと能力/2026-07-23-understanding-the-impact-of-linguistic-realization-choices-o-1e1d.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "research"
+      ],
+      "tier": "B",
+      "title_ja": "因果トレーシングで言語表現がLLM立場判断に与える影響を分析"
+    },
     "Topics/1_モデルと能力/2026-07-23-verifiable-self-evolution-for-open-ended-dialogue-skills-via-dda0.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0244",
@@ -6439,6 +6852,29 @@
       ],
       "tier": "A",
       "title_ja": "対話エージェントの自己進化、将来フィードバック予測で検証可能に"
+    },
+    "Topics/1_モデルと能力/2026-07-23-when-does-knowledge-distillation-hurt-reliability-aware-dist-77ac.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "training",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "知識蒸留はいつ有害になるか: 低資源言語要約のための信頼性考慮型蒸留"
+    },
+    "Topics/1_モデルと能力/2026-07-23-when-shippers-become-algorithms-candidate-exposure-informati-a922.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "llm",
+        "regulation",
+        "enterprise",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "荷主がアルゴリズムになるとき: 候補露出、情報設計、そしてLLM仲介型貨物輸送市場の集中"
     },
     "Topics/2_研究と評価/2026-07-21-a-continual-validation-updating-and-decision-making-framewor-b51c.md": {
       "date": "2026-07-21",
@@ -7632,6 +8068,15 @@
       "tier": "B",
       "title_ja": "テレンス・タオのChatGPT対話（ヤコビアン予想の反例）"
     },
+    "Topics/2_研究と評価/2026-07-23-the-quadrilateral-loss-additivity-as-a-measurable-behavior-o-d41f.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "四辺形損失: 密なニューラルネットワークにおける加法性の測定可能な振る舞いとして"
+    },
     "Topics/2_研究と評価/2026-07-23-the-tractability-landscape-of-sampling-with-inexact-scores-2926.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0754",
@@ -7649,6 +8094,17 @@
       ],
       "tier": "A",
       "title_ja": "超臨界燃焼シミュレーション向け、熱力学特性のニューラル予測を高速化"
+    },
+    "Topics/2_研究と評価/2026-07-23-tiny-schiller-a-drop-in-german-drama-corpus-for-small-langua-fe24.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "training",
+        "open-weights",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "TINY_SCHILLER: 小規模言語モデル向けドロップイン式ドイツ語演劇コーパス"
     },
     "Topics/2_研究と評価/2026-07-23-towards-a-quantum-computer-that-learns-from-its-errors-d74b.md": {
       "date": "2026-07-23",
@@ -8305,6 +8761,16 @@
       "tier": "A",
       "title_ja": "Mage-Flow:画像生成・編集のための効率的なネイティブ解像度基盤モデル"
     },
+    "Topics/3_基盤とコスト/2026-07-23-nvidia-ai-supercomputer-comes-online-at-naval-postgraduate-s-6479.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "chips",
+        "infrastructure"
+      ],
+      "tier": "B",
+      "title_ja": "NVIDIAのAIスーパーコンピュータが海軍大学院に稼働開始"
+    },
     "Topics/3_基盤とコスト/2026-07-23-nvidia-and-partners-build-in-america-for-america-9195.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0504",
@@ -8335,6 +8801,17 @@
       ],
       "tier": "A",
       "title_ja": "Cactus Hybrid：「自分が間違っている時」を判別できるGemma 4のオンデバイス/クラウド振り分け"
+    },
+    "Topics/3_基盤とコスト/2026-07-23-taming-the-security-energy-paradox-a-green-ai-approach-to-op-895b.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "inference-cost",
+        "security",
+        "research"
+      ],
+      "tier": "A",
+      "title_ja": "セキュリティとエネルギーのパラドックスを飼いならす: 最適化されたAndroidマルウェア検出へのグリーンAIアプローチ"
     },
     "Topics/4_安全性と規制/2026-07-21-a-methodology-for-auditable-trustworthiness-levels-in-ai-lif-dd63.md": {
       "date": "2026-07-21",
@@ -9506,6 +9983,15 @@
       "tier": "B",
       "title_ja": "Hyundaiはヒューマノイドロボット計画がストライキ労働者との交渉対象でないと主張"
     },
+    "Topics/5_産業/2026-07-23-lego-s-donkey-kong-arcade-machine-lets-mario-jump-endless-ba-39c7.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "product"
+      ],
+      "tier": "B",
+      "title_ja": "Legoで再現したドンキーコングのアーケードマシン"
+    },
     "Topics/5_産業/2026-07-23-menlo-ventures-matt-murphy-explains-what-ai-startups-founder-d4f0.md": {
       "date": "2026-07-23",
       "run_id": "2026-07-23-0354",
@@ -9542,6 +10028,16 @@
       ],
       "tier": "B",
       "title_ja": "Philipsの新型スマートハブラシが正しくブラッシングできていない箇所を表示"
+    },
+    "Topics/5_産業/2026-07-23-servicenow-bets-40-million-on-indian-banking-software-specia-8bdb.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [
+        "enterprise",
+        "funding"
+      ],
+      "tier": "B",
+      "title_ja": "ServiceNow、インド銀行系ソフト企業BusinessNextに$40 million投資"
     },
     "Topics/5_産業/2026-07-23-show-hn-bento-an-entire-powerpoint-in-one-html-file-edit-vie-819b.md": {
       "date": "2026-07-23",
@@ -9588,6 +10084,13 @@
       "tags": [],
       "tier": "B",
       "title_ja": "LGの光沢OLEDゲーミングモニタ、$400以下は入手困難"
+    },
+    "Topics/9_その他/2026-07-23-california-sea-lion-afd8.md": {
+      "date": "2026-07-23",
+      "run_id": "2026-07-23-1515",
+      "tags": [],
+      "tier": "B",
+      "title_ja": "カリフォルニアアシカの目撃記録（個人ブログ雑記）"
     },
     "Topics/9_その他/2026-07-23-price-hiked-ipads-are-a-little-cheaper-right-now-0bd1.md": {
       "date": "2026-07-23",

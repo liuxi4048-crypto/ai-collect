@@ -1,6 +1,6 @@
 """
 Weekly trend report: read data/entity_index.json, write one report note into
-`11_AI Archive/Reports/`.
+`10_情報/AI Archive/Reports/`.
 
 Pure aggregation - no network, no LLM. The note contains computed statistics
 plus empty `AI解説` callouts that Claude fills in afterwards (same division of
@@ -35,7 +35,7 @@ INDEX_PATH = os.path.join(REPO_ROOT, "data", "entity_index.json")
 JST = timezone(timedelta(hours=9))
 
 VAULT = os.environ.get("OBSIDIAN_VAULT", r"C:\Users\PC_User\ObsidianVault")
-ARCHIVE_DIRNAME = "11_AI Archive"
+ARCHIVE_DIRNAME = "10_情報/AI Archive"
 REPORTS_DIR = os.path.join(VAULT, ARCHIVE_DIRNAME, "Reports")
 
 MOVER_LIMIT = 10

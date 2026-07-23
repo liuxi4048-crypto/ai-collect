@@ -1,7 +1,7 @@
 """
 Stage 3: render notes into the Obsidian vault, then commit.
 
-Layout (all under `11_AI Archive/`):
+Layout (all under `10_情報/AI Archive/`):
 
     AI Archive.md               dashboard / landing page
     Maps/Entity Map.canvas      visual, colour-coded entity map
@@ -14,7 +14,7 @@ Design properties:
 * **Idempotent.** Re-running after a crash must not duplicate notes or
   double-count co-occurrences. Existing topic files are skipped; entity notes,
   dashboard, and canvas are fully regenerated from the index each run.
-* **Scoped.** Only `11_AI Archive/` is ever written or staged. The vault also
+* **Scoped.** Only `10_情報/AI Archive/` is ever written or staged. The vault also
   holds a hand-maintained area and another generator's output; neither may be
   touched by an unattended run.
 * **Rebuildable.** `--rebuild` reconstructs the index and every derived file
@@ -44,7 +44,7 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 JST = timezone(timedelta(hours=9))
 
 VAULT = os.environ.get("OBSIDIAN_VAULT", r"C:\Users\PC_User\ObsidianVault")
-ARCHIVE_DIRNAME = "11_AI Archive"
+ARCHIVE_DIRNAME = "10_情報/AI Archive"
 ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
 # Folder layout inside the archive.

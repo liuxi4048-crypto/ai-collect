@@ -8,7 +8,7 @@ notes grouped by month, faceted by build-domain and tag. So there is no entity
 extraction and no canvas here - just topic notes, per-run indexes, and a
 dashboard.
 
-Layout (all under `12_Dev Archive/`):
+Layout (all under `10_情報/Dev Archive/`):
 
     Dev Archive.md              dashboard / landing page
     Runs/<run_id>.md            per-run index with the theme synthesis
@@ -18,8 +18,8 @@ Design properties (same guarantees as publish.py):
 
 * Idempotent - existing topic files are skipped; dashboard and run index are
   regenerated from the accumulated index each run.
-* Scoped - only `12_Dev Archive/` is ever written or staged. ai-collect's
-  `11_AI Archive/` and the hand-maintained vault areas are never touched.
+* Scoped - only `10_情報/Dev Archive/` is ever written or staged. ai-collect's
+  `10_情報/AI Archive/` and the hand-maintained vault areas are never touched.
 """
 import argparse
 import json
@@ -40,7 +40,7 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 JST = timezone(timedelta(hours=9))
 
 VAULT = os.environ.get("OBSIDIAN_VAULT", r"C:\Users\PC_User\ObsidianVault")
-ARCHIVE_DIRNAME = "12_Dev Archive"
+ARCHIVE_DIRNAME = "10_情報/Dev Archive"
 ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
 TOPICS_DIR = "Topics"
@@ -64,7 +64,7 @@ CATEGORY_LABELS = {
 
 # Topic notes are foldered by build-domain, not by date (user decision
 # 2026-07-23: date folders were unreadable). Folder names mirror the
-# 11_AI Archive/Topics naming style. Unknown categories fall back to 99_総合.
+# 10_情報/AI Archive/Topics naming style. Unknown categories fall back to 99_総合.
 CATEGORY_DIRS = {
     "web": "1_Web・フロントエンド",
     "backend": "2_バックエンド・API",
