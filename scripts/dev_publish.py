@@ -44,10 +44,12 @@ ARCHIVE_DIRNAME = "10_情報/Dev Archive"
 ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
 TOPICS_DIR = "Topics"
-# Run indexes are operational logs, not information; they live under 90_Meta
-# so the archive itself stays purely category-organised (2026-07-23 decision).
-RUNS_GIT_PATH = "90_Meta/Runs/dev-collect"
-RUNS_ROOT = os.path.join(VAULT, "90_Meta", "Runs", "dev-collect")
+# Run indexes are operational logs, not information; a single rolling note per
+# pipeline lives under 90_Meta/Runs so no date-named files exist anywhere
+# (2026-07-23 decision, strengthened same day: no dates in filenames at all).
+RUNS_GIT_PATH = "90_Meta/Runs"
+RUNS_ROOT = os.path.join(VAULT, "90_Meta", "Runs")
+RUN_LOG_NAME = "dev-collect.md"
 DASHBOARD_NAME = "Dev Archive.md"
 
 ITEMS_PATH = os.path.join(DATA_DIR, "pending_dev_items.json")
@@ -173,7 +175,6 @@ def render_topic_note(item, note, run_id, date):
         body.append("> - [{}]({}) — `{}` / {}".format(
             a["title"].replace("]", "］"), a["link"], a["domain"], a["source_label"]))
     body.append("")
-    body.append("↩ [[{}]]".format(run_id))
     body.append("")
     return "\n".join(fm + body)
 
@@ -278,7 +279,9 @@ def render_dashboard(index):
 
     out.append("## 直近の実行")
     for run_id, c in recent_runs:
-        out.append("- [[{}]] — {}件".format(run_id, c))
+        out.append("- `{}` — {}件".format(run_id, c))
+    out.append("")
+    out.append("実行ログ: [[dev-collect]]")
     out.append("")
 
     out.append("## 直近のノート")
@@ -367,7 +370,7 @@ def do_publish(args):
         written[idx] = meta
 
     # Run index + dashboard, regenerated from the accumulated index each run.
-    write_text(safe_join(RUNS_ROOT, run_id + ".md"),
+    write_text(safe_join(RUNS_ROOT, RUN_LOG_NAME),
                render_run_note(run_id, date, written, themes, state.get("feed_status", [])))
     write_text(safe_join(ARCHIVE_ROOT, DASHBOARD_NAME), render_dashboard(index))
 

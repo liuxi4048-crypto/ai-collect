@@ -49,10 +49,12 @@ ARCHIVE_ROOT = os.path.join(VAULT, ARCHIVE_DIRNAME)
 
 # Folder layout inside the archive.
 TOPICS_DIR = "Topics"
-# Run indexes are operational logs, not information; they live under 90_Meta
-# so the archive itself stays purely category-organised (2026-07-23 decision).
-RUNS_GIT_PATH = "90_Meta/Runs/ai-collect"
-RUNS_ROOT = os.path.join(VAULT, "90_Meta", "Runs", "ai-collect")
+# Run indexes are operational logs, not information; a single rolling note per
+# pipeline lives under 90_Meta/Runs so no date-named files exist anywhere
+# (2026-07-23 decision, strengthened same day: no dates in filenames at all).
+RUNS_GIT_PATH = "90_Meta/Runs"
+RUNS_ROOT = os.path.join(VAULT, "90_Meta", "Runs")
+RUN_LOG_NAME = "ai-collect.md"
 ENTITIES_DIR = "Entities"
 MAPS_DIR = "Maps"
 DASHBOARD_NAME = "AI Archive.md"
@@ -194,7 +196,6 @@ def render_topic_note(item, note, run_id):
         body.append("> - [{}]({}) — `{}` / {}".format(
             a["title"].replace("]", "］"), a["link"], a["domain"], a["source_label"]))
     body.append("")
-    body.append("↩ [[{}]]".format(run_id))
     body.append("")
     return "\n".join(fm + body)
 
@@ -401,7 +402,7 @@ def render_dashboard(index, latest):
             b.append("> {}".format(t.get("description", "").strip().replace("\n", " ")))
             b.append("")
         if latest.get("run_id"):
-            b.append("→ 全文と関連ノート: [[{}]]".format(latest["run_id"]))
+            b.append("→ 実行ログ: [[ai-collect]]")
             b.append("")
     elif runs:
         b.append("## 📈 最新の潮流")
@@ -468,7 +469,9 @@ def render_dashboard(index, latest):
     b.append("")
     for r in runs[:12]:
         n = sum(1 for m in notes.values() if m["run_id"] == r)
-        b.append("- [[{}]] — {}件".format(r, n))
+        b.append("- `{}` — {}件".format(r, n))
+    b.append("")
+    b.append("実行ログ: [[ai-collect]]")
     b.append("")
 
     return "\n".join(fm + b)
@@ -734,7 +737,7 @@ def do_publish(args):
     if trends:
         write_json(LATEST_PATH, {"run_id": run_id, "date": date, "trends": trends})
 
-    run_path = safe_join(RUNS_ROOT, run_id + ".md")
+    run_path = safe_join(RUNS_ROOT, RUN_LOG_NAME)
     write_text(run_path, render_run_note(state, written, skipped_existing, missing,
                                          trends, candidates_added))
     ecount = write_entity_notes(index)

@@ -241,7 +241,9 @@ def main():
                                  prev_lo.isoformat(), prev_hi.isoformat())
 
     os.makedirs(REPORTS_DIR, exist_ok=True)
-    out = os.path.join(REPORTS_DIR, "{}.md".format(week_id))
+    # Single rolling note — no date-named files (2026-07-23 user decision).
+    # The week id lives inside the note content, not in the filename.
+    out = os.path.join(REPORTS_DIR, "トレンドレポート.md")
     if os.path.exists(out) and not args.force:
         # The existing file may hold hand-written narrative; never clobber it
         # on a re-run (the scheduled task is weekly, so this is the rare case).

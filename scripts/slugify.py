@@ -27,13 +27,16 @@ def url_hash(url, length=4):
 
 
 def make_filename(date_str, title, url):
-    """`YYYY-MM-DD-<slug>-<hash>.md`.
+    """`<slug>-<hash>.md` — no date in the name.
 
-    The hash disambiguates same-day collisions: two outlets titling a story
-    identically would otherwise map to one filename and the second would be
-    skipped as "already published".
+    Filenames are purely informational (2026-07-23 user decision); the date
+    lives in the note frontmatter only. `date_str` is kept in the signature
+    for call-site compatibility but no longer participates. The hash
+    disambiguates collisions: two outlets titling a story identically would
+    otherwise map to one filename and the second would be skipped as
+    "already published".
     """
-    return "{}-{}-{}.md".format(date_str, make_slug(title), url_hash(url))
+    return "{}-{}.md".format(make_slug(title), url_hash(url))
 
 
 # Basenames that must never be produced. `claude` is the important one: on a
